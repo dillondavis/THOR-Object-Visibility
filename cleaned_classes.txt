@@ -1,0 +1,81 @@
+Real Class: Apple
+apple, candy apple
+
+Real Class: Bowl
+bowls, sugar bowl, mixing bowl, bowl, punch bowl
+
+Real Class: Bread
+unleavened bread, multigrain bread, cornbread, sliced bread, graham bread, shortbread, soda bread, brown bread, crisp bread, bread roll, hard dough bread, breadstick, gingerbread, monkey bread, white bread, fairy bread, banana bread, potato bread, frybread, flatbread, rye bread, garlic bread, sausage bread, easter bread, pumpkin bread, bread, whole wheat bread, beer bread, caramel shortbread, bush bread
+
+Real Class: Butter Knife
+knife, table knife, kitchen knife
+
+Real Class: Cabinet
+cabinetry, china cabinet, filing cabinet, bathroom cabinet, tool cabinet
+
+Real Class: Chair
+bean bag chair, chair, rocking chair, barber chair, bath chair, windsor chair, motorized wheelchair, office chair, massage chair, folding chair, club chair, electric massaging chair, sleeper chair, chiavari chair, wheelchair,
+
+Real Class: Coffee Machine
+coffeemaker, vacuum coffee maker, drip coffee maker
+
+Real Class: Container
+container, food storage containers
+
+Real Class: Egg
+fried egg, egg white, scotch egg, scrambled eggs, egg yolk, egg, easter egg, pickled egg, century egg, deviled egg, boiled egg, poached egg
+
+Real Class: Fork
+fork
+
+Real Class: Fridge
+refrigerator
+
+Real Class: Garbage Can
+waste container
+
+Real Class: Knife
+utility knife, bowie knife, hunting knife, throwing knife, knife, table knife, kitchen knife, marking knife, electric knife, palette knife
+
+Real Class: Lettuce
+miner's lettuce, iceburg lettuce, red leaf lettuce, sea lettuce, romaine lettuce, lettuce
+
+Real Class: Microwave
+microwave oven
+
+Real Class: Mug
+mug
+
+Real Class: Pan
+frying pan,sauté pan, roasting pan, cake pan, saucepan
+
+Real Class: Plate
+plate
+
+Real Class: Pot
+teapot, stock pot
+
+Real Class: Potato
+potato wedges, lyonnaise potatoes, baked potato, wild sweet potato, adirondack blue potato, fingerling potato, baked sweet potato, potato, russet burbank potato, canarian wrinkly potatoes, yukon gold potato, sweet potato
+
+Real Class: Sink
+sink, kitchen sink, bathroom sink
+
+Real Class: Spoon
+wooden spoon, spoon
+
+Real Class: Stove Burner
+portable stove, stove, kitchen stove, gas stove, wood-burning stove, bunsen burner
+
+Real Class: Stove Knob
+portable stove, stove, kitchen stove, gas stove, wood-burning stove, bunsen burner
+
+Real Class: Table Top
+table, poker table, billiard table, picnic table, folding table, end table, outdoor table, conference room table, kitchen & dining room table
+
+Real Class: Toaster
+toaster
+
+Real Class: Tomato
+bush tomato, sun-dried tomato, tomato, cherry tomatoes, plum tomato
+

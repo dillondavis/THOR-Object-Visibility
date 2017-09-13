@@ -1,0 +1,163 @@
+AltClass,ClassID,Source,RealClass
+apple,nan,coco,Apple
+apple,/m/014j1m,open,Apple
+candy apple,/m/048lks,open,Apple
+bowl,nan,coco,Bowl
+bowls,/m/01chy,open,Bowl
+sugar bowl,/m/026tgjm,open,Bowl
+mixing bowl,/m/03hj559,open,Bowl
+bowl,/m/04kkgm,open,Bowl
+punch bowl,/m/04y5my2,open,Bowl
+unleavened bread,/m/0118n_nl,open,Bread
+multigrain bread,/m/0134zdgk,open,Bread
+cornbread,/m/01kg8r,open,Bread
+sliced bread,/m/01l99n,open,Bread
+graham bread,/m/027cb0,open,Bread
+shortbread,/m/02clnh,open,Bread
+soda bread,/m/02jvjf,open,Bread
+brown bread,/m/02pb9jl,open,Bread
+crisp bread,/m/02rhk6,open,Bread
+bread roll,/m/02rz3g,open,Bread
+hard dough bread,/m/02w5fsn,open,Bread
+breadstick,/m/03084w,open,Bread
+gingerbread,/m/036bks,open,Bread
+monkey bread,/m/03byy2b,open,Bread
+white bread,/m/03dnxh,open,Bread
+fairy bread,/m/03mv3w,open,Bread
+banana bread,/m/04cym9,open,Bread
+potato bread,/m/067_3f,open,Bread
+frybread,/m/06l0r7,open,Bread
+flatbread,/m/07hr9x,open,Bread
+rye bread,/m/07qmlj,open,Bread
+garlic bread,/m/08nk6x,open,Bread
+sausage bread,/m/094jdr,open,Bread
+easter bread,/m/0950kt,open,Bread
+pumpkin bread,/m/09693d,open,Bread
+bread,/m/09728,open,Bread
+whole wheat bread,/m/0cmbf0p,open,Bread
+beer bread,/m/0d_qg3,open,Bread
+caramel shortbread,/m/0fwd9h,open,Bread
+bush bread,/m/0g97tv,open,Bread
+knife,nan,coco,Butter Knife
+knife,/m/04ctx,open,Butter Knife
+table knife,/m/04n6jtr,open,Butter Knife
+kitchen knife,/m/058qzx,open,Butter Knife
+cabinetry,/m/01s105,open,Cabinet
+china cabinet,/m/03cm5cw,open,Cabinet
+filing cabinet,/m/047j0r,open,Cabinet
+bathroom cabinet,/m/04y4h8h,open,Cabinet
+tool cabinet,/m/0h8m60r,open,Cabinet
+chair,nan,coco,Chair
+bean bag chair,/m/0_1h028,open,Chair
+chair,/m/01mzpv,open,Chair
+rocking chair,/m/047_c_,open,Chair
+barber chair,/m/04ycb9n,open,Chair
+bath chair,/m/06mrj_,open,Chair
+windsor chair,/m/07rzxh,open,Chair
+motorized wheelchair,/m/080hz12,open,Chair
+office chair,/m/08q1xp,open,Chair
+massage chair,/m/093n8t,open,Chair
+folding chair,/m/0bvn8w,open,Chair
+club chair,/m/0fq0crf,open,Chair
+electric massaging chair,/m/0h8lt6k,open,Chair
+sleeper chair,/m/0h8nszq,open,Chair
+chiavari chair,/m/0jkw095,open,Chair
+wheelchair,/m/0qmmr,open,Chair
+coffeemaker,/m/07xyvk,open,Coffee Machine
+vacuum coffee maker,/m/0d82sj,open,Coffee Machine
+drip coffee maker,/m/0h8jst_,open,Coffee Machine
+container,/m/011q46kg,open,Container
+food storage containers,/m/05p0tsj,open,Container
+fried egg,/m/01r22b,open,Egg
+egg white,/m/01zvtl,open,Egg
+scotch egg,/m/02267k,open,Egg
+scrambled eggs,/m/02dmw4,open,Egg
+egg yolk,/m/02dmz4,open,Egg
+egg,/m/033cnk,open,Egg
+easter egg,/m/02jzr,open,Egg
+pickled egg,/m/02p7syk,open,Egg
+century egg,/m/02sf4s,open,Egg
+deviled egg,/m/04fp11,open,Egg
+boiled egg,/m/09x374,open,Egg
+poached egg,/m/0b0y41,open,Egg
+fork,nan,coco,Fork
+fork,/m/0dt3t,open,Fork
+refrigerator,nan,coco,Fridge
+refrigerator,/m/040b_t,open,Fridge
+waste container,/m/0bjyj5,open,Garbage Can
+knife,nan,coco,Knife
+utility knife,/m/01bq_,open,Knife
+bowie knife,/m/01wzjh,open,Knife
+hunting knife,/m/0466px8,open,Knife
+throwing knife,/m/047gn89,open,Knife
+knife,/m/04ctx,open,Knife
+table knife,/m/04n6jtr,open,Knife
+kitchen knife,/m/058qzx,open,Knife
+marking knife,/m/07xhbx,open,Knife
+electric knife,/m/0b870m,open,Knife
+palette knife,/m/0d2xq,open,Knife
+miner's lettuce,/m/03v5b7,open,Lettuce
+iceburg lettuce,/m/0446c0l,open,Lettuce
+red leaf lettuce,/m/0446c0s,open,Lettuce
+sea lettuce,/m/04cnqy,open,Lettuce
+romaine lettuce,/m/073lwm,open,Lettuce
+lettuce,/m/0fqlj,open,Lettuce
+microwave,nan,coco,Microwave
+microwave oven,/m/0fx9l,open,Microwave
+cup,nan,coco,Mug
+mug,/m/02jvh9,open,Mug
+frying pan,/m/04v6l4,open,Pan
+sauté pan,/m/0h8n5zs,open,Pan
+roasting pan,/m/0h8ntgt,open,Pan
+cake pan,/m/0h8ntnm,open,Pan
+saucepan,/m/0h8nttn,open,Pan
+plate,/m/050gv4,open,Plate
+teapot,/m/01fh4r,open,Pot
+stock pot,/m/07cr7j1,open,Pot
+potato wedges,/m/02qbjtx,open,Potato
+lyonnaise potatoes,/m/02rjk4g,open,Potato
+baked potato,/m/039blp,open,Potato
+wild sweet potato,/m/03cph5p,open,Potato
+adirondack blue potato,/m/04y9ndr,open,Potato
+fingerling potato,/m/05fb1fg,open,Potato
+baked sweet potato,/m/05v687l,open,Potato
+potato,/m/05vtc,open,Potato
+russet burbank potato,/m/07l4_w,open,Potato
+canarian wrinkly potatoes,/m/0bknm3,open,Potato
+yukon gold potato,/m/0dbl1z,open,Potato
+sweet potato,/m/0dm32,open,Potato
+sink,nan,coco,Sink
+sink,/m/0130jx,open,Sink
+kitchen sink,/m/0h8lpvm,open,Sink
+bathroom sink,/m/0h8lr5r,open,Sink
+spoon,nan,coco,Spoon
+wooden spoon,/m/051lk3,open,Spoon
+spoon,/m/0cmx8,open,Spoon
+portable stove,/m/01jfp7,open,Stove Burner
+stove,/m/02ppnm,open,Stove Burner
+kitchen stove,/m/02wv746,open,Stove Burner
+gas stove,/m/02wv84t,open,Stove Burner
+wood-burning stove,/m/04169hn,open,Stove Burner
+bunsen burner,/m/01k7_,open,Stove Burner
+portable stove,/m/01jfp7,open,Stove Knob
+stove,/m/02ppnm,open,Stove Knob
+kitchen stove,/m/02wv746,open,Stove Knob
+gas stove,/m/02wv84t,open,Stove Knob
+wood-burning stove,/m/04169hn,open,Stove Knob
+bunsen burner,/m/01k7_,open,Stove Knob
+table,/m/04bcr3,open,Table Top
+poker table,/m/02qsn9g,open,Table Top
+billiard table,/m/04p0qw,open,Table Top
+picnic table,/m/07cwnp,open,Table Top
+folding table,/m/09v3l_s,open,Table Top
+end table,/m/0h8k1pn,open,Table Top
+outdoor table,/m/0h8ll0s,open,Table Top
+conference room table,/m/0h8n5gz,open,Table Top
+kitchen & dining room table,/m/0h8n5zk,open,Table Top
+toaster,nan,coco,Toaster
+toaster,/m/01k6s3,open,Toaster
+bush tomato,/m/025tg_m,open,Tomato
+sun-dried tomato,/m/06408z6,open,Tomato
+tomato,/m/07j87,open,Tomato
+cherry tomatoes,/m/08b4g7,open,Tomato
+plum tomato,/m/09y4sj,open,Tomato

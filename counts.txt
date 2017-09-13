@@ -1,0 +1,79 @@
+loading annotations into memory...
+Done (t=24.52s)
+creating index...
+index created!
+OpenImage Counts
+RealClass
+Apple              1247
+Bowl               2755
+Bread              9752
+Butter Knife       1308
+Cabinet            5162
+Chair             20772
+Coffee Machine     1053
+Container           351
+Egg                4509
+Fork                823
+Fridge              649
+Garbage Can         853
+Knife              3086
+Lettuce            1646
+Microwave           498
+Mug                1114
+Pan                1444
+Plate              1621
+Pot                 919
+Potato             3294
+Sink               1989
+Spoon              1265
+Stove Burner       2171
+Stove Knob         2171
+Table Top         41514
+Toaster             350
+Tomato             2380
+dtype: int64
+COCO Counts
+RealClass
+Apple            1586
+Bowl             7111
+Butter Knife     4326
+Chair           12774
+Fork             3555
+Fridge           2360
+Knife            4326
+Microwave        1547
+Mug              9189
+Sink             4678
+Spoon            3529
+Toaster           217
+dtype: int64
+Combined Counts
+RealClass
+Apple              2833
+Bowl               9866
+Bread              9752
+Butter Knife       5634
+Cabinet            5162
+Chair             33546
+Coffee Machine     1053
+Container           351
+Egg                4509
+Fork               4378
+Fridge             3009
+Garbage Can         853
+Knife              7412
+Lettuce            1646
+Microwave          2045
+Mug               10303
+Pan                1444
+Plate              1621
+Pot                 919
+Potato             3294
+Sink               6667
+Spoon              4794
+Stove Burner       2171
+Stove Knob         2171
+Table Top         41514
+Toaster             567
+Tomato             2380
+dtype: int64
