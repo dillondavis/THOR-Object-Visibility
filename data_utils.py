@@ -1,9 +1,8 @@
 import pandas as pd
 from pycocotools.coco import COCO
 
-
 real_classes = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
-coco_classes = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, None, 'toaster', None]
+coco_classes = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
 
 
 def get_similar_open_image_classes(real_classes):
@@ -33,7 +32,7 @@ def get_cleaned_open_image_classes():
     from cleaned class file
     '''
 
-    f = open('cleaned_classes.txt', 'r')
+    f = open('cleaned_open_image_classes.txt', 'r')
     classes = []
     for line in f:
         if line and 'Real Class' not in line:
@@ -133,13 +132,17 @@ def build_image_dataset(output_class_counts=False):
         groups = open_data['ImageID'].groupby(open_data['RealClass'])
         print('OpenImage Counts')
         print(groups.size())
+        print('')
         groups = coco_data['ImageID'].groupby(coco_data['RealClass'])
         print('COCO Counts')
         print(groups.size())
+        print('')
         groups = image_data['ImageID'].groupby(image_data['RealClass'])
         print('Combined Counts')
         print(groups.size())
+        print('')
 
 
 if __name__ == '__main__':
+    build_class_map_dataset()
     build_image_dataset(True)

@@ -1,5 +1,5 @@
 loading annotations into memory...
-Done (t=24.52s)
+Done (t=37.60s)
 creating index...
 index created!
 OpenImage Counts
@@ -32,6 +32,7 @@ Table Top         41514
 Toaster             350
 Tomato             2380
 dtype: int64
+
 COCO Counts
 RealClass
 Apple            1586
@@ -45,8 +46,10 @@ Microwave        1547
 Mug              9189
 Sink             4678
 Spoon            3529
+Table Top       11837
 Toaster           217
 dtype: int64
+
 Combined Counts
 RealClass
 Apple              2833
@@ -73,7 +76,8 @@ Sink               6667
 Spoon              4794
 Stove Burner       2171
 Stove Knob         2171
-Table Top         41514
+Table Top         53351
 Toaster             567
 Tomato             2380
 dtype: int64
+
