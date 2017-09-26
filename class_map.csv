@@ -39,8 +39,8 @@ beer bread,/m/0d_qg3,open,Bread
 caramel shortbread,/m/0fwd9h,open,Bread
 bush bread,/m/0g97tv,open,Bread
 knife,nan,coco,Butter Knife
-knife,/m/04ctx,open,Butter Knife
 table knife,/m/04n6jtr,open,Butter Knife
+knife,/m/04ctx,open,Butter Knife
 kitchen knife,/m/058qzx,open,Butter Knife
 cabinetry,/m/01s105,open,Cabinet
 china cabinet,/m/03cm5cw,open,Cabinet
@@ -48,8 +48,8 @@ filing cabinet,/m/047j0r,open,Cabinet
 bathroom cabinet,/m/04y4h8h,open,Cabinet
 tool cabinet,/m/0h8m60r,open,Cabinet
 chair,nan,coco,Chair
-bean bag chair,/m/0_1h028,open,Chair
 chair,/m/01mzpv,open,Chair
+bean bag chair,/m/0_1h028,open,Chair
 rocking chair,/m/047_c_,open,Chair
 barber chair,/m/04ycb9n,open,Chair
 bath chair,/m/06mrj_,open,Chair
@@ -68,12 +68,12 @@ vacuum coffee maker,/m/0d82sj,open,Coffee Machine
 drip coffee maker,/m/0h8jst_,open,Coffee Machine
 container,/m/011q46kg,open,Container
 food storage containers,/m/05p0tsj,open,Container
-fried egg,/m/01r22b,open,Egg
+egg,/m/033cnk,open,Egg
 egg white,/m/01zvtl,open,Egg
 scotch egg,/m/02267k,open,Egg
 scrambled eggs,/m/02dmw4,open,Egg
 egg yolk,/m/02dmz4,open,Egg
-egg,/m/033cnk,open,Egg
+fried egg,/m/01r22b,open,Egg
 easter egg,/m/02jzr,open,Egg
 pickled egg,/m/02p7syk,open,Egg
 century egg,/m/02sf4s,open,Egg
@@ -114,7 +114,6 @@ saucepan,/m/0h8nttn,open,Pan
 plate,/m/050gv4,open,Plate
 teapot,/m/01fh4r,open,Pot
 stock pot,/m/07cr7j1,open,Pot
-potato wedges,/m/02qbjtx,open,Potato
 lyonnaise potatoes,/m/02rjk4g,open,Potato
 baked potato,/m/039blp,open,Potato
 wild sweet potato,/m/03cph5p,open,Potato
@@ -126,6 +125,7 @@ russet burbank potato,/m/07l4_w,open,Potato
 canarian wrinkly potatoes,/m/0bknm3,open,Potato
 yukon gold potato,/m/0dbl1z,open,Potato
 sweet potato,/m/0dm32,open,Potato
+potato wedges,/m/02qbjtx,open,Potato
 sink,nan,coco,Sink
 sink,/m/0130jx,open,Sink
 kitchen sink,/m/0h8lpvm,open,Sink
@@ -133,14 +133,14 @@ bathroom sink,/m/0h8lr5r,open,Sink
 spoon,nan,coco,Spoon
 wooden spoon,/m/051lk3,open,Spoon
 spoon,/m/0cmx8,open,Spoon
-portable stove,/m/01jfp7,open,Stove Burner
 stove,/m/02ppnm,open,Stove Burner
+portable stove,/m/01jfp7,open,Stove Burner
 kitchen stove,/m/02wv746,open,Stove Burner
 gas stove,/m/02wv84t,open,Stove Burner
 wood-burning stove,/m/04169hn,open,Stove Burner
 bunsen burner,/m/01k7_,open,Stove Burner
-portable stove,/m/01jfp7,open,Stove Knob
 stove,/m/02ppnm,open,Stove Knob
+portable stove,/m/01jfp7,open,Stove Knob
 kitchen stove,/m/02wv746,open,Stove Knob
 gas stove,/m/02wv84t,open,Stove Knob
 wood-burning stove,/m/04169hn,open,Stove Knob
@@ -157,8 +157,7 @@ conference room table,/m/0h8n5gz,open,Table Top
 kitchen & dining room table,/m/0h8n5zk,open,Table Top
 toaster,nan,coco,Toaster
 toaster,/m/01k6s3,open,Toaster
-bush tomato,/m/025tg_m,open,Tomato
-sun-dried tomato,/m/06408z6,open,Tomato
 tomato,/m/07j87,open,Tomato
+sun-dried tomato,/m/06408z6,open,Tomato
 cherry tomatoes,/m/08b4g7,open,Tomato
 plum tomato,/m/09y4sj,open,Tomato

@@ -1,22 +1,44 @@
+import os
+import torch
 import pandas as pd
+import numpy as np
+import urllib
+from scipy import misc
 from pycocotools.coco import COCO
+from shutil import copyfile
+from io import BytesIO
 
-real_classes = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
-coco_classes = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
+
+CLUSTER_ENV = False
+COCO_ID_LENGTH = 12
+REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
+COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
+DATA_DIR = ('/data/ddavis14' if CLUSTER_ENV else '/Users/Dillon/UIUC/Research') + '/AllenAI-Object-Visibility'
+IMAGE_DIR = DATA_DIR + '/images'
+PROJECT_DIR = ('/home/nfs/ddavis14' if CLUSTER_ENV else '/Users/Dillon/UIUC/Research') + '/AllenAI-Object-Visibility'
+DATA_UTIL_DIR = PROJECT_DIR + '/THOR-Object-Visibility'
+OFFICIAL_CLASS_LIST = [
+            'None', 'Apple', 'Bowl', 'Bread', 'ButterKnife', 'Cabinet', 'Chair',
+            'CoffeeMachine', 'Container', 'Egg', 'Fork', 'Fridge', 'GarbageCan',
+            'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot',
+            'Potato', 'Sink', 'Spoon', 'StoveBurner', 'StoveKnob', 'TableTop',
+            'Toaster', 'Tomato'
+]
+CLASS_ID_MAP = {name:i for i, name in enumerate(OFFICIAL_CLASS_LIST)}
 
 
-def get_similar_open_image_classes(real_classes):
+def get_similar_open_image_classes(REAL_CLASSES):
     '''
-    Writes OpenImage classes similar to real_classes to a file
-    :param real_classes: List of class names to get similar OpenImage classes of
+    Writes OpenImage classes similar to REAL_CLASSES to a file
+    :param REAL_CLASSES: List of class names to get similar OpenImage classes of
     '''
 
-    datapath = '/Users/Dillon/UIUC/Research/OpenImage/class-descriptions.csv'
+    datapath = DATA_DIR + '/OpenImage/class-descriptions.csv'
     classes = pd.read_csv(datapath, header=None, names=['id', 'class'])
     classes['class'] = classes['class'].map(lambda x: x.lower())
 
     f = open('classes.txt', 'w')
-    for real_class in real_classes:
+    for real_class in REAL_CLASSES:
         f.write('Real Class: {}\n'.format(real_class))
         for class_tok in real_class.split():
             similar_classes = classes[classes['class'].str.contains(class_tok.lower())]
@@ -42,9 +64,6 @@ def get_cleaned_open_image_classes():
                 names = line.strip()
                 classes += [[name.strip() for name in names.split(',') if name.strip()]] if names else []
 
-    print(len(classes))
-    print(len(real_classes))
-    print(len(coco_classes))
     f.close()
 
     return classes
@@ -55,7 +74,7 @@ def get_open_image_class_dict():
     :return: Dictionary mapping OpenImage class names to OpenImage class IDs
     '''
 
-    datapath = '/Users/Dillon/UIUC/Research/OpenImage/class-descriptions.csv'
+    datapath = DATA_DIR + '/OpenImage/class-descriptions.csv'
     classes = pd.read_csv(datapath, header=None, names=['id', 'class'])
     classes['class'] = classes['class'].map(lambda x: x.lower())
 
@@ -71,7 +90,7 @@ def create_class_map_data(open_image_classes, open_image_class_dict):
 
     f = open('class_map.csv', 'w')
     f.write('AltClass,ClassID,Source,RealClass\n')
-    for real_class, open_classes, coco_class in zip(real_classes, open_image_classes, coco_classes):
+    for real_class, open_classes, coco_class in zip(REAL_CLASSES, open_image_classes, COCO_CLASSES):
         if coco_class:
             f.write('{},{},{},{}\n'.format(coco_class, 'nan', 'coco', real_class))
         for open_class in open_classes:
@@ -80,37 +99,87 @@ def create_class_map_data(open_image_classes, open_image_class_dict):
     f.close()
 
 
-def get_open_data(open_class_data):
+def get_open_ids(open_class_data):
     '''
     :param open_class_data: pandas DataFrame with necessary OpenImage class mappings
     :return: pandas DataFrame containing all images for necessary OpenImage classes
     '''
 
-    datapath = '/Users/Dillon/UIUC/Research/OpenImage/data/train/annotations-human.csv'
+    datapath = DATA_DIR + '/OpenImage/data/train/annotations-human.csv'
     image_data = pd.read_csv(datapath)
     open_data = pd.merge(open_class_data, image_data, left_on='ClassID', right_on='LabelName')
     open_data.drop(['LabelName'], inplace=True, axis=1)
+    open_data = open_data[open_data['Confidence'] != 0]
 
     return open_data
 
 
-def get_coco_data():
+def get_coco_ids():
     '''
     :return: pandas DataFrame containing all images for necessary COCO classes
     '''
 
-    ann_file = '/Users/Dillon/UIUC/Research/coco/annotations/instances_train2017.json'
+    ann_file = DATA_DIR + '/coco/annotations/instances_train2017.json'
     coco = COCO(ann_file)
     columns = ['AltClass', 'ClassID', 'Source_x', 'RealClass', 'ImageID', 'Source_y', 'Confidence']
     data = []
-    for coco_class, real_class in zip(coco_classes, real_classes):
+    for coco_class, real_class in zip(COCO_CLASSES, REAL_CLASSES):
         if coco_class:
             catIds = coco.getCatIds(catNms=[coco_class])
             imgIds = coco.getImgIds(catIds=catIds)
             for image_id in imgIds:
-                data += [[coco_class, 'nan', 'coco', real_class, image_id, 'nan', 'nan']]
+                data += [[coco_class, 'nan', 'coco', real_class, image_id, 'nan', -1]]
 
     return pd.DataFrame(data, columns=columns)
+
+
+def get_open_images(id_data, class_limit):
+    id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit)
+    image_data = pd.read_csv(DATA_DIR + '/OpenImage/data/train/images.csv')
+    image_data = image_data[['ImageID', 'OriginalURL', 'OriginalLandingURL']]
+    image_data = pd.merge(id_data, image_data, left_on='ImageID', right_on='ImageID').groupby(image_data['ImageID'])
+    output_image_dir = DATA_DIR + '/open'
+    if not os.path.exists(output_image_dir):
+        os.makedirs(output_image_dir)
+    output_image_file = output_image_dir + '/{}.pt'
+
+    for image_id, group in image_data:
+        classes = group['RealClass'].as_matrix()
+        obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
+        image = misc.imread(BytesIO(urllib.urlopen(list(group['OriginalURL'])[0]).read()))
+        torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
+
+
+def get_coco_images(id_data, class_limit):
+    id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit).groupby(id_data['ImageID'])
+    coco_image_file = DATA_DIR + '/coco/images/{}.jpg'
+    output_image_dir = DATA_DIR + '/images/coco'
+    if not os.path.exists(output_image_dir):
+        os.makedirs(output_image_dir)
+    output_image_file = output_image_dir + '/{}.pt'
+
+    for image_id, group in id_data:
+        classes = group['RealClass'].as_matrix()
+        obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
+        id_str = pad_img_num(image_id, COCO_ID_LENGTH)
+        image = misc.imread(coco_image_file.format(id_str))
+        torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(id_str))
+
+
+def pad_img_num(num, total_digits):
+    num_str = ''
+    for _ in range(total_digits - len(str(num))):
+        num_str += '0'
+
+    return num_str + str(num)
+
+
+def build_image_dataset():
+    id_data = pd.read_csv('id_data.csv')
+    open_id_data = id_data[id_data['Source_x'] == 'open']
+    coco_id_data = id_data[id_data['Source_x'] != 'open']
+    get_open_images(open_id_data, 50)
+    #get_coco_images(coco_id_data, 50)
 
 
 def build_class_map_dataset():
@@ -119,14 +188,14 @@ def build_class_map_dataset():
     create_class_map_data(open_image_classes, open_image_class_dict)
 
 
-def build_image_dataset(output_class_counts=False):
+def build_id_dataset(output_class_counts=False):
     classes = pd.read_csv('class_map.csv')
     open_class_data = classes[classes['Source'] == 'open']
     coco_class_data = classes[classes['Source'] != 'open']
-    open_data = get_open_data(open_class_data)
-    coco_data = get_coco_data()
+    open_data = get_open_ids(open_class_data)
+    coco_data = get_coco_ids()
     image_data = pd.concat([open_data, coco_data])
-    image_data.to_csv('image_data.csv')
+    image_data.to_csv('id_data.csv')
 
     if output_class_counts:
         groups = open_data['ImageID'].groupby(open_data['RealClass'])
@@ -144,5 +213,6 @@ def build_image_dataset(output_class_counts=False):
 
 
 if __name__ == '__main__':
-    build_class_map_dataset()
-    build_image_dataset(True)
+    #build_class_map_dataset()
+    #build_id_dataset(True)
+    build_image_dataset()
