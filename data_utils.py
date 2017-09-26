@@ -2,14 +2,16 @@ import os
 import torch
 import pandas as pd
 import numpy as np
-import urllib
+import urllib2
+import requests
 from scipy import misc
-from pycocotools.coco import COCO
+from PIL import Image
+#from pycocotools.coco import COCO
 from shutil import copyfile
 from io import BytesIO
 
 
-CLUSTER_ENV = False
+CLUSTER_ENV = True
 COCO_ID_LENGTH = 12
 REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
 COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
@@ -147,8 +149,8 @@ def get_open_images(id_data, class_limit):
         classes = group['RealClass'].as_matrix()
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
         image_url = list(group['OriginalURL'])[0]
-        print(image_url)
-        image = misc.imread(BytesIO(urllib.urlopen(image_url).read()))
+	data = BytesIO(requests.get(image_url).content)
+        image = misc.imread(data)
         torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
 
 
