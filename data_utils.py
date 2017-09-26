@@ -149,7 +149,7 @@ def get_open_images(id_data, class_limit):
         classes = group['RealClass'].as_matrix()
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
         image_url = list(group['OriginalURL'])[0]
-	data = BytesIO(requests.get(image_url).content)
+        data = BytesIO(requests.get(image_url).content)
         image = misc.imread(data)
         torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
 
