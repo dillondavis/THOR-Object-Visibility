@@ -2,16 +2,16 @@ import os
 import torch
 import pandas as pd
 import numpy as np
-import urllib2
 import requests
+import urllib
 from scipy import misc
-from PIL import Image
+#from PIL import Image
 #from pycocotools.coco import COCO
 from shutil import copyfile
 from io import BytesIO
 
 
-CLUSTER_ENV = True
+CLUSTER_ENV = False
 COCO_ID_LENGTH = 12
 REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
 COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
@@ -135,12 +135,12 @@ def get_coco_ids():
     return pd.DataFrame(data, columns=columns)
 
 
-def get_open_images(id_data, class_limit):
+def download_open_images(id_data, class_limit):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit)
     image_data = pd.read_csv(DATA_DIR + '/OpenImage/data/train/images.csv')
     image_data = image_data[['ImageID', 'OriginalURL', 'OriginalLandingURL']]
     image_data = pd.merge(id_data, image_data, left_on='ImageID', right_on='ImageID').groupby(image_data['ImageID'])
-    output_image_dir = DATA_DIR + '/open'
+    output_image_dir = IMAGE_DIR + '/open'
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
     output_image_file = output_image_dir + '/{}.pt'
@@ -149,15 +149,35 @@ def get_open_images(id_data, class_limit):
         classes = group['RealClass'].as_matrix()
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
         image_url = list(group['OriginalURL'])[0]
-        data = BytesIO(requests.get(image_url).content)
-        image = misc.imread(data)
+        image_file = output_image_dir + '/{}.jpg'.format(image_id)
+        response = urllib.urlopen(image_url)
+        with open(image_file, 'wb') as f:
+            f.write(response.read())
+
+
+def get_open_images(id_data, class_limit):
+    id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit)
+    image_data = pd.read_csv(DATA_DIR + '/OpenImage/data/train/images.csv')
+    image_data = image_data[['ImageID', 'OriginalURL', 'OriginalLandingURL']]
+    image_data = pd.merge(id_data, image_data, left_on='ImageID', right_on='ImageID').groupby(image_data['ImageID'])
+    output_image_dir = IMAGE_DIR + '/open'
+    if not os.path.exists(output_image_dir):
+        os.makedirs(output_image_dir)
+    output_image_file = output_image_dir + '/{}.pt'
+
+    for image_id, group in image_data:
+        classes = group['RealClass'].as_matrix()
+        obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
+        image_url = list(group['OriginalURL'])[0]
+        image_file = output_image_dir + '/{}.jpg'.format(image_id)
+        image = misc.imread(image_file)
         torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
 
 
 def get_coco_images(id_data, class_limit):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit).groupby(id_data['ImageID'])
     coco_image_file = DATA_DIR + '/coco/images/{}.jpg'
-    output_image_dir = DATA_DIR + '/images/coco'
+    output_image_dir = IMAGE_DIR + '/images/coco'
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
     output_image_file = output_image_dir + '/{}.pt'
@@ -182,8 +202,9 @@ def build_image_dataset():
     id_data = pd.read_csv('id_data.csv')
     open_id_data = id_data[id_data['Source_x'] == 'open']
     coco_id_data = id_data[id_data['Source_x'] != 'open']
-    get_open_images(open_id_data, 50)
+    download_open_images(open_id_data, 50)
     #get_coco_images(coco_id_data, 50)
+    #get_open_images(open_id_data, 50)
 
 
 def build_class_map_dataset():
