@@ -3,7 +3,6 @@ import torch
 import pandas as pd
 import numpy as np
 import requests
-import urllib
 from scipy import misc
 #from PIL import Image
 #from pycocotools.coco import COCO
@@ -150,9 +149,10 @@ def download_open_images(id_data, class_limit):
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
         image_url = list(group['OriginalURL'])[0]
         image_file = output_image_dir + '/{}.jpg'.format(image_id)
-        response = urllib.urlopen(image_url)
+        response = requests.get(image_url, stream=True)
         with open(image_file, 'wb') as f:
-            f.write(response.read())
+            for chunk in response:
+                f.write(chunk)
 
 
 def get_open_images(id_data, class_limit):
