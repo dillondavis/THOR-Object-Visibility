@@ -2,10 +2,10 @@ import os
 import torch
 import pandas as pd
 import numpy as np
-import requests
+import requests, cStringIO
 from scipy import misc
-#from PIL import Image
-#from pycocotools.coco import COCO
+from PIL import Image
+from pycocotools.coco import COCO
 from shutil import copyfile
 from io import BytesIO
 
@@ -134,27 +134,6 @@ def get_coco_ids():
     return pd.DataFrame(data, columns=columns)
 
 
-def download_open_images(id_data, class_limit):
-    id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit)
-    image_data = pd.read_csv(DATA_DIR + '/OpenImage/data/train/images.csv')
-    image_data = image_data[['ImageID', 'OriginalURL', 'OriginalLandingURL']]
-    image_data = pd.merge(id_data, image_data, left_on='ImageID', right_on='ImageID').groupby(image_data['ImageID'])
-    output_image_dir = IMAGE_DIR + '/open'
-    if not os.path.exists(output_image_dir):
-        os.makedirs(output_image_dir)
-    output_image_file = output_image_dir + '/{}.pt'
-
-    for image_id, group in image_data:
-        classes = group['RealClass'].as_matrix()
-        obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
-        image_url = list(group['OriginalURL'])[0]
-        image_file = output_image_dir + '/{}.jpg'.format(image_id)
-        response = requests.get(image_url, stream=True)
-        with open(image_file, 'wb') as f:
-            for chunk in response:
-                f.write(chunk)
-
-
 def get_open_images(id_data, class_limit):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit)
     image_data = pd.read_csv(DATA_DIR + '/OpenImage/data/train/images.csv')
@@ -164,14 +143,21 @@ def get_open_images(id_data, class_limit):
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
     output_image_file = output_image_dir + '/{}.pt'
+    invalid = 0
 
     for image_id, group in image_data:
         classes = group['RealClass'].as_matrix()
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
         image_url = list(group['OriginalURL'])[0]
         image_file = output_image_dir + '/{}.jpg'.format(image_id)
-        image = misc.imread(image_file)
-        torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
+        image_bytes = cStringIO.StringIO(requests.get(image_url).content)
+        try:
+            image = Image.open(image_bytes)
+            torch.save({'frame':np.array(image), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
+        except:
+            print("INVALID")
+            invalid += 1
+    print("TOTAL INVALID: {}".format(invalid))
 
 
 def get_coco_images(id_data, class_limit):
@@ -202,9 +188,8 @@ def build_image_dataset():
     id_data = pd.read_csv('id_data.csv')
     open_id_data = id_data[id_data['Source_x'] == 'open']
     coco_id_data = id_data[id_data['Source_x'] != 'open']
-    download_open_images(open_id_data, 50)
-    #get_coco_images(coco_id_data, 50)
-    #get_open_images(open_id_data, 50)
+    get_coco_images(coco_id_data, 50)
+    get_open_images(open_id_data, 50)
 
 
 def build_class_map_dataset():
