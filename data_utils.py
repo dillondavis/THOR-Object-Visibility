@@ -5,7 +5,7 @@ import numpy as np
 import requests
 from scipy import misc
 from PIL import Image
-from pycocotools.coco import COCO
+#from pycocotools.coco import COCO
 from shutil import copyfile
 from io import BytesIO, StringIO
 
