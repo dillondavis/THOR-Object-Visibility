@@ -9,7 +9,6 @@ from PIL import Image
 from shutil import copyfile
 from io import BytesIO, StringIO
 
-
 CLUSTER_ENV = False
 COCO_ID_LENGTH = 12
 REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
@@ -150,7 +149,7 @@ def get_open_images(id_data, class_limit):
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
         image_url = list(group['OriginalURL'])[0]
         image_file = output_image_dir + '/{}.jpg'.format(image_id)
-        image_bytes = StringIO(requests.get(image_url).content)
+        image_bytes = StringIO.StringIO(requests.get(image_url).content)
         try:
             image = Image.open(image_bytes)
             torch.save({'frame':np.array(image), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
