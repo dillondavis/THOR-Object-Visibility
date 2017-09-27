@@ -2,12 +2,12 @@ import os
 import torch
 import pandas as pd
 import numpy as np
-import requests, cStringIO
+import requests
 from scipy import misc
 from PIL import Image
 from pycocotools.coco import COCO
 from shutil import copyfile
-from io import BytesIO
+from io import BytesIO, StringIO
 
 
 CLUSTER_ENV = False
