@@ -150,7 +150,7 @@ def get_open_images(id_data, class_limit):
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
         image_url = list(group['OriginalURL'])[0]
         image_file = output_image_dir + '/{}.jpg'.format(image_id)
-        image_bytes = cStringIO.StringIO(requests.get(image_url).content)
+        image_bytes = StringIO(requests.get(image_url).content)
         try:
             image = Image.open(image_bytes)
             torch.save({'frame':np.array(image), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
