@@ -144,15 +144,15 @@ def get_open_images(id_data, class_limit):
 
     for image_id, group in image_data:
         classes = group['RealClass'].as_matrix()
-        obj_vis = np.ndarray([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST], dtype=np.uint8)
+        obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
         image_url = list(group['OriginalURL'])[0]
         image_file = output_image_dir + '/{}.jpg'.format(image_id)
         image_bytes = BytesIO(requests.get(image_url).content)
         try:
-            image = np.asarray(Image.open(image_bytes)).astype(np.uint8)
-            torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
+            image = Image.open(image_bytes)
+            torch.save({'frame':np.array(image), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
         except:
-            print('invalid')
+            print("invalid")
             invalid += 1
     print("TOTAL INVALID: {}".format(invalid))
 
@@ -160,14 +160,14 @@ def get_open_images(id_data, class_limit):
 def get_coco_images(id_data, class_limit):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit).groupby(id_data['ImageID'])
     coco_image_file = DATA_DIR + '/coco/images/{}.jpg'
-    output_image_dir = IMAGE_DIR
+    output_image_dir = IMAGE_DIR 
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
     output_image_file = output_image_dir + '/{}.pt'
 
     for image_id, group in id_data:
         classes = group['RealClass'].as_matrix()
-        obj_vis = np.ndarray([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST], dtype=np.uint8)
+        obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
         id_str = pad_img_num(image_id, COCO_ID_LENGTH)
         image = misc.imread(coco_image_file.format(id_str)).astype(np.uint8)
         torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(id_str))
