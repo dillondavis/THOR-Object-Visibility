@@ -149,8 +149,11 @@ def get_open_images(id_data, class_limit):
         image_file = output_image_dir + '/{}.jpg'.format(image_id)
         image_bytes = BytesIO(requests.get(image_url).content)
         try:
-            image = Image.open(image_bytes)
-            torch.save({'frame':np.array(image).astype(np.uint8), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
+            image = np.array(Image.open(image_bytes)).astype(np.uint8)
+            if len(image.shape) == 3:
+                torch.save({'frame':np.array(image).astype(np.uint8), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
+            else:
+                invalid += 1
         except:
             print("invalid")
             invalid += 1
@@ -164,13 +167,19 @@ def get_coco_images(id_data, class_limit):
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
     output_image_file = output_image_dir + '/{}_coco.pt'
+    invalid = 0
 
     for image_id, group in id_data:
         classes = group['RealClass'].as_matrix()
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST], dtype=np.uint8)
         id_str = pad_img_num(image_id, COCO_ID_LENGTH)
         image = misc.imread(coco_image_file.format(id_str)).astype(np.uint8)
-        torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(id_str))
+        if len(image.shape) == 3:
+            torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(id_str))
+        else:
+            invalid += 1
+
+    print("TOTAL INVALID: {}".format(invalid))
 
 
 def pad_img_num(num, total_digits):
