@@ -144,13 +144,14 @@ def get_open_images(id_data, class_limit):
 
     for image_id, group in image_data:
         classes = group['RealClass'].as_matrix()
-        obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
+        obj_vis = np.ndarray([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST], dtype=np.uint8)
         image_url = list(group['OriginalURL'])[0]
         image_file = output_image_dir + '/{}.jpg'.format(image_id)
         image_bytes = BytesIO(requests.get(image_url).content)
         try:
             image = Image.open(image_bytes)
-            torch.save({'frame':np.array(image), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
+            image = np.ndarray(image, dtype=np.uint8)
+            torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
         except:
             invalid += 1
     print("TOTAL INVALID: {}".format(invalid))
