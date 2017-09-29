@@ -150,7 +150,7 @@ def get_open_images(id_data, class_limit):
         image_bytes = BytesIO(requests.get(image_url).content)
         try:
             image = Image.open(image_bytes)
-            torch.save({'frame':np.array(image), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
+            torch.save({'frame':np.array(image).astype(np.uint8), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
         except:
             print("invalid")
             invalid += 1
