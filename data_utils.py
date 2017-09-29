@@ -14,7 +14,7 @@ COCO_ID_LENGTH = 12
 REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
 COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
 DATA_DIR = ('/data/ddavis14' if CLUSTER_ENV else '/Users/Dillon/UIUC/Research') + '/AllenAI-Object-Visibility'
-IMAGE_DIR = DATA_DIR + '/images'
+IMAGE_DIR = DATA_DIR + '/images/thor/obj_vis/train'
 PROJECT_DIR = ('/home/nfs/ddavis14' if CLUSTER_ENV else '/Users/Dillon/UIUC/Research') + '/AllenAI-Object-Visibility'
 DATA_UTIL_DIR = PROJECT_DIR + '/THOR-Object-Visibility'
 OFFICIAL_CLASS_LIST = [
@@ -138,9 +138,7 @@ def get_open_images(id_data, class_limit):
     image_data = pd.read_csv(DATA_DIR + '/OpenImage/data/train/images.csv')
     image_data = image_data[['ImageID', 'OriginalURL', 'OriginalLandingURL']]
     image_data = pd.merge(id_data, image_data, left_on='ImageID', right_on='ImageID').groupby(image_data['ImageID'])
-    output_image_dir = IMAGE_DIR + '/open'
-    if not os.path.exists(output_image_dir):
-        os.makedirs(output_image_dir)
+    output_image_dir = IMAGE_DIR
     output_image_file = output_image_dir + '/{}.pt'
     invalid = 0
 
@@ -161,16 +159,16 @@ def get_open_images(id_data, class_limit):
 def get_coco_images(id_data, class_limit):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit).groupby(id_data['ImageID'])
     coco_image_file = DATA_DIR + '/coco/images/{}.jpg'
-    output_image_dir = IMAGE_DIR + '/images/coco'
+    output_image_dir = IMAGE_DIR
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
     output_image_file = output_image_dir + '/{}.pt'
 
     for image_id, group in id_data:
         classes = group['RealClass'].as_matrix()
-        obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST])
+        obj_vis = np.ndarray([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST], dtype=np.uint8)
         id_str = pad_img_num(image_id, COCO_ID_LENGTH)
-        image = misc.imread(coco_image_file.format(id_str))
+        image = np.ndarray(misc.imread(coco_image_file.format(id_str)), dtype=np.uint8)
         torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(id_str))
 
 
