@@ -169,7 +169,7 @@ def get_coco_images(id_data, class_limit):
         classes = group['RealClass'].as_matrix()
         obj_vis = np.ndarray([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST], dtype=np.uint8)
         id_str = pad_img_num(image_id, COCO_ID_LENGTH)
-        image = np.ndarray(misc.imread(coco_image_file.format(id_str)), dtype=np.uint8)
+        image = misc.imread(coco_image_file.format(id_str)).astype(np.uint8)
         torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(id_str))
 
 
