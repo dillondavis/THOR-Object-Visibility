@@ -149,7 +149,7 @@ def get_open_images(id_data, class_limit):
         image_file = output_image_dir + '/{}.jpg'.format(image_id)
         image_bytes = BytesIO(requests.get(image_url).content)
         try:
-            image = misc.imread(image_bytes).as_type(np.uint8)
+            image = np.array(Image.open(image_bytes)).astype(np.uint8)
             torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
         except:
             print('invalid')
