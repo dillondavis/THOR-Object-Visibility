@@ -3,6 +3,7 @@ import torch
 import pandas as pd
 import numpy as np
 import requests
+import glob
 from scipy import misc
 from PIL import Image
 #from pycocotools.coco import COCO
@@ -228,16 +229,18 @@ def build_id_dataset(output_class_counts=False):
         print('')
 
 def pad_image(image, width, height):
-    for row in image:
-        for _ in range(max(width - len(row), 0)):
-            row += [0, 0, 0]
-    for _ in range(max(height - len(image), 0)):
-        image += [[0, 0, 0] for _ in range(width)]
+    new_image = np.zeros((width, height, 3))
+    for i, row in enumerate(image):
+	row_padding = np.array([[0, 0, 0] for _ in range(max(width - len(row), 0))], dtype=np.uint8)
+    	new_image[i] =  np.concatenate((row, row_padding))
+
+    return new_image
+ 
 
 def reformat_image(image_array, width, height):
-    image = PIL.Image.fromarray(image_array)
-    thumbnail = image.thumbnail((width, height), PIL.Image.ANTIALIAS)
-    new_image = pad_image(np.array(thumbnail), width, height)
+    image = Image.fromarray(image_array)
+    image.thumbnail((width, height), Image.ANTIALIAS)
+    new_image = pad_image(np.array(image), width, height)
 
     return new_image
 
@@ -251,4 +254,5 @@ def reformat_images(width, height, image_dir):
 if __name__ == '__main__':
     #build_class_map_dataset()
     #build_id_dataset(True)
-    build_image_dataset()
+    #build_image_dataset()
+    reformat_images(300, 300, IMAGE_DIR + '/synthetic_test')
