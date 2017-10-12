@@ -194,8 +194,8 @@ def build_image_dataset():
     id_data = pd.read_csv('id_data.csv')
     open_id_data = id_data[id_data['Source_x'] == 'open']
     coco_id_data = id_data[id_data['Source_x'] != 'open']
-    get_coco_images(coco_id_data, 100)
-    get_open_images(open_id_data, 100)
+    get_coco_images(coco_id_data, 400)
+    get_open_images(open_id_data, 400)
 
 
 def build_class_map_dataset():
