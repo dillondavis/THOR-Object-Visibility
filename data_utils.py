@@ -254,4 +254,4 @@ if __name__ == '__main__':
     #build_class_map_dataset()
     #build_id_dataset(True)
     #build_image_dataset()
-    reformat_images(300, 300, IMAGE_DIR + '/synthetic_test')
+    reformat_images(300, 300, IMAGE_DIR + '/real_small_test')
