@@ -227,6 +227,26 @@ def build_id_dataset(output_class_counts=False):
         print(groups.size())
         print('')
 
+def pad_image(image, width, height):
+    for row in image:
+        for _ in range(max(width - len(row), 0)):
+            row += [0, 0, 0]
+    for _ in range(max(height - len(image), 0)):
+        image += [[0, 0, 0] for _ in range(width)]
+
+def reformat_image(image_array, width, height):
+    image = PIL.Image.fromarray(image_array)
+    thumbnail = image.thumbnail((width, height), PIL.Image.ANTIALIAS)
+    new_image = pad_image(np.array(thumbnail), width, height)
+
+    return new_image
+
+def reformat_images(width, height, image_dir):
+    image_files = glob.glob(image_dir + '/*.pt')
+    for image_file in image_files:
+        pt = torch.load(image_file)
+        pt['frame'] = reformat_image(pt['frame'], width, height)
+        torch.save(pt, image_file)
 
 if __name__ == '__main__':
     #build_class_map_dataset()
