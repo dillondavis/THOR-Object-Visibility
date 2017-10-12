@@ -230,8 +230,11 @@ def build_id_dataset(output_class_counts=False):
 
 def pad_image(image, width, height):
     new_image = np.zeros((width, height, 3))
+    print(image.shape)
+    print(new_image.shape)
     for i, row in enumerate(image):
         row_padding = np.array([[0, 0, 0] for _ in range(max(width - len(row), 0))], dtype=np.uint8)
+        print(row_padding.shape)
         new_image[i] =  np.concatenate((row, row_padding))
 
     return new_image
