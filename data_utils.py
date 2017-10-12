@@ -232,7 +232,7 @@ def pad_image(image, width, height):
     new_image = np.zeros((width, height, 3))
     for i, row in enumerate(image):
 	    row_padding = np.array([[0, 0, 0] for _ in range(max(width - len(row), 0))], dtype=np.uint8)
-    	new_image[i] =  np.concatenate((row, row_padding))
+        new_image[i] =  np.concatenate((row, row_padding))
 
     return new_image
 
