@@ -139,6 +139,8 @@ def get_open_images(id_data, class_limit):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass'])
     if class_limit:
         id_data = id_data.head(class_limit)
+    else:
+        id_data = id_data.reset_index()
     image_data = pd.read_csv(DATA_DIR + '/OpenImage/data/train/images.csv')
     image_data = image_data[['ImageID', 'OriginalURL', 'OriginalLandingURL']]
     image_data = pd.merge(id_data, image_data, left_on='ImageID', right_on='ImageID').groupby(image_data['ImageID'])
@@ -168,6 +170,8 @@ def get_coco_images(id_data, class_limit):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass'])
     if class_limit:
         id_data = id_data.head(class_limit)
+    else:
+        id_data = id_data.reset_index()
     id_data = id_data.groupby(id_data['ImageID'])
     coco_image_file = DATA_DIR + '/coco/images/{}.jpg'
     output_image_dir = IMAGE_DIR
