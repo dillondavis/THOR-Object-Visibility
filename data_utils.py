@@ -167,7 +167,8 @@ def get_open_images(id_data, class_limit):
 def get_coco_images(id_data, class_limit):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass'])
     if class_limit:
-        id_data = id_data.head(class_limit).groupby(id_data['RealClass'])
+        id_data = id_data.head(class_limit)
+    id_data = id_data.groupby(id_data['ImageID'])
     coco_image_file = DATA_DIR + '/coco/images/{}.jpg'
     output_image_dir = IMAGE_DIR
     if not os.path.exists(output_image_dir):
@@ -179,7 +180,6 @@ def get_coco_images(id_data, class_limit):
         classes = group['RealClass'].as_matrix()
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST], dtype=np.uint8)
         id_str = pad_img_num(image_id, COCO_ID_LENGTH)
-        print(id_str)
         image = misc.imread(coco_image_file.format(id_str)).astype(np.uint8)
         if len(image.shape) == 3:
             torch.save({'frame':image, 'obj_vis':obj_vis}, output_image_file.format(id_str))
