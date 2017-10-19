@@ -168,7 +168,6 @@ def get_coco_images(id_data, class_limit):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass'])
     if class_limit:
         id_data = id_data.head(class_limit)
-    id_data = id_data.groupby(id_data['ImageID'])
     coco_image_file = DATA_DIR + '/coco/images/{}.jpg'
     output_image_dir = IMAGE_DIR 
     if not os.path.exists(output_image_dir):
