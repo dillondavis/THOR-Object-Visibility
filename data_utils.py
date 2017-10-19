@@ -195,8 +195,8 @@ def build_image_dataset():
     id_data = pd.read_csv('id_data.csv')
     open_id_data = id_data[id_data['Source_x'] == 'open']
     coco_id_data = id_data[id_data['Source_x'] != 'open']
-    get_coco_images(coco_id_data, 400)
-    get_open_images(open_id_data, 400)
+    get_coco_images(coco_id_data, IMAGES_PER_CLASS)
+    get_open_images(open_id_data, IMAGES_PER_CLASS)
 
 
 def build_class_map_dataset():
@@ -229,7 +229,7 @@ def build_id_dataset(output_class_counts=False):
         print('')
 
 def pad_image(image, width, height):
-    new_image = np.zeros((width, height, 3))
+    new_image = np.zeros((width, height, 3), dtype=np.uint8)
     for i, row in enumerate(image):
         row_padding = np.array([[0, 0, 0] for _ in range(max(width - len(row), 0))], dtype=np.uint8)
         new_image[i] =  np.concatenate((row, row_padding)) if len(row) != width else row
@@ -254,4 +254,4 @@ if __name__ == '__main__':
     #build_class_map_dataset()
     #build_id_dataset(True)
     #build_image_dataset()
-    reformat_images(300, 300, IMAGE_DIR + '/real_small_test')
+    #reformat_images(300, 300, IMAGE_DIR + '/real_small_pad')
