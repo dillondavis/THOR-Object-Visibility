@@ -15,7 +15,9 @@ COCO_ID_LENGTH = 12
 REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
 COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
 DATA_DIR = ('/data/ddavis14' if CLUSTER_ENV else '/Users/Dillon/UIUC/Research') + '/AllenAI-Object-Visibility'
-IMAGE_DIR = DATA_DIR + '/images/training_data/obj_vis/train/real_all_test'
+IMAGE_DIR = DATA_DIR + '/images/training_data/obj_vis'
+TRAIN_IMAGE_DIR = IMAGE_DIR + '/train/real_all'
+TEST_IMAGE_DIR = IMAGE_DIR + '/test/real'
 PROJECT_DIR = ('/home/nfs/ddavis14' if CLUSTER_ENV else '/Users/Dillon/UIUC/Research') + '/AllenAI-Object-Visibility'
 DATA_UTIL_DIR = PROJECT_DIR + '/THOR-Object-Visibility'
 OFFICIAL_CLASS_LIST = [
@@ -170,7 +172,7 @@ def get_coco_images(id_data, class_limit, test=False):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit)
     id_data = id_data.groupby(id_data['ImageID'])
     coco_image_file = DATA_DIR + '/coco/images/' + ('test' if test else 'train') + '/{}.jpg'
-    output_image_dir = IMAGE_DIR
+    output_image_dir = TEST_IMAGE_DIR if test else TRAIN_IMAGE_DIR
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
     output_image_file = output_image_dir + '/{}_coco.pt'
