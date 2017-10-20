@@ -6,11 +6,11 @@ import requests
 import glob
 from scipy import misc
 from PIL import Image
-#from pycocotools.coco import COCO
+from pycocotools.coco import COCO
 from shutil import copyfile
 from io import BytesIO
 
-CLUSTER_ENV = True
+CLUSTER_ENV = False
 COCO_ID_LENGTH = 12
 REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
 COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
@@ -28,7 +28,8 @@ OFFICIAL_CLASS_LIST = [
 CLASS_ID_MAP = {name:i for i, name in enumerate(OFFICIAL_CLASS_LIST)}
 IMAGES_PER_CLASS = 10000000000
 COCO_ANN_FILE = DATA_DIR + '/coco/annotations/instances_train2017.json'
-ID_DATA = 'id_data.csv'
+COCO_TEST_ANN_FILE = DATA_DIR + '/coco/annotations/instances_val2017.json'
+ID_DATA = 'id_data2.csv'
 ID_TEST_DATA = 'id_test_data.csv'
 
 def get_similar_open_image_classes(REAL_CLASSES):
@@ -118,12 +119,11 @@ def get_open_ids(open_class_data):
     return open_data
 
 
-def get_coco_ids():
+def get_coco_ids(ann_file):
     '''
     :return: pandas DataFrame containing all images for necessary COCO classes
     '''
 
-    ann_file = COCO_ANN_FILE
     coco = COCO(ann_file)
     columns = ['AltClass', 'ClassID', 'Source_x', 'RealClass', 'ImageID', 'Source_y', 'Confidence']
     data = []
@@ -223,21 +223,20 @@ def build_class_map_dataset():
     open_image_class_dict = get_open_image_class_dict()
     create_class_map_data(open_image_classes, open_image_class_dict)
 
-
 def build_id_dataset(output_class_counts=False):
     classes = pd.read_csv('class_map.csv')
     open_class_data = classes[classes['Source'] == 'open']
     coco_class_data = classes[classes['Source'] != 'open']
     open_data = get_open_ids(open_class_data)
-    coco_data = get_coco_ids()
+    coco_data = get_coco_ids(COCO_ANN_FILE)
     image_data = pd.concat([open_data, coco_data])
     image_data.to_csv(ID_DATA)
 
     if output_class_counts:
-        #groups = open_data['ImageID'].groupby(open_data['RealClass'])
-        #print('OpenImage Counts')
-        #print(groups.size())
-        #print('')
+        groups = open_data['ImageID'].groupby(open_data['RealClass'])
+        print('OpenImage Counts')
+        print(groups.size())
+        print('')
         groups = coco_data['ImageID'].groupby(coco_data['RealClass'])
         print('COCO Counts')
         print(groups.size())
@@ -250,7 +249,7 @@ def build_id_dataset(output_class_counts=False):
 def build_test_id_dataset(output_class_counts=False):
     classes = pd.read_csv('class_map.csv')
     coco_class_data = classes[classes['Source'] == 'coco']
-    coco_data = get_coco_ids()
+    coco_data = get_coco_ids(COCO_TEST_ANN_FILE)
     coco_data.to_csv(ID_TEST_DATA)
 
     if output_class_counts:
