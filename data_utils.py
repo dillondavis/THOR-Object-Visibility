@@ -29,7 +29,7 @@ CLASS_ID_MAP = {name:i for i, name in enumerate(OFFICIAL_CLASS_LIST)}
 IMAGES_PER_CLASS = 10000000000
 COCO_ANN_FILE = DATA_DIR + '/coco/annotations/instances_train2017.json'
 COCO_TEST_ANN_FILE = DATA_DIR + '/coco/annotations/instances_val2017.json'
-ID_DATA = 'id_data2.csv'
+ID_DATA = 'id_data.csv'
 ID_TEST_DATA = 'id_test_data.csv'
 
 def get_similar_open_image_classes(REAL_CLASSES):
@@ -166,10 +166,10 @@ def get_open_images(id_data, class_limit):
     print("TOTAL INVALID: {}".format(invalid))
 
 
-def get_coco_images(id_data, class_limit):
+def get_coco_images(id_data, class_limit, test=False):
     id_data = id_data[['ImageID', 'RealClass']].groupby(id_data['RealClass']).head(class_limit)
     id_data = id_data.groupby(id_data['ImageID'])
-    coco_image_file = DATA_DIR + '/coco/images/{}.jpg'
+    coco_image_file = DATA_DIR + '/coco/images/' + ('test' if test else 'train') + '/{}.jpg'
     output_image_dir = IMAGE_DIR
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
@@ -268,7 +268,7 @@ def build_image_dataset():
 def build_test_image_dataset():
     id_data = pd.read_csv(ID_TEST_DATA)
     coco_id_data = id_data[id_data['Source_x'] == 'coco']
-    get_coco_images(coco_id_data, IMAGES_PER_CLASS)
+    get_coco_images(coco_id_data, IMAGES_PER_CLASS, test=True)
 
 if __name__ == '__main__':
     #build_class_map_dataset()
