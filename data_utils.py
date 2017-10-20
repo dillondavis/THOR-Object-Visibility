@@ -6,11 +6,11 @@ import requests
 import glob
 from scipy import misc
 from PIL import Image
-from pycocotools.coco import COCO
+#from pycocotools.coco import COCO
 from shutil import copyfile
 from io import BytesIO
 
-CLUSTER_ENV = False
+CLUSTER_ENV = True
 COCO_ID_LENGTH = 12
 REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
 COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
@@ -274,4 +274,5 @@ if __name__ == '__main__':
     #build_class_map_dataset()
     #build_id_dataset(True)
     #build_image_dataset()
-    build_test_id_dataset(True)
+    #build_test_id_dataset(True)
+    build_test_image_dataset()
