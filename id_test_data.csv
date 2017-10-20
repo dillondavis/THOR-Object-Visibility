@@ -1,0 +1,2882 @@
+,AltClass,ClassID,Source_x,RealClass,ImageID,Source_y,Confidence
+0,apple,nan,coco,Apple,560256,nan,-1
+1,apple,nan,coco,Apple,405249,nan,-1
+2,apple,nan,coco,Apple,30213,nan,-1
+3,apple,nan,coco,Apple,193926,nan,-1
+4,apple,nan,coco,Apple,479596,nan,-1
+5,apple,nan,coco,Apple,116362,nan,-1
+6,apple,nan,coco,Apple,522007,nan,-1
+7,apple,nan,coco,Apple,322959,nan,-1
+8,apple,nan,coco,Apple,565776,nan,-1
+9,apple,nan,coco,Apple,424721,nan,-1
+10,apple,nan,coco,Apple,14226,nan,-1
+11,apple,nan,coco,Apple,530836,nan,-1
+12,apple,nan,coco,Apple,189078,nan,-1
+13,apple,nan,coco,Apple,40471,nan,-1
+14,apple,nan,coco,Apple,217753,nan,-1
+15,apple,nan,coco,Apple,548506,nan,-1
+16,apple,nan,coco,Apple,440475,nan,-1
+17,apple,nan,coco,Apple,119452,nan,-1
+18,apple,nan,coco,Apple,17182,nan,-1
+19,apple,nan,coco,Apple,482719,nan,-1
+20,apple,nan,coco,Apple,357888,nan,-1
+21,apple,nan,coco,Apple,537506,nan,-1
+22,apple,nan,coco,Apple,173091,nan,-1
+23,apple,nan,coco,Apple,389381,nan,-1
+24,apple,nan,coco,Apple,69356,nan,-1
+25,apple,nan,coco,Apple,388903,nan,-1
+26,apple,nan,coco,Apple,349480,nan,-1
+27,apple,nan,coco,Apple,406570,nan,-1
+28,apple,nan,coco,Apple,213935,nan,-1
+29,apple,nan,coco,Apple,188592,nan,-1
+30,apple,nan,coco,Apple,177714,nan,-1
+31,apple,nan,coco,Apple,479155,nan,-1
+32,apple,nan,coco,Apple,562059,nan,-1
+33,apple,nan,coco,Apple,113589,nan,-1
+34,apple,nan,coco,Apple,272566,nan,-1
+35,apple,nan,coco,Apple,66231,nan,-1
+36,apple,nan,coco,Apple,331799,nan,-1
+37,apple,nan,coco,Apple,34873,nan,-1
+38,apple,nan,coco,Apple,78266,nan,-1
+39,apple,nan,coco,Apple,280891,nan,-1
+40,apple,nan,coco,Apple,473406,nan,-1
+41,apple,nan,coco,Apple,110999,nan,-1
+42,apple,nan,coco,Apple,509131,nan,-1
+43,apple,nan,coco,Apple,158660,nan,-1
+44,apple,nan,coco,Apple,429281,nan,-1
+45,apple,nan,coco,Apple,138954,nan,-1
+46,apple,nan,coco,Apple,60855,nan,-1
+47,apple,nan,coco,Apple,128598,nan,-1
+48,apple,nan,coco,Apple,386210,nan,-1
+49,apple,nan,coco,Apple,303566,nan,-1
+50,apple,nan,coco,Apple,340175,nan,-1
+51,apple,nan,coco,Apple,409424,nan,-1
+52,apple,nan,coco,Apple,461009,nan,-1
+53,apple,nan,coco,Apple,407825,nan,-1
+54,apple,nan,coco,Apple,485844,nan,-1
+55,apple,nan,coco,Apple,216277,nan,-1
+56,apple,nan,coco,Apple,540502,nan,-1
+57,apple,nan,coco,Apple,203095,nan,-1
+58,apple,nan,coco,Apple,139099,nan,-1
+59,apple,nan,coco,Apple,359833,nan,-1
+60,apple,nan,coco,Apple,74209,nan,-1
+61,apple,nan,coco,Apple,575970,nan,-1
+62,apple,nan,coco,Apple,498919,nan,-1
+63,apple,nan,coco,Apple,44260,nan,-1
+64,apple,nan,coco,Apple,2149,nan,-1
+65,apple,nan,coco,Apple,192871,nan,-1
+66,apple,nan,coco,Apple,6614,nan,-1
+67,apple,nan,coco,Apple,146667,nan,-1
+68,apple,nan,coco,Apple,551660,nan,-1
+69,apple,nan,coco,Apple,125936,nan,-1
+70,apple,nan,coco,Apple,273711,nan,-1
+71,apple,nan,coco,Apple,339442,nan,-1
+72,apple,nan,coco,Apple,376307,nan,-1
+73,apple,nan,coco,Apple,156278,nan,-1
+74,apple,nan,coco,Apple,484351,nan,-1
+75,apple,nan,coco,Apple,185599,nan,-1
+76,bowl,nan,coco,Bowl,357888,nan,-1
+77,bowl,nan,coco,Bowl,577539,nan,-1
+78,bowl,nan,coco,Bowl,30213,nan,-1
+79,bowl,nan,coco,Bowl,551822,nan,-1
+80,bowl,nan,coco,Bowl,66817,nan,-1
+81,bowl,nan,coco,Bowl,47112,nan,-1
+82,bowl,nan,coco,Bowl,205834,nan,-1
+83,bowl,nan,coco,Bowl,239627,nan,-1
+84,bowl,nan,coco,Bowl,195842,nan,-1
+85,bowl,nan,coco,Bowl,322574,nan,-1
+86,bowl,nan,coco,Bowl,45229,nan,-1
+87,bowl,nan,coco,Bowl,565776,nan,-1
+88,bowl,nan,coco,Bowl,47121,nan,-1
+89,bowl,nan,coco,Bowl,132116,nan,-1
+90,bowl,nan,coco,Bowl,120853,nan,-1
+91,bowl,nan,coco,Bowl,40471,nan,-1
+92,bowl,nan,coco,Bowl,175364,nan,-1
+93,bowl,nan,coco,Bowl,277020,nan,-1
+94,bowl,nan,coco,Bowl,567898,nan,-1
+95,bowl,nan,coco,Bowl,562207,nan,-1
+96,bowl,nan,coco,Bowl,153632,nan,-1
+97,bowl,nan,coco,Bowl,221872,nan,-1
+98,bowl,nan,coco,Bowl,348708,nan,-1
+99,bowl,nan,coco,Bowl,256518,nan,-1
+100,bowl,nan,coco,Bowl,22705,nan,-1
+101,bowl,nan,coco,Bowl,109916,nan,-1
+102,bowl,nan,coco,Bowl,466986,nan,-1
+103,bowl,nan,coco,Bowl,18380,nan,-1
+104,bowl,nan,coco,Bowl,529966,nan,-1
+105,bowl,nan,coco,Bowl,159791,nan,-1
+106,bowl,nan,coco,Bowl,577584,nan,-1
+107,bowl,nan,coco,Bowl,105014,nan,-1
+108,bowl,nan,coco,Bowl,34873,nan,-1
+109,bowl,nan,coco,Bowl,407614,nan,-1
+110,bowl,nan,coco,Bowl,245311,nan,-1
+111,bowl,nan,coco,Bowl,254016,nan,-1
+112,bowl,nan,coco,Bowl,30785,nan,-1
+113,bowl,nan,coco,Bowl,335427,nan,-1
+114,bowl,nan,coco,Bowl,136772,nan,-1
+115,bowl,nan,coco,Bowl,157767,nan,-1
+116,bowl,nan,coco,Bowl,528399,nan,-1
+117,bowl,nan,coco,Bowl,231339,nan,-1
+118,bowl,nan,coco,Bowl,166478,nan,-1
+119,bowl,nan,coco,Bowl,323151,nan,-1
+120,bowl,nan,coco,Bowl,248400,nan,-1
+121,bowl,nan,coco,Bowl,335954,nan,-1
+122,bowl,nan,coco,Bowl,507235,nan,-1
+123,bowl,nan,coco,Bowl,64084,nan,-1
+124,bowl,nan,coco,Bowl,8277,nan,-1
+125,bowl,nan,coco,Bowl,312406,nan,-1
+126,bowl,nan,coco,Bowl,123321,nan,-1
+127,bowl,nan,coco,Bowl,570456,nan,-1
+128,bowl,nan,coco,Bowl,488673,nan,-1
+129,bowl,nan,coco,Bowl,62554,nan,-1
+130,bowl,nan,coco,Bowl,199771,nan,-1
+131,bowl,nan,coco,Bowl,284764,nan,-1
+132,bowl,nan,coco,Bowl,195165,nan,-1
+133,bowl,nan,coco,Bowl,370270,nan,-1
+134,bowl,nan,coco,Bowl,141328,nan,-1
+135,bowl,nan,coco,Bowl,13923,nan,-1
+136,bowl,nan,coco,Bowl,186980,nan,-1
+137,bowl,nan,coco,Bowl,2149,nan,-1
+138,bowl,nan,coco,Bowl,479248,nan,-1
+139,bowl,nan,coco,Bowl,191761,nan,-1
+140,bowl,nan,coco,Bowl,138856,nan,-1
+141,bowl,nan,coco,Bowl,470121,nan,-1
+142,bowl,nan,coco,Bowl,481386,nan,-1
+143,bowl,nan,coco,Bowl,570471,nan,-1
+144,bowl,nan,coco,Bowl,73326,nan,-1
+145,bowl,nan,coco,Bowl,459887,nan,-1
+146,bowl,nan,coco,Bowl,368752,nan,-1
+147,bowl,nan,coco,Bowl,484978,nan,-1
+148,bowl,nan,coco,Bowl,287347,nan,-1
+149,bowl,nan,coco,Bowl,156278,nan,-1
+150,bowl,nan,coco,Bowl,529528,nan,-1
+151,bowl,nan,coco,Bowl,50811,nan,-1
+152,bowl,nan,coco,Bowl,297084,nan,-1
+153,bowl,nan,coco,Bowl,372349,nan,-1
+154,bowl,nan,coco,Bowl,351362,nan,-1
+155,bowl,nan,coco,Bowl,144003,nan,-1
+156,bowl,nan,coco,Bowl,482436,nan,-1
+157,bowl,nan,coco,Bowl,118405,nan,-1
+158,bowl,nan,coco,Bowl,375430,nan,-1
+159,bowl,nan,coco,Bowl,116362,nan,-1
+160,bowl,nan,coco,Bowl,488075,nan,-1
+161,bowl,nan,coco,Bowl,541634,nan,-1
+162,bowl,nan,coco,Bowl,36494,nan,-1
+163,bowl,nan,coco,Bowl,18575,nan,-1
+164,bowl,nan,coco,Bowl,182417,nan,-1
+165,bowl,nan,coco,Bowl,219283,nan,-1
+166,bowl,nan,coco,Bowl,167572,nan,-1
+167,bowl,nan,coco,Bowl,301718,nan,-1
+168,bowl,nan,coco,Bowl,146457,nan,-1
+169,bowl,nan,coco,Bowl,440475,nan,-1
+170,bowl,nan,coco,Bowl,183965,nan,-1
+171,bowl,nan,coco,Bowl,529568,nan,-1
+172,bowl,nan,coco,Bowl,532129,nan,-1
+173,bowl,nan,coco,Bowl,572678,nan,-1
+174,bowl,nan,coco,Bowl,136355,nan,-1
+175,bowl,nan,coco,Bowl,246436,nan,-1
+176,bowl,nan,coco,Bowl,85157,nan,-1
+177,bowl,nan,coco,Bowl,449190,nan,-1
+178,bowl,nan,coco,Bowl,463527,nan,-1
+179,bowl,nan,coco,Bowl,435880,nan,-1
+180,bowl,nan,coco,Bowl,560011,nan,-1
+181,bowl,nan,coco,Bowl,459437,nan,-1
+182,bowl,nan,coco,Bowl,170670,nan,-1
+183,bowl,nan,coco,Bowl,452784,nan,-1
+184,bowl,nan,coco,Bowl,236721,nan,-1
+185,bowl,nan,coco,Bowl,209142,nan,-1
+186,bowl,nan,coco,Bowl,476787,nan,-1
+187,bowl,nan,coco,Bowl,350388,nan,-1
+188,bowl,nan,coco,Bowl,322895,nan,-1
+189,bowl,nan,coco,Bowl,66231,nan,-1
+190,bowl,nan,coco,Bowl,84664,nan,-1
+191,bowl,nan,coco,Bowl,3501,nan,-1
+192,bowl,nan,coco,Bowl,296634,nan,-1
+193,bowl,nan,coco,Bowl,405691,nan,-1
+194,bowl,nan,coco,Bowl,286908,nan,-1
+195,bowl,nan,coco,Bowl,546219,nan,-1
+196,bowl,nan,coco,Bowl,215072,nan,-1
+197,bowl,nan,coco,Bowl,318114,nan,-1
+198,bowl,nan,coco,Bowl,580294,nan,-1
+199,bowl,nan,coco,Bowl,363207,nan,-1
+200,bowl,nan,coco,Bowl,98839,nan,-1
+201,bowl,nan,coco,Bowl,300233,nan,-1
+202,bowl,nan,coco,Bowl,88269,nan,-1
+203,bowl,nan,coco,Bowl,308430,nan,-1
+204,bowl,nan,coco,Bowl,237517,nan,-1
+205,bowl,nan,coco,Bowl,50896,nan,-1
+206,bowl,nan,coco,Bowl,210520,nan,-1
+207,bowl,nan,coco,Bowl,460494,nan,-1
+208,bowl,nan,coco,Bowl,533206,nan,-1
+209,bowl,nan,coco,Bowl,445658,nan,-1
+210,bowl,nan,coco,Bowl,473821,nan,-1
+211,bowl,nan,coco,Bowl,99039,nan,-1
+212,bowl,nan,coco,Bowl,68833,nan,-1
+213,bowl,nan,coco,Bowl,98018,nan,-1
+214,bowl,nan,coco,Bowl,211120,nan,-1
+215,bowl,nan,coco,Bowl,465129,nan,-1
+216,bowl,nan,coco,Bowl,157418,nan,-1
+217,bowl,nan,coco,Bowl,224807,nan,-1
+218,bowl,nan,coco,Bowl,551660,nan,-1
+219,bowl,nan,coco,Bowl,99053,nan,-1
+220,bowl,nan,coco,Bowl,462576,nan,-1
+221,bowl,nan,coco,Bowl,123633,nan,-1
+222,bowl,nan,coco,Bowl,66771,nan,-1
+223,bowl,nan,coco,Bowl,300276,nan,-1
+224,bowl,nan,coco,Bowl,470773,nan,-1
+225,bowl,nan,coco,Bowl,173302,nan,-1
+226,bowl,nan,coco,Bowl,44279,nan,-1
+227,bowl,nan,coco,Bowl,36936,nan,-1
+228,bowl,nan,coco,Bowl,316666,nan,-1
+229,bowl,nan,coco,Bowl,397354,nan,-1
+230,bowl,nan,coco,Bowl,275198,nan,-1
+231,bowl,nan,coco,Bowl,96001,nan,-1
+232,bowl,nan,coco,Bowl,242946,nan,-1
+233,bowl,nan,coco,Bowl,52996,nan,-1
+234,bowl,nan,coco,Bowl,389381,nan,-1
+235,bowl,nan,coco,Bowl,558854,nan,-1
+236,bowl,nan,coco,Bowl,516871,nan,-1
+237,bowl,nan,coco,Bowl,425226,nan,-1
+238,bowl,nan,coco,Bowl,473869,nan,-1
+239,bowl,nan,coco,Bowl,136600,nan,-1
+240,bowl,nan,coco,Bowl,84241,nan,-1
+241,bowl,nan,coco,Bowl,91779,nan,-1
+242,bowl,nan,coco,Bowl,494869,nan,-1
+243,bowl,nan,coco,Bowl,233238,nan,-1
+244,bowl,nan,coco,Bowl,522007,nan,-1
+245,bowl,nan,coco,Bowl,352900,nan,-1
+246,bowl,nan,coco,Bowl,142620,nan,-1
+247,bowl,nan,coco,Bowl,215644,nan,-1
+248,bowl,nan,coco,Bowl,290081,nan,-1
+249,bowl,nan,coco,Bowl,312192,nan,-1
+250,bowl,nan,coco,Bowl,110884,nan,-1
+251,bowl,nan,coco,Bowl,193926,nan,-1
+252,bowl,nan,coco,Bowl,349480,nan,-1
+253,bowl,nan,coco,Bowl,410735,nan,-1
+254,bowl,nan,coco,Bowl,9914,nan,-1
+255,bowl,nan,coco,Bowl,273711,nan,-1
+256,bowl,nan,coco,Bowl,1425,nan,-1
+257,bowl,nan,coco,Bowl,554291,nan,-1
+258,bowl,nan,coco,Bowl,417632,nan,-1
+259,bowl,nan,coco,Bowl,395343,nan,-1
+260,bowl,nan,coco,Bowl,578871,nan,-1
+261,bowl,nan,coco,Bowl,163640,nan,-1
+262,bowl,nan,coco,Bowl,530146,nan,-1
+263,bowl,nan,coco,Bowl,496954,nan,-1
+264,bowl,nan,coco,Bowl,530061,nan,-1
+265,bowl,nan,coco,Bowl,562059,nan,-1
+266,bowl,nan,coco,Bowl,150417,nan,-1
+267,bowl,nan,coco,Bowl,434230,nan,-1
+268,bowl,nan,coco,Bowl,314182,nan,-1
+269,bowl,nan,coco,Bowl,543047,nan,-1
+270,bowl,nan,coco,Bowl,417608,nan,-1
+271,bowl,nan,coco,Bowl,266768,nan,-1
+272,bowl,nan,coco,Bowl,492362,nan,-1
+273,bowl,nan,coco,Bowl,397133,nan,-1
+274,bowl,nan,coco,Bowl,527695,nan,-1
+275,bowl,nan,coco,Bowl,396729,nan,-1
+276,bowl,nan,coco,Bowl,177489,nan,-1
+277,bowl,nan,coco,Bowl,356248,nan,-1
+278,bowl,nan,coco,Bowl,182611,nan,-1
+279,bowl,nan,coco,Bowl,231822,nan,-1
+280,bowl,nan,coco,Bowl,540502,nan,-1
+281,bowl,nan,coco,Bowl,304984,nan,-1
+282,bowl,nan,coco,Bowl,489305,nan,-1
+283,bowl,nan,coco,Bowl,322163,nan,-1
+284,bowl,nan,coco,Bowl,523100,nan,-1
+285,bowl,nan,coco,Bowl,450399,nan,-1
+286,bowl,nan,coco,Bowl,157390,nan,-1
+287,bowl,nan,coco,Bowl,529762,nan,-1
+288,bowl,nan,coco,Bowl,181753,nan,-1
+289,bowl,nan,coco,Bowl,33638,nan,-1
+290,bowl,nan,coco,Bowl,192871,nan,-1
+291,bowl,nan,coco,Bowl,404678,nan,-1
+292,bowl,nan,coco,Bowl,352618,nan,-1
+293,bowl,nan,coco,Bowl,91500,nan,-1
+294,bowl,nan,coco,Bowl,20333,nan,-1
+295,bowl,nan,coco,Bowl,135561,nan,-1
+296,bowl,nan,coco,Bowl,397681,nan,-1
+297,bowl,nan,coco,Bowl,290163,nan,-1
+298,bowl,nan,coco,Bowl,419653,nan,-1
+299,bowl,nan,coco,Bowl,9590,nan,-1
+300,bowl,nan,coco,Bowl,105335,nan,-1
+301,bowl,nan,coco,Bowl,351609,nan,-1
+302,bowl,nan,coco,Bowl,480122,nan,-1
+303,bowl,nan,coco,Bowl,194940,nan,-1
+304,bowl,nan,coco,Bowl,322429,nan,-1
+305,bowl,nan,coco,Bowl,92053,nan,-1
+306,bowl,nan,coco,Bowl,509824,nan,-1
+307,bowl,nan,coco,Bowl,521601,nan,-1
+308,bowl,nan,coco,Bowl,25986,nan,-1
+309,bowl,nan,coco,Bowl,15254,nan,-1
+310,bowl,nan,coco,Bowl,527750,nan,-1
+311,bowl,nan,coco,Bowl,435081,nan,-1
+312,bowl,nan,coco,Bowl,45550,nan,-1
+313,bowl,nan,coco,Bowl,110999,nan,-1
+314,bowl,nan,coco,Bowl,465806,nan,-1
+315,bowl,nan,coco,Bowl,322959,nan,-1
+316,bowl,nan,coco,Bowl,425361,nan,-1
+317,bowl,nan,coco,Bowl,258883,nan,-1
+318,bowl,nan,coco,Bowl,530836,nan,-1
+319,bowl,nan,coco,Bowl,229358,nan,-1
+320,bowl,nan,coco,Bowl,7574,nan,-1
+321,bowl,nan,coco,Bowl,60823,nan,-1
+322,bowl,nan,coco,Bowl,407960,nan,-1
+323,bowl,nan,coco,Bowl,125850,nan,-1
+324,bowl,nan,coco,Bowl,571804,nan,-1
+325,bowl,nan,coco,Bowl,482719,nan,-1
+326,bowl,nan,coco,Bowl,70048,nan,-1
+327,bowl,nan,coco,Bowl,512929,nan,-1
+328,bowl,nan,coco,Bowl,127394,nan,-1
+329,bowl,nan,coco,Bowl,60835,nan,-1
+330,bowl,nan,coco,Bowl,385029,nan,-1
+331,bowl,nan,coco,Bowl,523175,nan,-1
+332,bowl,nan,coco,Bowl,298396,nan,-1
+333,bowl,nan,coco,Bowl,402346,nan,-1
+334,bowl,nan,coco,Bowl,579655,nan,-1
+335,bowl,nan,coco,Bowl,156076,nan,-1
+336,bowl,nan,coco,Bowl,455597,nan,-1
+337,bowl,nan,coco,Bowl,175535,nan,-1
+338,bowl,nan,coco,Bowl,331817,nan,-1
+339,bowl,nan,coco,Bowl,369771,nan,-1
+340,bowl,nan,coco,Bowl,113589,nan,-1
+341,bowl,nan,coco,Bowl,31248,nan,-1
+342,bowl,nan,coco,Bowl,310200,nan,-1
+343,bowl,nan,coco,Bowl,136633,nan,-1
+344,bowl,nan,coco,Bowl,78266,nan,-1
+345,bowl,nan,coco,Bowl,496571,nan,-1
+346,bowl,nan,coco,Bowl,229311,nan,-1
+347,bowl,nan,coco,Bowl,326082,nan,-1
+348,bowl,nan,coco,Bowl,158660,nan,-1
+349,bowl,nan,coco,Bowl,213445,nan,-1
+350,bowl,nan,coco,Bowl,165831,nan,-1
+351,bowl,nan,coco,Bowl,360393,nan,-1
+352,bowl,nan,coco,Bowl,284106,nan,-1
+353,bowl,nan,coco,Bowl,407825,nan,-1
+354,bowl,nan,coco,Bowl,452084,nan,-1
+355,bowl,nan,coco,Bowl,294350,nan,-1
+356,bowl,nan,coco,Bowl,456143,nan,-1
+357,bowl,nan,coco,Bowl,552775,nan,-1
+358,bowl,nan,coco,Bowl,381587,nan,-1
+359,bowl,nan,coco,Bowl,184791,nan,-1
+360,bowl,nan,coco,Bowl,180751,nan,-1
+361,bowl,nan,coco,Bowl,338905,nan,-1
+362,bowl,nan,coco,Bowl,415194,nan,-1
+363,bowl,nan,coco,Bowl,95707,nan,-1
+364,bowl,nan,coco,Bowl,512476,nan,-1
+365,bowl,nan,coco,Bowl,91615,nan,-1
+366,bowl,nan,coco,Bowl,5600,nan,-1
+367,bowl,nan,coco,Bowl,74209,nan,-1
+368,bowl,nan,coco,Bowl,575970,nan,-1
+369,bowl,nan,coco,Bowl,535523,nan,-1
+370,bowl,nan,coco,Bowl,307172,nan,-1
+371,bowl,nan,coco,Bowl,50149,nan,-1
+372,bowl,nan,coco,Bowl,286182,nan,-1
+373,bowl,nan,coco,Bowl,15335,nan,-1
+374,bowl,nan,coco,Bowl,88040,nan,-1
+375,bowl,nan,coco,Bowl,231097,nan,-1
+376,bowl,nan,coco,Bowl,91654,nan,-1
+377,bowl,nan,coco,Bowl,472046,nan,-1
+378,bowl,nan,coco,Bowl,141821,nan,-1
+379,bowl,nan,coco,Bowl,419312,nan,-1
+380,bowl,nan,coco,Bowl,226984,nan,-1
+381,bowl,nan,coco,Bowl,305609,nan,-1
+382,bowl,nan,coco,Bowl,479732,nan,-1
+383,bowl,nan,coco,Bowl,540414,nan,-1
+384,bowl,nan,coco,Bowl,378873,nan,-1
+385,bowl,nan,coco,Bowl,248314,nan,-1
+386,bowl,nan,coco,Bowl,356347,nan,-1
+387,bowl,nan,coco,Bowl,139260,nan,-1
+388,bowl,nan,coco,Bowl,355325,nan,-1
+389,bowl,nan,coco,Bowl,579070,nan,-1
+390,knife,nan,coco,Butter Knife,491008,nan,-1
+391,knife,nan,coco,Butter Knife,376322,nan,-1
+392,knife,nan,coco,Butter Knife,329219,nan,-1
+393,knife,nan,coco,Butter Knife,166918,nan,-1
+394,knife,nan,coco,Butter Knife,311303,nan,-1
+395,knife,nan,coco,Butter Knife,25096,nan,-1
+396,knife,nan,coco,Butter Knife,378284,nan,-1
+397,knife,nan,coco,Butter Knife,189451,nan,-1
+398,knife,nan,coco,Butter Knife,253452,nan,-1
+399,knife,nan,coco,Butter Knife,62808,nan,-1
+400,knife,nan,coco,Butter Knife,40471,nan,-1
+401,knife,nan,coco,Butter Knife,166426,nan,-1
+402,knife,nan,coco,Butter Knife,172571,nan,-1
+403,knife,nan,coco,Butter Knife,337498,nan,-1
+404,knife,nan,coco,Butter Knife,2592,nan,-1
+405,knife,nan,coco,Butter Knife,462371,nan,-1
+406,knife,nan,coco,Butter Knife,181796,nan,-1
+407,knife,nan,coco,Butter Knife,331817,nan,-1
+408,knife,nan,coco,Butter Knife,466986,nan,-1
+409,knife,nan,coco,Butter Knife,174123,nan,-1
+410,knife,nan,coco,Butter Knife,27696,nan,-1
+411,knife,nan,coco,Butter Knife,47112,nan,-1
+412,knife,nan,coco,Butter Knife,356531,nan,-1
+413,knife,nan,coco,Butter Knife,130613,nan,-1
+414,knife,nan,coco,Butter Knife,536073,nan,-1
+415,knife,nan,coco,Butter Knife,113720,nan,-1
+416,knife,nan,coco,Butter Knife,277051,nan,-1
+417,knife,nan,coco,Butter Knife,43581,nan,-1
+418,knife,nan,coco,Butter Knife,520264,nan,-1
+419,knife,nan,coco,Butter Knife,160012,nan,-1
+420,knife,nan,coco,Butter Knife,335954,nan,-1
+421,knife,nan,coco,Butter Knife,64084,nan,-1
+422,knife,nan,coco,Butter Knife,422998,nan,-1
+423,knife,nan,coco,Butter Knife,226903,nan,-1
+424,knife,nan,coco,Butter Knife,210520,nan,-1
+425,knife,nan,coco,Butter Knife,116825,nan,-1
+426,knife,nan,coco,Butter Knife,377946,nan,-1
+427,knife,nan,coco,Butter Knife,199771,nan,-1
+428,knife,nan,coco,Butter Knife,191580,nan,-1
+429,knife,nan,coco,Butter Knife,186980,nan,-1
+430,knife,nan,coco,Butter Knife,398438,nan,-1
+431,knife,nan,coco,Butter Knife,231527,nan,-1
+432,knife,nan,coco,Butter Knife,2157,nan,-1
+433,knife,nan,coco,Butter Knife,210032,nan,-1
+434,knife,nan,coco,Butter Knife,484978,nan,-1
+435,knife,nan,coco,Butter Knife,287347,nan,-1
+436,knife,nan,coco,Butter Knife,416885,nan,-1
+437,knife,nan,coco,Butter Knife,156278,nan,-1
+438,knife,nan,coco,Butter Knife,209530,nan,-1
+439,knife,nan,coco,Butter Knife,447611,nan,-1
+440,knife,nan,coco,Butter Knife,143998,nan,-1
+441,knife,nan,coco,Butter Knife,144003,nan,-1
+442,knife,nan,coco,Butter Knife,352900,nan,-1
+443,knife,nan,coco,Butter Knife,419974,nan,-1
+444,knife,nan,coco,Butter Knife,437898,nan,-1
+445,knife,nan,coco,Butter Knife,18575,nan,-1
+446,knife,nan,coco,Butter Knife,227985,nan,-1
+447,knife,nan,coco,Butter Knife,363666,nan,-1
+448,knife,nan,coco,Butter Knife,334483,nan,-1
+449,knife,nan,coco,Butter Knife,167572,nan,-1
+450,knife,nan,coco,Butter Knife,301718,nan,-1
+451,knife,nan,coco,Butter Knife,320664,nan,-1
+452,knife,nan,coco,Butter Knife,483999,nan,-1
+453,knife,nan,coco,Butter Knife,45728,nan,-1
+454,knife,nan,coco,Butter Knife,163611,nan,-1
+455,knife,nan,coco,Butter Knife,260261,nan,-1
+456,knife,nan,coco,Butter Knife,226984,nan,-1
+457,knife,nan,coco,Butter Knife,476787,nan,-1
+458,knife,nan,coco,Butter Knife,171190,nan,-1
+459,knife,nan,coco,Butter Knife,66231,nan,-1
+460,knife,nan,coco,Butter Knife,9914,nan,-1
+461,knife,nan,coco,Butter Knife,394940,nan,-1
+462,knife,nan,coco,Butter Knife,214720,nan,-1
+463,knife,nan,coco,Butter Knife,153632,nan,-1
+464,knife,nan,coco,Butter Knife,347335,nan,-1
+465,knife,nan,coco,Butter Knife,18380,nan,-1
+466,knife,nan,coco,Butter Knife,460494,nan,-1
+467,knife,nan,coco,Butter Knife,189475,nan,-1
+468,knife,nan,coco,Butter Knife,260105,nan,-1
+469,knife,nan,coco,Butter Knife,127182,nan,-1
+470,knife,nan,coco,Butter Knife,533206,nan,-1
+471,knife,nan,coco,Butter Knife,292060,nan,-1
+472,knife,nan,coco,Butter Knife,104669,nan,-1
+473,knife,nan,coco,Butter Knife,99039,nan,-1
+474,knife,nan,coco,Butter Knife,561889,nan,-1
+475,knife,nan,coco,Butter Knife,530146,nan,-1
+476,knife,nan,coco,Butter Knife,439525,nan,-1
+477,knife,nan,coco,Butter Knife,15079,nan,-1
+478,knife,nan,coco,Butter Knife,158956,nan,-1
+479,knife,nan,coco,Butter Knife,402720,nan,-1
+480,knife,nan,coco,Butter Knife,458992,nan,-1
+481,knife,nan,coco,Butter Knife,470773,nan,-1
+482,knife,nan,coco,Butter Knife,209142,nan,-1
+483,knife,nan,coco,Butter Knife,44279,nan,-1
+484,knife,nan,coco,Butter Knife,275198,nan,-1
+485,knife,nan,coco,Butter Knife,513283,nan,-1
+486,knife,nan,coco,Butter Knife,52996,nan,-1
+487,knife,nan,coco,Butter Knife,572678,nan,-1
+488,knife,nan,coco,Butter Knife,58350,nan,-1
+489,knife,nan,coco,Butter Knife,92939,nan,-1
+490,knife,nan,coco,Butter Knife,48396,nan,-1
+491,knife,nan,coco,Butter Knife,91406,nan,-1
+492,knife,nan,coco,Butter Knife,177935,nan,-1
+493,knife,nan,coco,Butter Knife,529122,nan,-1
+494,knife,nan,coco,Butter Knife,434459,nan,-1
+495,knife,nan,coco,Butter Knife,142620,nan,-1
+496,knife,nan,coco,Butter Knife,12576,nan,-1
+497,knife,nan,coco,Butter Knife,263969,nan,-1
+498,knife,nan,coco,Butter Knife,7818,nan,-1
+499,knife,nan,coco,Butter Knife,249129,nan,-1
+500,knife,nan,coco,Butter Knife,108253,nan,-1
+501,knife,nan,coco,Butter Knife,17714,nan,-1
+502,knife,nan,coco,Butter Knife,359219,nan,-1
+503,knife,nan,coco,Butter Knife,544565,nan,-1
+504,knife,nan,coco,Butter Knife,552775,nan,-1
+505,knife,nan,coco,Butter Knife,7991,nan,-1
+506,knife,nan,coco,Butter Knife,189752,nan,-1
+507,knife,nan,coco,Butter Knife,173371,nan,-1
+508,knife,nan,coco,Butter Knife,276285,nan,-1
+509,knife,nan,coco,Butter Knife,473406,nan,-1
+510,knife,nan,coco,Butter Knife,374083,nan,-1
+511,knife,nan,coco,Butter Knife,173383,nan,-1
+512,knife,nan,coco,Butter Knife,81738,nan,-1
+513,knife,nan,coco,Butter Knife,397133,nan,-1
+514,knife,nan,coco,Butter Knife,482275,nan,-1
+515,knife,nan,coco,Butter Knife,231822,nan,-1
+516,knife,nan,coco,Butter Knife,10583,nan,-1
+517,knife,nan,coco,Butter Knife,495448,nan,-1
+518,knife,nan,coco,Butter Knife,286553,nan,-1
+519,knife,nan,coco,Butter Knife,140640,nan,-1
+520,knife,nan,coco,Butter Knife,226147,nan,-1
+521,knife,nan,coco,Butter Knife,177213,nan,-1
+522,knife,nan,coco,Butter Knife,223090,nan,-1
+523,knife,nan,coco,Butter Knife,480122,nan,-1
+524,knife,nan,coco,Butter Knife,2431,nan,-1
+525,knife,nan,coco,Butter Knife,568195,nan,-1
+526,knife,nan,coco,Butter Knife,31620,nan,-1
+527,knife,nan,coco,Butter Knife,435081,nan,-1
+528,knife,nan,coco,Butter Knife,470924,nan,-1
+529,knife,nan,coco,Butter Knife,250766,nan,-1
+530,knife,nan,coco,Butter Knife,322959,nan,-1
+531,knife,nan,coco,Butter Knife,284764,nan,-1
+532,knife,nan,coco,Butter Knife,425361,nan,-1
+533,knife,nan,coco,Butter Knife,256916,nan,-1
+534,knife,nan,coco,Butter Knife,92053,nan,-1
+535,knife,nan,coco,Butter Knife,110999,nan,-1
+536,knife,nan,coco,Butter Knife,559513,nan,-1
+537,knife,nan,coco,Butter Knife,298396,nan,-1
+538,knife,nan,coco,Butter Knife,240250,nan,-1
+539,knife,nan,coco,Butter Knife,458663,nan,-1
+540,knife,nan,coco,Butter Knife,546219,nan,-1
+541,knife,nan,coco,Butter Knife,156076,nan,-1
+542,knife,nan,coco,Butter Knife,414638,nan,-1
+543,knife,nan,coco,Butter Knife,175535,nan,-1
+544,knife,nan,coco,Butter Knife,287667,nan,-1
+545,knife,nan,coco,Butter Knife,297396,nan,-1
+546,knife,nan,coco,Butter Knife,146358,nan,-1
+547,knife,nan,coco,Butter Knife,153527,nan,-1
+548,knife,nan,coco,Butter Knife,78266,nan,-1
+549,knife,nan,coco,Butter Knife,496571,nan,-1
+550,knife,nan,coco,Butter Knife,468925,nan,-1
+551,knife,nan,coco,Butter Knife,517056,nan,-1
+552,knife,nan,coco,Butter Knife,350148,nan,-1
+553,knife,nan,coco,Butter Knife,376264,nan,-1
+554,knife,nan,coco,Butter Knife,305609,nan,-1
+555,knife,nan,coco,Butter Knife,173004,nan,-1
+556,knife,nan,coco,Butter Knife,237517,nan,-1
+557,knife,nan,coco,Butter Knife,290768,nan,-1
+558,knife,nan,coco,Butter Knife,276434,nan,-1
+559,knife,nan,coco,Butter Knife,485844,nan,-1
+560,knife,nan,coco,Butter Knife,350679,nan,-1
+561,knife,nan,coco,Butter Knife,338905,nan,-1
+562,knife,nan,coco,Butter Knife,95707,nan,-1
+563,knife,nan,coco,Butter Knife,349152,nan,-1
+564,knife,nan,coco,Butter Knife,156643,nan,-1
+565,knife,nan,coco,Butter Knife,336356,nan,-1
+566,knife,nan,coco,Butter Knife,88040,nan,-1
+567,knife,nan,coco,Butter Knife,116206,nan,-1
+568,knife,nan,coco,Butter Knife,419312,nan,-1
+569,knife,nan,coco,Butter Knife,318455,nan,-1
+570,knife,nan,coco,Butter Knife,35326,nan,-1
+571,chair,nan,coco,Chair,241668,nan,-1
+572,chair,nan,coco,Chair,311303,nan,-1
+573,chair,nan,coco,Chair,47112,nan,-1
+574,chair,nan,coco,Chair,8211,nan,-1
+575,chair,nan,coco,Chair,215072,nan,-1
+576,chair,nan,coco,Chair,530466,nan,-1
+577,chair,nan,coco,Chair,4134,nan,-1
+578,chair,nan,coco,Chair,555050,nan,-1
+579,chair,nan,coco,Chair,368684,nan,-1
+580,chair,nan,coco,Chair,403122,nan,-1
+581,chair,nan,coco,Chair,159791,nan,-1
+582,chair,nan,coco,Chair,188465,nan,-1
+583,chair,nan,coco,Chair,462904,nan,-1
+584,chair,nan,coco,Chair,34873,nan,-1
+585,chair,nan,coco,Chair,446522,nan,-1
+586,chair,nan,coco,Chair,407614,nan,-1
+587,chair,nan,coco,Chair,16451,nan,-1
+588,chair,nan,coco,Chair,537270,nan,-1
+589,chair,nan,coco,Chair,180296,nan,-1
+590,chair,nan,coco,Chair,20553,nan,-1
+591,chair,nan,coco,Chair,395343,nan,-1
+592,chair,nan,coco,Chair,231508,nan,-1
+593,chair,nan,coco,Chair,64868,nan,-1
+594,chair,nan,coco,Chair,268378,nan,-1
+595,chair,nan,coco,Chair,439994,nan,-1
+596,chair,nan,coco,Chair,79969,nan,-1
+597,chair,nan,coco,Chair,14439,nan,-1
+598,chair,nan,coco,Chair,411754,nan,-1
+599,chair,nan,coco,Chair,313454,nan,-1
+600,chair,nan,coco,Chair,163951,nan,-1
+601,chair,nan,coco,Chair,342128,nan,-1
+602,chair,nan,coco,Chair,133244,nan,-1
+603,chair,nan,coco,Chair,338624,nan,-1
+604,chair,nan,coco,Chair,473219,nan,-1
+605,chair,nan,coco,Chair,32901,nan,-1
+606,chair,nan,coco,Chair,419974,nan,-1
+607,chair,nan,coco,Chair,139,nan,-1
+608,chair,nan,coco,Chair,61584,nan,-1
+609,chair,nan,coco,Chair,196754,nan,-1
+610,chair,nan,coco,Chair,546964,nan,-1
+611,chair,nan,coco,Chair,473237,nan,-1
+612,chair,nan,coco,Chair,174231,nan,-1
+613,chair,nan,coco,Chair,440475,nan,-1
+614,chair,nan,coco,Chair,231580,nan,-1
+615,chair,nan,coco,Chair,192670,nan,-1
+616,chair,nan,coco,Chair,194724,nan,-1
+617,chair,nan,coco,Chair,536947,nan,-1
+618,chair,nan,coco,Chair,336053,nan,-1
+619,chair,nan,coco,Chair,190648,nan,-1
+620,chair,nan,coco,Chair,442323,nan,-1
+621,chair,nan,coco,Chair,67616,nan,-1
+622,chair,nan,coco,Chair,217285,nan,-1
+623,chair,nan,coco,Chair,374982,nan,-1
+624,chair,nan,coco,Chair,125129,nan,-1
+625,chair,nan,coco,Chair,24610,nan,-1
+626,chair,nan,coco,Chair,59598,nan,-1
+627,chair,nan,coco,Chair,340175,nan,-1
+628,chair,nan,coco,Chair,461009,nan,-1
+629,chair,nan,coco,Chair,80932,nan,-1
+630,chair,nan,coco,Chair,420069,nan,-1
+631,chair,nan,coco,Chair,467176,nan,-1
+632,chair,nan,coco,Chair,239857,nan,-1
+633,chair,nan,coco,Chair,428280,nan,-1
+634,chair,nan,coco,Chair,264441,nan,-1
+635,chair,nan,coco,Chair,397354,nan,-1
+636,chair,nan,coco,Chair,274687,nan,-1
+637,chair,nan,coco,Chair,540928,nan,-1
+638,chair,nan,coco,Chair,82180,nan,-1
+639,chair,nan,coco,Chair,14038,nan,-1
+640,chair,nan,coco,Chair,180487,nan,-1
+641,chair,nan,coco,Chair,504074,nan,-1
+642,chair,nan,coco,Chair,160012,nan,-1
+643,chair,nan,coco,Chair,563470,nan,-1
+644,chair,nan,coco,Chair,194832,nan,-1
+645,chair,nan,coco,Chair,166166,nan,-1
+646,chair,nan,coco,Chair,532761,nan,-1
+647,chair,nan,coco,Chair,229659,nan,-1
+648,chair,nan,coco,Chair,190753,nan,-1
+649,chair,nan,coco,Chair,540962,nan,-1
+650,chair,nan,coco,Chair,366884,nan,-1
+651,chair,nan,coco,Chair,127270,nan,-1
+652,chair,nan,coco,Chair,486040,nan,-1
+653,chair,nan,coco,Chair,338219,nan,-1
+654,chair,nan,coco,Chair,162092,nan,-1
+655,chair,nan,coco,Chair,434479,nan,-1
+656,chair,nan,coco,Chair,194875,nan,-1
+657,chair,nan,coco,Chair,235836,nan,-1
+658,chair,nan,coco,Chair,571718,nan,-1
+659,chair,nan,coco,Chair,543047,nan,-1
+660,chair,nan,coco,Chair,74058,nan,-1
+661,chair,nan,coco,Chair,123213,nan,-1
+662,chair,nan,coco,Chair,113720,nan,-1
+663,chair,nan,coco,Chair,569059,nan,-1
+664,chair,nan,coco,Chair,97337,nan,-1
+665,chair,nan,coco,Chair,78170,nan,-1
+666,chair,nan,coco,Chair,491867,nan,-1
+667,chair,nan,coco,Chair,519569,nan,-1
+668,chair,nan,coco,Chair,416104,nan,-1
+669,chair,nan,coco,Chair,22892,nan,-1
+670,chair,nan,coco,Chair,301421,nan,-1
+671,chair,nan,coco,Chair,467315,nan,-1
+672,chair,nan,coco,Chair,457078,nan,-1
+673,chair,nan,coco,Chair,579970,nan,-1
+674,chair,nan,coco,Chair,436617,nan,-1
+675,chair,nan,coco,Chair,84362,nan,-1
+676,chair,nan,coco,Chair,240023,nan,-1
+677,chair,nan,coco,Chair,4495,nan,-1
+678,chair,nan,coco,Chair,444142,nan,-1
+679,chair,nan,coco,Chair,231831,nan,-1
+680,chair,nan,coco,Chair,383386,nan,-1
+681,chair,nan,coco,Chair,237984,nan,-1
+682,chair,nan,coco,Chair,127394,nan,-1
+683,chair,nan,coco,Chair,139684,nan,-1
+684,chair,nan,coco,Chair,532901,nan,-1
+685,chair,nan,coco,Chair,213422,nan,-1
+686,chair,nan,coco,Chair,356424,nan,-1
+687,chair,nan,coco,Chair,206579,nan,-1
+688,chair,nan,coco,Chair,395701,nan,-1
+689,chair,nan,coco,Chair,559543,nan,-1
+690,chair,nan,coco,Chair,319935,nan,-1
+691,chair,nan,coco,Chair,326082,nan,-1
+692,chair,nan,coco,Chair,541123,nan,-1
+693,chair,nan,coco,Chair,379332,nan,-1
+694,chair,nan,coco,Chair,213445,nan,-1
+695,chair,nan,coco,Chair,231879,nan,-1
+696,chair,nan,coco,Chair,571857,nan,-1
+697,chair,nan,coco,Chair,405970,nan,-1
+698,chair,nan,coco,Chair,520659,nan,-1
+699,chair,nan,coco,Chair,80340,nan,-1
+700,chair,nan,coco,Chair,229849,nan,-1
+701,chair,nan,coco,Chair,74209,nan,-1
+702,chair,nan,coco,Chair,575970,nan,-1
+703,chair,nan,coco,Chair,336356,nan,-1
+704,chair,nan,coco,Chair,367082,nan,-1
+705,chair,nan,coco,Chair,39405,nan,-1
+706,chair,nan,coco,Chair,500211,nan,-1
+707,chair,nan,coco,Chair,500478,nan,-1
+708,chair,nan,coco,Chair,66038,nan,-1
+709,chair,nan,coco,Chair,367095,nan,-1
+710,chair,nan,coco,Chair,248314,nan,-1
+711,chair,nan,coco,Chair,450303,nan,-1
+712,chair,nan,coco,Chair,84477,nan,-1
+713,chair,nan,coco,Chair,25096,nan,-1
+714,chair,nan,coco,Chair,221708,nan,-1
+715,chair,nan,coco,Chair,31248,nan,-1
+716,chair,nan,coco,Chair,166426,nan,-1
+717,chair,nan,coco,Chair,277020,nan,-1
+718,chair,nan,coco,Chair,530975,nan,-1
+719,chair,nan,coco,Chair,443426,nan,-1
+720,chair,nan,coco,Chair,246308,nan,-1
+721,chair,nan,coco,Chair,303653,nan,-1
+722,chair,nan,coco,Chair,115245,nan,-1
+723,chair,nan,coco,Chair,328238,nan,-1
+724,chair,nan,coco,Chair,172595,nan,-1
+725,chair,nan,coco,Chair,277051,nan,-1
+726,chair,nan,coco,Chair,39484,nan,-1
+727,chair,nan,coco,Chair,16958,nan,-1
+728,chair,nan,coco,Chair,282037,nan,-1
+729,chair,nan,coco,Chair,31296,nan,-1
+730,chair,nan,coco,Chair,492110,nan,-1
+731,chair,nan,coco,Chair,107087,nan,-1
+732,chair,nan,coco,Chair,78420,nan,-1
+733,chair,nan,coco,Chair,416343,nan,-1
+734,chair,nan,coco,Chair,297562,nan,-1
+735,chair,nan,coco,Chair,303713,nan,-1
+736,chair,nan,coco,Chair,151820,nan,-1
+737,chair,nan,coco,Chair,186980,nan,-1
+738,chair,nan,coco,Chair,419601,nan,-1
+739,chair,nan,coco,Chair,326248,nan,-1
+740,chair,nan,coco,Chair,494188,nan,-1
+741,chair,nan,coco,Chair,518770,nan,-1
+742,chair,nan,coco,Chair,156278,nan,-1
+743,chair,nan,coco,Chair,632,nan,-1
+744,chair,nan,coco,Chair,240250,nan,-1
+745,chair,nan,coco,Chair,144003,nan,-1
+746,chair,nan,coco,Chair,233238,nan,-1
+747,chair,nan,coco,Chair,375430,nan,-1
+748,chair,nan,coco,Chair,522889,nan,-1
+749,chair,nan,coco,Chair,488075,nan,-1
+750,chair,nan,coco,Chair,266892,nan,-1
+751,chair,nan,coco,Chair,168593,nan,-1
+752,chair,nan,coco,Chair,481390,nan,-1
+753,chair,nan,coco,Chair,365208,nan,-1
+754,chair,nan,coco,Chair,47769,nan,-1
+755,chair,nan,coco,Chair,369310,nan,-1
+756,chair,nan,coco,Chair,483999,nan,-1
+757,chair,nan,coco,Chair,564336,nan,-1
+758,chair,nan,coco,Chair,121506,nan,-1
+759,chair,nan,coco,Chair,563882,nan,-1
+760,chair,nan,coco,Chair,170670,nan,-1
+761,chair,nan,coco,Chair,76468,nan,-1
+762,chair,nan,coco,Chair,453302,nan,-1
+763,chair,nan,coco,Chair,361147,nan,-1
+764,chair,nan,coco,Chair,135872,nan,-1
+765,chair,nan,coco,Chair,447169,nan,-1
+766,chair,nan,coco,Chair,205514,nan,-1
+767,chair,nan,coco,Chair,277197,nan,-1
+768,chair,nan,coco,Chair,150224,nan,-1
+769,chair,nan,coco,Chair,201426,nan,-1
+770,chair,nan,coco,Chair,156372,nan,-1
+771,chair,nan,coco,Chair,473821,nan,-1
+772,chair,nan,coco,Chair,559842,nan,-1
+773,chair,nan,coco,Chair,297084,nan,-1
+774,chair,nan,coco,Chair,328430,nan,-1
+775,chair,nan,coco,Chair,123633,nan,-1
+776,chair,nan,coco,Chair,117492,nan,-1
+777,chair,nan,coco,Chair,154358,nan,-1
+778,chair,nan,coco,Chair,485844,nan,-1
+779,chair,nan,coco,Chair,275198,nan,-1
+780,chair,nan,coco,Chair,76547,nan,-1
+781,chair,nan,coco,Chair,82696,nan,-1
+782,chair,nan,coco,Chair,92939,nan,-1
+783,chair,nan,coco,Chair,271116,nan,-1
+784,chair,nan,coco,Chair,424721,nan,-1
+785,chair,nan,coco,Chair,416534,nan,-1
+786,chair,nan,coco,Chair,367386,nan,-1
+787,chair,nan,coco,Chair,525083,nan,-1
+788,chair,nan,coco,Chair,189213,nan,-1
+789,chair,nan,coco,Chair,17182,nan,-1
+790,chair,nan,coco,Chair,322352,nan,-1
+791,chair,nan,coco,Chair,25386,nan,-1
+792,chair,nan,coco,Chair,426795,nan,-1
+793,chair,nan,coco,Chair,140076,nan,-1
+794,chair,nan,coco,Chair,228144,nan,-1
+795,chair,nan,coco,Chair,516916,nan,-1
+796,chair,nan,coco,Chair,580410,nan,-1
+797,chair,nan,coco,Chair,435003,nan,-1
+798,chair,nan,coco,Chair,281409,nan,-1
+799,chair,nan,coco,Chair,428867,nan,-1
+800,chair,nan,coco,Chair,213830,nan,-1
+801,chair,nan,coco,Chair,238410,nan,-1
+802,chair,nan,coco,Chair,125778,nan,-1
+803,chair,nan,coco,Chair,506707,nan,-1
+804,chair,nan,coco,Chair,471893,nan,-1
+805,chair,nan,coco,Chair,346968,nan,-1
+806,chair,nan,coco,Chair,344621,nan,-1
+807,chair,nan,coco,Chair,383838,nan,-1
+808,chair,nan,coco,Chair,35682,nan,-1
+809,chair,nan,coco,Chair,226147,nan,-1
+810,chair,nan,coco,Chair,187236,nan,-1
+811,chair,nan,coco,Chair,286182,nan,-1
+812,chair,nan,coco,Chair,37740,nan,-1
+813,chair,nan,coco,Chair,82807,nan,-1
+814,chair,nan,coco,Chair,480122,nan,-1
+815,chair,nan,coco,Chair,170474,nan,-1
+816,chair,nan,coco,Chair,189310,nan,-1
+817,chair,nan,coco,Chair,410496,nan,-1
+818,chair,nan,coco,Chair,208363,nan,-1
+819,chair,nan,coco,Chair,31620,nan,-1
+820,chair,nan,coco,Chair,435081,nan,-1
+821,chair,nan,coco,Chair,236426,nan,-1
+822,chair,nan,coco,Chair,459662,nan,-1
+823,chair,nan,coco,Chair,41872,nan,-1
+824,chair,nan,coco,Chair,150417,nan,-1
+825,chair,nan,coco,Chair,256916,nan,-1
+826,chair,nan,coco,Chair,74646,nan,-1
+827,chair,nan,coco,Chair,29596,nan,-1
+828,chair,nan,coco,Chair,465822,nan,-1
+829,chair,nan,coco,Chair,441247,nan,-1
+830,chair,nan,coco,Chair,293804,nan,-1
+831,chair,nan,coco,Chair,201646,nan,-1
+832,chair,nan,coco,Chair,417608,nan,-1
+833,chair,nan,coco,Chair,422836,nan,-1
+834,chair,nan,coco,Chair,100510,nan,-1
+835,chair,nan,coco,Chair,146358,nan,-1
+836,chair,nan,coco,Chair,471991,nan,-1
+837,chair,nan,coco,Chair,146363,nan,-1
+838,chair,nan,coco,Chair,517056,nan,-1
+839,chair,nan,coco,Chair,345027,nan,-1
+840,chair,nan,coco,Chair,578500,nan,-1
+841,chair,nan,coco,Chair,438774,nan,-1
+842,chair,nan,coco,Chair,173004,nan,-1
+843,chair,nan,coco,Chair,385997,nan,-1
+844,chair,nan,coco,Chair,302030,nan,-1
+845,chair,nan,coco,Chair,433103,nan,-1
+846,chair,nan,coco,Chair,453584,nan,-1
+847,chair,nan,coco,Chair,414673,nan,-1
+848,chair,nan,coco,Chair,89045,nan,-1
+849,chair,nan,coco,Chair,181753,nan,-1
+850,chair,nan,coco,Chair,338905,nan,-1
+851,chair,nan,coco,Chair,306139,nan,-1
+852,chair,nan,coco,Chair,85157,nan,-1
+853,chair,nan,coco,Chair,556000,nan,-1
+854,chair,nan,coco,Chair,293858,nan,-1
+855,chair,nan,coco,Chair,156643,nan,-1
+856,chair,nan,coco,Chair,207844,nan,-1
+857,chair,nan,coco,Chair,19432,nan,-1
+858,chair,nan,coco,Chair,261097,nan,-1
+859,chair,nan,coco,Chair,218091,nan,-1
+860,chair,nan,coco,Chair,74733,nan,-1
+861,chair,nan,coco,Chair,472046,nan,-1
+862,chair,nan,coco,Chair,578545,nan,-1
+863,chair,nan,coco,Chair,451571,nan,-1
+864,chair,nan,coco,Chair,484351,nan,-1
+865,chair,nan,coco,Chair,25603,nan,-1
+866,chair,nan,coco,Chair,515077,nan,-1
+867,chair,nan,coco,Chair,435208,nan,-1
+868,chair,nan,coco,Chair,273420,nan,-1
+869,chair,nan,coco,Chair,482319,nan,-1
+870,chair,nan,coco,Chair,513041,nan,-1
+871,chair,nan,coco,Chair,554002,nan,-1
+872,chair,nan,coco,Chair,39956,nan,-1
+873,chair,nan,coco,Chair,286553,nan,-1
+874,chair,nan,coco,Chair,158744,nan,-1
+875,chair,nan,coco,Chair,146457,nan,-1
+876,chair,nan,coco,Chair,410650,nan,-1
+877,chair,nan,coco,Chair,60449,nan,-1
+878,chair,nan,coco,Chair,558114,nan,-1
+879,chair,nan,coco,Chair,189475,nan,-1
+880,chair,nan,coco,Chair,44068,nan,-1
+881,chair,nan,coco,Chair,332845,nan,-1
+882,chair,nan,coco,Chair,379476,nan,-1
+883,chair,nan,coco,Chair,484404,nan,-1
+884,chair,nan,coco,Chair,506933,nan,-1
+885,chair,nan,coco,Chair,535608,nan,-1
+886,chair,nan,coco,Chair,382009,nan,-1
+887,chair,nan,coco,Chair,257084,nan,-1
+888,chair,nan,coco,Chair,341058,nan,-1
+889,chair,nan,coco,Chair,527427,nan,-1
+890,chair,nan,coco,Chair,537672,nan,-1
+891,chair,nan,coco,Chair,259597,nan,-1
+892,chair,nan,coco,Chair,570456,nan,-1
+893,chair,nan,coco,Chair,453722,nan,-1
+894,chair,nan,coco,Chair,60507,nan,-1
+895,chair,nan,coco,Chair,191580,nan,-1
+896,chair,nan,coco,Chair,183391,nan,-1
+897,chair,nan,coco,Chair,160864,nan,-1
+898,chair,nan,coco,Chair,244833,nan,-1
+899,chair,nan,coco,Chair,441442,nan,-1
+900,chair,nan,coco,Chair,570471,nan,-1
+901,chair,nan,coco,Chair,210032,nan,-1
+902,chair,nan,coco,Chair,347254,nan,-1
+903,chair,nan,coco,Chair,449661,nan,-1
+904,chair,nan,coco,Chair,571313,nan,-1
+905,chair,nan,coco,Chair,363666,nan,-1
+906,chair,nan,coco,Chair,40083,nan,-1
+907,chair,nan,coco,Chair,128148,nan,-1
+908,chair,nan,coco,Chair,50326,nan,-1
+909,chair,nan,coco,Chair,534041,nan,-1
+910,chair,nan,coco,Chair,51738,nan,-1
+911,chair,nan,coco,Chair,136355,nan,-1
+912,chair,nan,coco,Chair,345252,nan,-1
+913,chair,nan,coco,Chair,81061,nan,-1
+914,chair,nan,coco,Chair,93353,nan,-1
+915,chair,nan,coco,Chair,195754,nan,-1
+916,chair,nan,coco,Chair,382125,nan,-1
+917,chair,nan,coco,Chair,210099,nan,-1
+918,chair,nan,coco,Chair,171190,nan,-1
+919,chair,nan,coco,Chair,246968,nan,-1
+920,chair,nan,coco,Chair,126137,nan,-1
+921,chair,nan,coco,Chair,52413,nan,-1
+922,chair,nan,coco,Chair,122046,nan,-1
+923,chair,nan,coco,Chair,404678,nan,-1
+924,chair,nan,coco,Chair,507081,nan,-1
+925,chair,nan,coco,Chair,50380,nan,-1
+926,chair,nan,coco,Chair,466125,nan,-1
+927,chair,nan,coco,Chair,537812,nan,-1
+928,chair,nan,coco,Chair,325838,nan,-1
+929,chair,nan,coco,Chair,492758,nan,-1
+930,chair,nan,coco,Chair,279774,nan,-1
+931,chair,nan,coco,Chair,98853,nan,-1
+932,chair,nan,coco,Chair,68833,nan,-1
+933,chair,nan,coco,Chair,83172,nan,-1
+934,chair,nan,coco,Chair,224807,nan,-1
+935,chair,nan,coco,Chair,158956,nan,-1
+936,chair,nan,coco,Chair,396526,nan,-1
+937,chair,nan,coco,Chair,292082,nan,-1
+938,chair,nan,coco,Chair,300276,nan,-1
+939,chair,nan,coco,Chair,173302,nan,-1
+940,chair,nan,coco,Chair,156924,nan,-1
+941,chair,nan,coco,Chair,93437,nan,-1
+942,chair,nan,coco,Chair,410880,nan,-1
+943,chair,nan,coco,Chair,455937,nan,-1
+944,chair,nan,coco,Chair,242946,nan,-1
+945,chair,nan,coco,Chair,425221,nan,-1
+946,chair,nan,coco,Chair,572678,nan,-1
+947,chair,nan,coco,Chair,568584,nan,-1
+948,chair,nan,coco,Chair,48396,nan,-1
+949,chair,nan,coco,Chair,91406,nan,-1
+950,chair,nan,coco,Chair,460333,nan,-1
+951,chair,nan,coco,Chair,142620,nan,-1
+952,chair,nan,coco,Chair,296222,nan,-1
+953,chair,nan,coco,Chair,29984,nan,-1
+954,chair,nan,coco,Chair,89648,nan,-1
+955,chair,nan,coco,Chair,275749,nan,-1
+956,chair,nan,coco,Chair,296231,nan,-1
+957,chair,nan,coco,Chair,249129,nan,-1
+958,chair,nan,coco,Chair,351530,nan,-1
+959,chair,nan,coco,Chair,273711,nan,-1
+960,chair,nan,coco,Chair,386352,nan,-1
+961,chair,nan,coco,Chair,554291,nan,-1
+962,chair,nan,coco,Chair,138550,nan,-1
+963,chair,nan,coco,Chair,578871,nan,-1
+964,chair,nan,coco,Chair,189752,nan,-1
+965,chair,nan,coco,Chair,539962,nan,-1
+966,chair,nan,coco,Chair,416991,nan,-1
+967,chair,nan,coco,Chair,363840,nan,-1
+968,chair,nan,coco,Chair,494913,nan,-1
+969,chair,nan,coco,Chair,158945,nan,-1
+970,chair,nan,coco,Chair,54605,nan,-1
+971,chair,nan,coco,Chair,195918,nan,-1
+972,chair,nan,coco,Chair,189775,nan,-1
+973,chair,nan,coco,Chair,177489,nan,-1
+974,chair,nan,coco,Chair,551822,nan,-1
+975,chair,nan,coco,Chair,187734,nan,-1
+976,chair,nan,coco,Chair,62808,nan,-1
+977,chair,nan,coco,Chair,13659,nan,-1
+978,chair,nan,coco,Chair,54628,nan,-1
+979,chair,nan,coco,Chair,37777,nan,-1
+980,chair,nan,coco,Chair,91500,nan,-1
+981,chair,nan,coco,Chair,213224,nan,-1
+982,chair,nan,coco,Chair,236914,nan,-1
+983,chair,nan,coco,Chair,290163,nan,-1
+984,chair,nan,coco,Chair,109118,nan,-1
+985,chair,nan,coco,Chair,9590,nan,-1
+986,chair,nan,coco,Chair,464251,nan,-1
+987,chair,nan,coco,Chair,189820,nan,-1
+988,chair,nan,coco,Chair,114049,nan,-1
+989,chair,nan,coco,Chair,57238,nan,-1
+990,chair,nan,coco,Chair,568710,nan,-1
+991,chair,nan,coco,Chair,499266,nan,-1
+992,chair,nan,coco,Chair,425361,nan,-1
+993,chair,nan,coco,Chair,298396,nan,-1
+994,chair,nan,coco,Chair,482719,nan,-1
+995,chair,nan,coco,Chair,183716,nan,-1
+996,chair,nan,coco,Chair,546219,nan,-1
+997,chair,nan,coco,Chair,216497,nan,-1
+998,chair,nan,coco,Chair,153011,nan,-1
+999,chair,nan,coco,Chair,333237,nan,-1
+1000,chair,nan,coco,Chair,179642,nan,-1
+1001,chair,nan,coco,Chair,242934,nan,-1
+1002,chair,nan,coco,Chair,185802,nan,-1
+1003,chair,nan,coco,Chair,415194,nan,-1
+1004,chair,nan,coco,Chair,99810,nan,-1
+1005,chair,nan,coco,Chair,60899,nan,-1
+1006,chair,nan,coco,Chair,464358,nan,-1
+1007,chair,nan,coco,Chair,17899,nan,-1
+1008,chair,nan,coco,Chair,568814,nan,-1
+1009,chair,nan,coco,Chair,116208,nan,-1
+1010,chair,nan,coco,Chair,376307,nan,-1
+1011,chair,nan,coco,Chair,521717,nan,-1
+1012,chair,nan,coco,Chair,519764,nan,-1
+1013,chair,nan,coco,Chair,579070,nan,-1
+1014,chair,nan,coco,Chair,491008,nan,-1
+1015,chair,nan,coco,Chair,30213,nan,-1
+1016,chair,nan,coco,Chair,415238,nan,-1
+1017,chair,nan,coco,Chair,488673,nan,-1
+1018,chair,nan,coco,Chair,195842,nan,-1
+1019,chair,nan,coco,Chair,384527,nan,-1
+1020,chair,nan,coco,Chair,468501,nan,-1
+1021,chair,nan,coco,Chair,368900,nan,-1
+1022,chair,nan,coco,Chair,42528,nan,-1
+1023,chair,nan,coco,Chair,11813,nan,-1
+1024,chair,nan,coco,Chair,340894,nan,-1
+1025,chair,nan,coco,Chair,333745,nan,-1
+1026,chair,nan,coco,Chair,376365,nan,-1
+1027,chair,nan,coco,Chair,255536,nan,-1
+1028,chair,nan,coco,Chair,429623,nan,-1
+1029,chair,nan,coco,Chair,434459,nan,-1
+1030,chair,nan,coco,Chair,366141,nan,-1
+1031,chair,nan,coco,Chair,351810,nan,-1
+1032,chair,nan,coco,Chair,233033,nan,-1
+1033,chair,nan,coco,Chair,448076,nan,-1
+1034,chair,nan,coco,Chair,32334,nan,-1
+1035,chair,nan,coco,Chair,323151,nan,-1
+1036,chair,nan,coco,Chair,77396,nan,-1
+1037,chair,nan,coco,Chair,276055,nan,-1
+1038,chair,nan,coco,Chair,357978,nan,-1
+1039,chair,nan,coco,Chair,13923,nan,-1
+1040,chair,nan,coco,Chair,472678,nan,-1
+1041,chair,nan,coco,Chair,329319,nan,-1
+1042,chair,nan,coco,Chair,69224,nan,-1
+1043,chair,nan,coco,Chair,259690,nan,-1
+1044,chair,nan,coco,Chair,269932,nan,-1
+1045,chair,nan,coco,Chair,91779,nan,-1
+1046,chair,nan,coco,Chair,7818,nan,-1
+1047,chair,nan,coco,Chair,50828,nan,-1
+1048,chair,nan,coco,Chair,530061,nan,-1
+1049,chair,nan,coco,Chair,36494,nan,-1
+1050,chair,nan,coco,Chair,167572,nan,-1
+1051,chair,nan,coco,Chair,513688,nan,-1
+1052,chair,nan,coco,Chair,555972,nan,-1
+1053,chair,nan,coco,Chair,363461,nan,-1
+1054,chair,nan,coco,Chair,482978,nan,-1
+1055,chair,nan,coco,Chair,545826,nan,-1
+1056,chair,nan,coco,Chair,573094,nan,-1
+1057,chair,nan,coco,Chair,480936,nan,-1
+1058,chair,nan,coco,Chair,129492,nan,-1
+1059,chair,nan,coco,Chair,353970,nan,-1
+1060,chair,nan,coco,Chair,179898,nan,-1
+1061,chair,nan,coco,Chair,140987,nan,-1
+1062,chair,nan,coco,Chair,132796,nan,-1
+1063,chair,nan,coco,Chair,321214,nan,-1
+1064,chair,nan,coco,Chair,214720,nan,-1
+1065,chair,nan,coco,Chair,177861,nan,-1
+1066,chair,nan,coco,Chair,517832,nan,-1
+1067,chair,nan,coco,Chair,18380,nan,-1
+1068,chair,nan,coco,Chair,289741,nan,-1
+1069,chair,nan,coco,Chair,491216,nan,-1
+1070,chair,nan,coco,Chair,569976,nan,-1
+1071,chair,nan,coco,Chair,136915,nan,-1
+1072,chair,nan,coco,Chair,223182,nan,-1
+1073,chair,nan,coco,Chair,239318,nan,-1
+1074,chair,nan,coco,Chair,116439,nan,-1
+1075,chair,nan,coco,Chair,489764,nan,-1
+1076,chair,nan,coco,Chair,159458,nan,-1
+1077,chair,nan,coco,Chair,325347,nan,-1
+1078,chair,nan,coco,Chair,474854,nan,-1
+1079,chair,nan,coco,Chair,508730,nan,-1
+1080,chair,nan,coco,Chair,171757,nan,-1
+1081,chair,nan,coco,Chair,388846,nan,-1
+1082,chair,nan,coco,Chair,329455,nan,-1
+1083,chair,nan,coco,Chair,372466,nan,-1
+1084,chair,nan,coco,Chair,124659,nan,-1
+1085,chair,nan,coco,Chair,515828,nan,-1
+1086,chair,nan,coco,Chair,112378,nan,-1
+1087,chair,nan,coco,Chair,106235,nan,-1
+1088,chair,nan,coco,Chair,116479,nan,-1
+1089,chair,nan,coco,Chair,509699,nan,-1
+1090,chair,nan,coco,Chair,454404,nan,-1
+1091,chair,nan,coco,Chair,65288,nan,-1
+1092,chair,nan,coco,Chair,18193,nan,-1
+1093,chair,nan,coco,Chair,462614,nan,-1
+1094,chair,nan,coco,Chair,21465,nan,-1
+1095,chair,nan,coco,Chair,190236,nan,-1
+1096,chair,nan,coco,Chair,261318,nan,-1
+1097,chair,nan,coco,Chair,313130,nan,-1
+1098,chair,nan,coco,Chair,276285,nan,-1
+1099,chair,nan,coco,Chair,419653,nan,-1
+1100,chair,nan,coco,Chair,288584,nan,-1
+1101,chair,nan,coco,Chair,535523,nan,-1
+1102,chair,nan,coco,Chair,540502,nan,-1
+1103,chair,nan,coco,Chair,12120,nan,-1
+1104,chair,nan,coco,Chair,27620,nan,-1
+1105,chair,nan,coco,Chair,75612,nan,-1
+1106,chair,nan,coco,Chair,386912,nan,-1
+1107,chair,nan,coco,Chair,26465,nan,-1
+1108,chair,nan,coco,Chair,163682,nan,-1
+1109,chair,nan,coco,Chair,10092,nan,-1
+1110,chair,nan,coco,Chair,420840,nan,-1
+1111,chair,nan,coco,Chair,397303,nan,-1
+1112,chair,nan,coco,Chair,16249,nan,-1
+1113,chair,nan,coco,Chair,180101,nan,-1
+1114,chair,nan,coco,Chair,54593,nan,-1
+1115,chair,nan,coco,Chair,319369,nan,-1
+1116,chair,nan,coco,Chair,460683,nan,-1
+1117,chair,nan,coco,Chair,470924,nan,-1
+1118,chair,nan,coco,Chair,57232,nan,-1
+1119,chair,nan,coco,Chair,232088,nan,-1
+1120,chair,nan,coco,Chair,14226,nan,-1
+1121,chair,nan,coco,Chair,106389,nan,-1
+1122,chair,nan,coco,Chair,479126,nan,-1
+1123,chair,nan,coco,Chair,356248,nan,-1
+1124,chair,nan,coco,Chair,458663,nan,-1
+1125,chair,nan,coco,Chair,327601,nan,-1
+1126,chair,nan,coco,Chair,371699,nan,-1
+1127,chair,nan,coco,Chair,153527,nan,-1
+1128,chair,nan,coco,Chair,92091,nan,-1
+1129,chair,nan,coco,Chair,497599,nan,-1
+1130,chair,nan,coco,Chair,350148,nan,-1
+1131,chair,nan,coco,Chair,1993,nan,-1
+1132,chair,nan,coco,Chair,483667,nan,-1
+1133,chair,nan,coco,Chair,333772,nan,-1
+1134,chair,nan,coco,Chair,237517,nan,-1
+1135,chair,nan,coco,Chair,67534,nan,-1
+1136,chair,nan,coco,Chair,290771,nan,-1
+1137,chair,nan,coco,Chair,147415,nan,-1
+1138,chair,nan,coco,Chair,322895,nan,-1
+1139,chair,nan,coco,Chair,427997,nan,-1
+1140,chair,nan,coco,Chair,415716,nan,-1
+1141,chair,nan,coco,Chair,493905,nan,-1
+1142,chair,nan,coco,Chair,491497,nan,-1
+1143,chair,nan,coco,Chair,61418,nan,-1
+1144,chair,nan,coco,Chair,36844,nan,-1
+1145,chair,nan,coco,Chair,471023,nan,-1
+1146,chair,nan,coco,Chair,520531,nan,-1
+1147,chair,nan,coco,Chair,389109,nan,-1
+1148,chair,nan,coco,Chair,24567,nan,-1
+1149,chair,nan,coco,Chair,430073,nan,-1
+1150,chair,nan,coco,Chair,415741,nan,-1
+1151,fork,nan,coco,Fork,376322,nan,-1
+1152,fork,nan,coco,Fork,329219,nan,-1
+1153,fork,nan,coco,Fork,417285,nan,-1
+1154,fork,nan,coco,Fork,166918,nan,-1
+1155,fork,nan,coco,Fork,156076,nan,-1
+1156,fork,nan,coco,Fork,253452,nan,-1
+1157,fork,nan,coco,Fork,166426,nan,-1
+1158,fork,nan,coco,Fork,358427,nan,-1
+1159,fork,nan,coco,Fork,377946,nan,-1
+1160,fork,nan,coco,Fork,530975,nan,-1
+1161,fork,nan,coco,Fork,153632,nan,-1
+1162,fork,nan,coco,Fork,189475,nan,-1
+1163,fork,nan,coco,Fork,80932,nan,-1
+1164,fork,nan,coco,Fork,331817,nan,-1
+1165,fork,nan,coco,Fork,174123,nan,-1
+1166,fork,nan,coco,Fork,27696,nan,-1
+1167,fork,nan,coco,Fork,177714,nan,-1
+1168,fork,nan,coco,Fork,130613,nan,-1
+1169,fork,nan,coco,Fork,105014,nan,-1
+1170,fork,nan,coco,Fork,429623,nan,-1
+1171,fork,nan,coco,Fork,113720,nan,-1
+1172,fork,nan,coco,Fork,43581,nan,-1
+1173,fork,nan,coco,Fork,335427,nan,-1
+1174,fork,nan,coco,Fork,550471,nan,-1
+1175,fork,nan,coco,Fork,160012,nan,-1
+1176,fork,nan,coco,Fork,84664,nan,-1
+1177,fork,nan,coco,Fork,485972,nan,-1
+1178,fork,nan,coco,Fork,8277,nan,-1
+1179,fork,nan,coco,Fork,210520,nan,-1
+1180,fork,nan,coco,Fork,62554,nan,-1
+1181,fork,nan,coco,Fork,559707,nan,-1
+1182,fork,nan,coco,Fork,191580,nan,-1
+1183,fork,nan,coco,Fork,351331,nan,-1
+1184,fork,nan,coco,Fork,327780,nan,-1
+1185,fork,nan,coco,Fork,369771,nan,-1
+1186,fork,nan,coco,Fork,210030,nan,-1
+1187,fork,nan,coco,Fork,210032,nan,-1
+1188,fork,nan,coco,Fork,484978,nan,-1
+1189,fork,nan,coco,Fork,416885,nan,-1
+1190,fork,nan,coco,Fork,240250,nan,-1
+1191,fork,nan,coco,Fork,75393,nan,-1
+1192,fork,nan,coco,Fork,352900,nan,-1
+1193,fork,nan,coco,Fork,419974,nan,-1
+1194,fork,nan,coco,Fork,7818,nan,-1
+1195,fork,nan,coco,Fork,363666,nan,-1
+1196,fork,nan,coco,Fork,334483,nan,-1
+1197,fork,nan,coco,Fork,167572,nan,-1
+1198,fork,nan,coco,Fork,301718,nan,-1
+1199,fork,nan,coco,Fork,320664,nan,-1
+1200,fork,nan,coco,Fork,450202,nan,-1
+1201,fork,nan,coco,Fork,483999,nan,-1
+1202,fork,nan,coco,Fork,45728,nan,-1
+1203,fork,nan,coco,Fork,318114,nan,-1
+1204,fork,nan,coco,Fork,172571,nan,-1
+1205,fork,nan,coco,Fork,194724,nan,-1
+1206,fork,nan,coco,Fork,85157,nan,-1
+1207,fork,nan,coco,Fork,463527,nan,-1
+1208,fork,nan,coco,Fork,170670,nan,-1
+1209,fork,nan,coco,Fork,221872,nan,-1
+1210,fork,nan,coco,Fork,356531,nan,-1
+1211,fork,nan,coco,Fork,336053,nan,-1
+1212,fork,nan,coco,Fork,292024,nan,-1
+1213,fork,nan,coco,Fork,231097,nan,-1
+1214,fork,nan,coco,Fork,405691,nan,-1
+1215,fork,nan,coco,Fork,123585,nan,-1
+1216,fork,nan,coco,Fork,347335,nan,-1
+1217,fork,nan,coco,Fork,18380,nan,-1
+1218,fork,nan,coco,Fork,313034,nan,-1
+1219,fork,nan,coco,Fork,85195,nan,-1
+1220,fork,nan,coco,Fork,460494,nan,-1
+1221,fork,nan,coco,Fork,260105,nan,-1
+1222,fork,nan,coco,Fork,533206,nan,-1
+1223,fork,nan,coco,Fork,181796,nan,-1
+1224,fork,nan,coco,Fork,104669,nan,-1
+1225,fork,nan,coco,Fork,306700,nan,-1
+1226,fork,nan,coco,Fork,99039,nan,-1
+1227,fork,nan,coco,Fork,561889,nan,-1
+1228,fork,nan,coco,Fork,530146,nan,-1
+1229,fork,nan,coco,Fork,488166,nan,-1
+1230,fork,nan,coco,Fork,493799,nan,-1
+1231,fork,nan,coco,Fork,157138,nan,-1
+1232,fork,nan,coco,Fork,402720,nan,-1
+1233,fork,nan,coco,Fork,458992,nan,-1
+1234,fork,nan,coco,Fork,209142,nan,-1
+1235,fork,nan,coco,Fork,275198,nan,-1
+1236,fork,nan,coco,Fork,66817,nan,-1
+1237,fork,nan,coco,Fork,3845,nan,-1
+1238,fork,nan,coco,Fork,572678,nan,-1
+1239,fork,nan,coco,Fork,271116,nan,-1
+1240,fork,nan,coco,Fork,84241,nan,-1
+1241,fork,nan,coco,Fork,163611,nan,-1
+1242,fork,nan,coco,Fork,296222,nan,-1
+1243,fork,nan,coco,Fork,12576,nan,-1
+1244,fork,nan,coco,Fork,162092,nan,-1
+1245,fork,nan,coco,Fork,265518,nan,-1
+1246,fork,nan,coco,Fork,108253,nan,-1
+1247,fork,nan,coco,Fork,17714,nan,-1
+1248,fork,nan,coco,Fork,359219,nan,-1
+1249,fork,nan,coco,Fork,189752,nan,-1
+1250,fork,nan,coco,Fork,496954,nan,-1
+1251,fork,nan,coco,Fork,173371,nan,-1
+1252,fork,nan,coco,Fork,276285,nan,-1
+1253,fork,nan,coco,Fork,494913,nan,-1
+1254,fork,nan,coco,Fork,54605,nan,-1
+1255,fork,nan,coco,Fork,466256,nan,-1
+1256,fork,nan,coco,Fork,177489,nan,-1
+1257,fork,nan,coco,Fork,268378,nan,-1
+1258,fork,nan,coco,Fork,231822,nan,-1
+1259,fork,nan,coco,Fork,304984,nan,-1
+1260,fork,nan,coco,Fork,286553,nan,-1
+1261,fork,nan,coco,Fork,322959,nan,-1
+1262,fork,nan,coco,Fork,226147,nan,-1
+1263,fork,nan,coco,Fork,100582,nan,-1
+1264,fork,nan,coco,Fork,177213,nan,-1
+1265,fork,nan,coco,Fork,397681,nan,-1
+1266,fork,nan,coco,Fork,119677,nan,-1
+1267,fork,nan,coco,Fork,312192,nan,-1
+1268,fork,nan,coco,Fork,568195,nan,-1
+1269,fork,nan,coco,Fork,180101,nan,-1
+1270,fork,nan,coco,Fork,504711,nan,-1
+1271,fork,nan,coco,Fork,435081,nan,-1
+1272,fork,nan,coco,Fork,470924,nan,-1
+1273,fork,nan,coco,Fork,250766,nan,-1
+1274,fork,nan,coco,Fork,99053,nan,-1
+1275,fork,nan,coco,Fork,425361,nan,-1
+1276,fork,nan,coco,Fork,92053,nan,-1
+1277,fork,nan,coco,Fork,110999,nan,-1
+1278,fork,nan,coco,Fork,559513,nan,-1
+1279,fork,nan,coco,Fork,400794,nan,-1
+1280,fork,nan,coco,Fork,385029,nan,-1
+1281,fork,nan,coco,Fork,527784,nan,-1
+1282,fork,nan,coco,Fork,243626,nan,-1
+1283,fork,nan,coco,Fork,546219,nan,-1
+1284,fork,nan,coco,Fork,378284,nan,-1
+1285,fork,nan,coco,Fork,414638,nan,-1
+1286,fork,nan,coco,Fork,175535,nan,-1
+1287,fork,nan,coco,Fork,8629,nan,-1
+1288,fork,nan,coco,Fork,313783,nan,-1
+1289,fork,nan,coco,Fork,496571,nan,-1
+1290,fork,nan,coco,Fork,517056,nan,-1
+1291,fork,nan,coco,Fork,350148,nan,-1
+1292,fork,nan,coco,Fork,533958,nan,-1
+1293,fork,nan,coco,Fork,305609,nan,-1
+1294,fork,nan,coco,Fork,173004,nan,-1
+1295,fork,nan,coco,Fork,237517,nan,-1
+1296,fork,nan,coco,Fork,438226,nan,-1
+1297,fork,nan,coco,Fork,336356,nan,-1
+1298,fork,nan,coco,Fork,286182,nan,-1
+1299,fork,nan,coco,Fork,88040,nan,-1
+1300,fork,nan,coco,Fork,520871,nan,-1
+1301,fork,nan,coco,Fork,419312,nan,-1
+1302,fork,nan,coco,Fork,452084,nan,-1
+1303,fork,nan,coco,Fork,288762,nan,-1
+1304,fork,nan,coco,Fork,261116,nan,-1
+1305,fork,nan,coco,Fork,579070,nan,-1
+1306,refrigerator,nan,coco,Fridge,30213,nan,-1
+1307,refrigerator,nan,coco,Fridge,445846,nan,-1
+1308,refrigerator,nan,coco,Fridge,221708,nan,-1
+1309,refrigerator,nan,coco,Fridge,180751,nan,-1
+1310,refrigerator,nan,coco,Fridge,565776,nan,-1
+1311,refrigerator,nan,coco,Fridge,40471,nan,-1
+1312,refrigerator,nan,coco,Fridge,52996,nan,-1
+1313,refrigerator,nan,coco,Fridge,429598,nan,-1
+1314,refrigerator,nan,coco,Fridge,189475,nan,-1
+1315,refrigerator,nan,coco,Fridge,397354,nan,-1
+1316,refrigerator,nan,coco,Fridge,213547,nan,-1
+1317,refrigerator,nan,coco,Fridge,159791,nan,-1
+1318,refrigerator,nan,coco,Fridge,446522,nan,-1
+1319,refrigerator,nan,coco,Fridge,407614,nan,-1
+1320,refrigerator,nan,coco,Fridge,26690,nan,-1
+1321,refrigerator,nan,coco,Fridge,537672,nan,-1
+1322,refrigerator,nan,coco,Fridge,215114,nan,-1
+1323,refrigerator,nan,coco,Fridge,14007,nan,-1
+1324,refrigerator,nan,coco,Fridge,186980,nan,-1
+1325,refrigerator,nan,coco,Fridge,222825,nan,-1
+1326,refrigerator,nan,coco,Fridge,73326,nan,-1
+1327,refrigerator,nan,coco,Fridge,156278,nan,-1
+1328,refrigerator,nan,coco,Fridge,144003,nan,-1
+1329,refrigerator,nan,coco,Fridge,482436,nan,-1
+1330,refrigerator,nan,coco,Fridge,437898,nan,-1
+1331,refrigerator,nan,coco,Fridge,488075,nan,-1
+1332,refrigerator,nan,coco,Fridge,349837,nan,-1
+1333,refrigerator,nan,coco,Fridge,36494,nan,-1
+1334,refrigerator,nan,coco,Fridge,243344,nan,-1
+1335,refrigerator,nan,coco,Fridge,168593,nan,-1
+1336,refrigerator,nan,coco,Fridge,117908,nan,-1
+1337,refrigerator,nan,coco,Fridge,384661,nan,-1
+1338,refrigerator,nan,coco,Fridge,136355,nan,-1
+1339,refrigerator,nan,coco,Fridge,194724,nan,-1
+1340,refrigerator,nan,coco,Fridge,435880,nan,-1
+1341,refrigerator,nan,coco,Fridge,22705,nan,-1
+1342,refrigerator,nan,coco,Fridge,459954,nan,-1
+1343,refrigerator,nan,coco,Fridge,24243,nan,-1
+1344,refrigerator,nan,coco,Fridge,453302,nan,-1
+1345,refrigerator,nan,coco,Fridge,66231,nan,-1
+1346,refrigerator,nan,coco,Fridge,282296,nan,-1
+1347,refrigerator,nan,coco,Fridge,452793,nan,-1
+1348,refrigerator,nan,coco,Fridge,507081,nan,-1
+1349,refrigerator,nan,coco,Fridge,127182,nan,-1
+1350,refrigerator,nan,coco,Fridge,491216,nan,-1
+1351,refrigerator,nan,coco,Fridge,423123,nan,-1
+1352,refrigerator,nan,coco,Fridge,14038,nan,-1
+1353,refrigerator,nan,coco,Fridge,445658,nan,-1
+1354,refrigerator,nan,coco,Fridge,292060,nan,-1
+1355,refrigerator,nan,coco,Fridge,404191,nan,-1
+1356,refrigerator,nan,coco,Fridge,68833,nan,-1
+1357,refrigerator,nan,coco,Fridge,382696,nan,-1
+1358,refrigerator,nan,coco,Fridge,132329,nan,-1
+1359,refrigerator,nan,coco,Fridge,368900,nan,-1
+1360,refrigerator,nan,coco,Fridge,280918,nan,-1
+1361,refrigerator,nan,coco,Fridge,425226,nan,-1
+1362,refrigerator,nan,coco,Fridge,170116,nan,-1
+1363,refrigerator,nan,coco,Fridge,525083,nan,-1
+1364,refrigerator,nan,coco,Fridge,189213,nan,-1
+1365,refrigerator,nan,coco,Fridge,498463,nan,-1
+1366,refrigerator,nan,coco,Fridge,802,nan,-1
+1367,refrigerator,nan,coco,Fridge,28452,nan,-1
+1368,refrigerator,nan,coco,Fridge,462629,nan,-1
+1369,refrigerator,nan,coco,Fridge,313130,nan,-1
+1370,refrigerator,nan,coco,Fridge,240940,nan,-1
+1371,refrigerator,nan,coco,Fridge,248111,nan,-1
+1372,refrigerator,nan,coco,Fridge,273712,nan,-1
+1373,refrigerator,nan,coco,Fridge,56127,nan,-1
+1374,refrigerator,nan,coco,Fridge,554838,nan,-1
+1375,refrigerator,nan,coco,Fridge,139,nan,-1
+1376,refrigerator,nan,coco,Fridge,552775,nan,-1
+1377,refrigerator,nan,coco,Fridge,512330,nan,-1
+1378,refrigerator,nan,coco,Fridge,540502,nan,-1
+1379,refrigerator,nan,coco,Fridge,280930,nan,-1
+1380,refrigerator,nan,coco,Fridge,150417,nan,-1
+1381,refrigerator,nan,coco,Fridge,237928,nan,-1
+1382,refrigerator,nan,coco,Fridge,536947,nan,-1
+1383,refrigerator,nan,coco,Fridge,237118,nan,-1
+1384,refrigerator,nan,coco,Fridge,177015,nan,-1
+1385,refrigerator,nan,coco,Fridge,480122,nan,-1
+1386,refrigerator,nan,coco,Fridge,57238,nan,-1
+1387,refrigerator,nan,coco,Fridge,527750,nan,-1
+1388,refrigerator,nan,coco,Fridge,187271,nan,-1
+1389,refrigerator,nan,coco,Fridge,135561,nan,-1
+1390,refrigerator,nan,coco,Fridge,37777,nan,-1
+1391,refrigerator,nan,coco,Fridge,530836,nan,-1
+1392,refrigerator,nan,coco,Fridge,7574,nan,-1
+1393,refrigerator,nan,coco,Fridge,441247,nan,-1
+1394,refrigerator,nan,coco,Fridge,231339,nan,-1
+1395,refrigerator,nan,coco,Fridge,571313,nan,-1
+1396,refrigerator,nan,coco,Fridge,78266,nan,-1
+1397,refrigerator,nan,coco,Fridge,506310,nan,-1
+1398,refrigerator,nan,coco,Fridge,502732,nan,-1
+1399,refrigerator,nan,coco,Fridge,485844,nan,-1
+1400,refrigerator,nan,coco,Fridge,456662,nan,-1
+1401,refrigerator,nan,coco,Fridge,415194,nan,-1
+1402,refrigerator,nan,coco,Fridge,74209,nan,-1
+1403,refrigerator,nan,coco,Fridge,575970,nan,-1
+1404,refrigerator,nan,coco,Fridge,36844,nan,-1
+1405,refrigerator,nan,coco,Fridge,226984,nan,-1
+1406,refrigerator,nan,coco,Fridge,438774,nan,-1
+1407,knife,nan,coco,Knife,491008,nan,-1
+1408,knife,nan,coco,Knife,376322,nan,-1
+1409,knife,nan,coco,Knife,329219,nan,-1
+1410,knife,nan,coco,Knife,166918,nan,-1
+1411,knife,nan,coco,Knife,311303,nan,-1
+1412,knife,nan,coco,Knife,25096,nan,-1
+1413,knife,nan,coco,Knife,378284,nan,-1
+1414,knife,nan,coco,Knife,189451,nan,-1
+1415,knife,nan,coco,Knife,253452,nan,-1
+1416,knife,nan,coco,Knife,62808,nan,-1
+1417,knife,nan,coco,Knife,40471,nan,-1
+1418,knife,nan,coco,Knife,166426,nan,-1
+1419,knife,nan,coco,Knife,172571,nan,-1
+1420,knife,nan,coco,Knife,337498,nan,-1
+1421,knife,nan,coco,Knife,2592,nan,-1
+1422,knife,nan,coco,Knife,462371,nan,-1
+1423,knife,nan,coco,Knife,181796,nan,-1
+1424,knife,nan,coco,Knife,331817,nan,-1
+1425,knife,nan,coco,Knife,466986,nan,-1
+1426,knife,nan,coco,Knife,174123,nan,-1
+1427,knife,nan,coco,Knife,27696,nan,-1
+1428,knife,nan,coco,Knife,47112,nan,-1
+1429,knife,nan,coco,Knife,356531,nan,-1
+1430,knife,nan,coco,Knife,130613,nan,-1
+1431,knife,nan,coco,Knife,536073,nan,-1
+1432,knife,nan,coco,Knife,113720,nan,-1
+1433,knife,nan,coco,Knife,277051,nan,-1
+1434,knife,nan,coco,Knife,43581,nan,-1
+1435,knife,nan,coco,Knife,520264,nan,-1
+1436,knife,nan,coco,Knife,160012,nan,-1
+1437,knife,nan,coco,Knife,335954,nan,-1
+1438,knife,nan,coco,Knife,64084,nan,-1
+1439,knife,nan,coco,Knife,422998,nan,-1
+1440,knife,nan,coco,Knife,226903,nan,-1
+1441,knife,nan,coco,Knife,210520,nan,-1
+1442,knife,nan,coco,Knife,116825,nan,-1
+1443,knife,nan,coco,Knife,377946,nan,-1
+1444,knife,nan,coco,Knife,199771,nan,-1
+1445,knife,nan,coco,Knife,191580,nan,-1
+1446,knife,nan,coco,Knife,186980,nan,-1
+1447,knife,nan,coco,Knife,398438,nan,-1
+1448,knife,nan,coco,Knife,231527,nan,-1
+1449,knife,nan,coco,Knife,2157,nan,-1
+1450,knife,nan,coco,Knife,210032,nan,-1
+1451,knife,nan,coco,Knife,484978,nan,-1
+1452,knife,nan,coco,Knife,287347,nan,-1
+1453,knife,nan,coco,Knife,416885,nan,-1
+1454,knife,nan,coco,Knife,156278,nan,-1
+1455,knife,nan,coco,Knife,209530,nan,-1
+1456,knife,nan,coco,Knife,447611,nan,-1
+1457,knife,nan,coco,Knife,143998,nan,-1
+1458,knife,nan,coco,Knife,144003,nan,-1
+1459,knife,nan,coco,Knife,352900,nan,-1
+1460,knife,nan,coco,Knife,419974,nan,-1
+1461,knife,nan,coco,Knife,437898,nan,-1
+1462,knife,nan,coco,Knife,18575,nan,-1
+1463,knife,nan,coco,Knife,227985,nan,-1
+1464,knife,nan,coco,Knife,363666,nan,-1
+1465,knife,nan,coco,Knife,334483,nan,-1
+1466,knife,nan,coco,Knife,167572,nan,-1
+1467,knife,nan,coco,Knife,301718,nan,-1
+1468,knife,nan,coco,Knife,320664,nan,-1
+1469,knife,nan,coco,Knife,483999,nan,-1
+1470,knife,nan,coco,Knife,45728,nan,-1
+1471,knife,nan,coco,Knife,163611,nan,-1
+1472,knife,nan,coco,Knife,260261,nan,-1
+1473,knife,nan,coco,Knife,226984,nan,-1
+1474,knife,nan,coco,Knife,476787,nan,-1
+1475,knife,nan,coco,Knife,171190,nan,-1
+1476,knife,nan,coco,Knife,66231,nan,-1
+1477,knife,nan,coco,Knife,9914,nan,-1
+1478,knife,nan,coco,Knife,394940,nan,-1
+1479,knife,nan,coco,Knife,214720,nan,-1
+1480,knife,nan,coco,Knife,153632,nan,-1
+1481,knife,nan,coco,Knife,347335,nan,-1
+1482,knife,nan,coco,Knife,18380,nan,-1
+1483,knife,nan,coco,Knife,460494,nan,-1
+1484,knife,nan,coco,Knife,189475,nan,-1
+1485,knife,nan,coco,Knife,260105,nan,-1
+1486,knife,nan,coco,Knife,127182,nan,-1
+1487,knife,nan,coco,Knife,533206,nan,-1
+1488,knife,nan,coco,Knife,292060,nan,-1
+1489,knife,nan,coco,Knife,104669,nan,-1
+1490,knife,nan,coco,Knife,99039,nan,-1
+1491,knife,nan,coco,Knife,561889,nan,-1
+1492,knife,nan,coco,Knife,530146,nan,-1
+1493,knife,nan,coco,Knife,439525,nan,-1
+1494,knife,nan,coco,Knife,15079,nan,-1
+1495,knife,nan,coco,Knife,158956,nan,-1
+1496,knife,nan,coco,Knife,402720,nan,-1
+1497,knife,nan,coco,Knife,458992,nan,-1
+1498,knife,nan,coco,Knife,470773,nan,-1
+1499,knife,nan,coco,Knife,209142,nan,-1
+1500,knife,nan,coco,Knife,44279,nan,-1
+1501,knife,nan,coco,Knife,275198,nan,-1
+1502,knife,nan,coco,Knife,513283,nan,-1
+1503,knife,nan,coco,Knife,52996,nan,-1
+1504,knife,nan,coco,Knife,572678,nan,-1
+1505,knife,nan,coco,Knife,58350,nan,-1
+1506,knife,nan,coco,Knife,92939,nan,-1
+1507,knife,nan,coco,Knife,48396,nan,-1
+1508,knife,nan,coco,Knife,91406,nan,-1
+1509,knife,nan,coco,Knife,177935,nan,-1
+1510,knife,nan,coco,Knife,529122,nan,-1
+1511,knife,nan,coco,Knife,434459,nan,-1
+1512,knife,nan,coco,Knife,142620,nan,-1
+1513,knife,nan,coco,Knife,12576,nan,-1
+1514,knife,nan,coco,Knife,263969,nan,-1
+1515,knife,nan,coco,Knife,7818,nan,-1
+1516,knife,nan,coco,Knife,249129,nan,-1
+1517,knife,nan,coco,Knife,108253,nan,-1
+1518,knife,nan,coco,Knife,17714,nan,-1
+1519,knife,nan,coco,Knife,359219,nan,-1
+1520,knife,nan,coco,Knife,544565,nan,-1
+1521,knife,nan,coco,Knife,552775,nan,-1
+1522,knife,nan,coco,Knife,7991,nan,-1
+1523,knife,nan,coco,Knife,189752,nan,-1
+1524,knife,nan,coco,Knife,173371,nan,-1
+1525,knife,nan,coco,Knife,276285,nan,-1
+1526,knife,nan,coco,Knife,473406,nan,-1
+1527,knife,nan,coco,Knife,374083,nan,-1
+1528,knife,nan,coco,Knife,173383,nan,-1
+1529,knife,nan,coco,Knife,81738,nan,-1
+1530,knife,nan,coco,Knife,397133,nan,-1
+1531,knife,nan,coco,Knife,482275,nan,-1
+1532,knife,nan,coco,Knife,231822,nan,-1
+1533,knife,nan,coco,Knife,10583,nan,-1
+1534,knife,nan,coco,Knife,495448,nan,-1
+1535,knife,nan,coco,Knife,286553,nan,-1
+1536,knife,nan,coco,Knife,140640,nan,-1
+1537,knife,nan,coco,Knife,226147,nan,-1
+1538,knife,nan,coco,Knife,177213,nan,-1
+1539,knife,nan,coco,Knife,223090,nan,-1
+1540,knife,nan,coco,Knife,480122,nan,-1
+1541,knife,nan,coco,Knife,2431,nan,-1
+1542,knife,nan,coco,Knife,568195,nan,-1
+1543,knife,nan,coco,Knife,31620,nan,-1
+1544,knife,nan,coco,Knife,435081,nan,-1
+1545,knife,nan,coco,Knife,470924,nan,-1
+1546,knife,nan,coco,Knife,250766,nan,-1
+1547,knife,nan,coco,Knife,322959,nan,-1
+1548,knife,nan,coco,Knife,284764,nan,-1
+1549,knife,nan,coco,Knife,425361,nan,-1
+1550,knife,nan,coco,Knife,256916,nan,-1
+1551,knife,nan,coco,Knife,92053,nan,-1
+1552,knife,nan,coco,Knife,110999,nan,-1
+1553,knife,nan,coco,Knife,559513,nan,-1
+1554,knife,nan,coco,Knife,298396,nan,-1
+1555,knife,nan,coco,Knife,240250,nan,-1
+1556,knife,nan,coco,Knife,458663,nan,-1
+1557,knife,nan,coco,Knife,546219,nan,-1
+1558,knife,nan,coco,Knife,156076,nan,-1
+1559,knife,nan,coco,Knife,414638,nan,-1
+1560,knife,nan,coco,Knife,175535,nan,-1
+1561,knife,nan,coco,Knife,287667,nan,-1
+1562,knife,nan,coco,Knife,297396,nan,-1
+1563,knife,nan,coco,Knife,146358,nan,-1
+1564,knife,nan,coco,Knife,153527,nan,-1
+1565,knife,nan,coco,Knife,78266,nan,-1
+1566,knife,nan,coco,Knife,496571,nan,-1
+1567,knife,nan,coco,Knife,468925,nan,-1
+1568,knife,nan,coco,Knife,517056,nan,-1
+1569,knife,nan,coco,Knife,350148,nan,-1
+1570,knife,nan,coco,Knife,376264,nan,-1
+1571,knife,nan,coco,Knife,305609,nan,-1
+1572,knife,nan,coco,Knife,173004,nan,-1
+1573,knife,nan,coco,Knife,237517,nan,-1
+1574,knife,nan,coco,Knife,290768,nan,-1
+1575,knife,nan,coco,Knife,276434,nan,-1
+1576,knife,nan,coco,Knife,485844,nan,-1
+1577,knife,nan,coco,Knife,350679,nan,-1
+1578,knife,nan,coco,Knife,338905,nan,-1
+1579,knife,nan,coco,Knife,95707,nan,-1
+1580,knife,nan,coco,Knife,349152,nan,-1
+1581,knife,nan,coco,Knife,156643,nan,-1
+1582,knife,nan,coco,Knife,336356,nan,-1
+1583,knife,nan,coco,Knife,88040,nan,-1
+1584,knife,nan,coco,Knife,116206,nan,-1
+1585,knife,nan,coco,Knife,419312,nan,-1
+1586,knife,nan,coco,Knife,318455,nan,-1
+1587,knife,nan,coco,Knife,35326,nan,-1
+1588,microwave,nan,coco,Microwave,498463,nan,-1
+1589,microwave,nan,coco,Microwave,199681,nan,-1
+1590,microwave,nan,coco,Microwave,445846,nan,-1
+1591,microwave,nan,coco,Microwave,425226,nan,-1
+1592,microwave,nan,coco,Microwave,40471,nan,-1
+1593,microwave,nan,coco,Microwave,426253,nan,-1
+1594,microwave,nan,coco,Microwave,508312,nan,-1
+1595,microwave,nan,coco,Microwave,7574,nan,-1
+1596,microwave,nan,coco,Microwave,522007,nan,-1
+1597,microwave,nan,coco,Microwave,109976,nan,-1
+1598,microwave,nan,coco,Microwave,525083,nan,-1
+1599,microwave,nan,coco,Microwave,14038,nan,-1
+1600,microwave,nan,coco,Microwave,441247,nan,-1
+1601,microwave,nan,coco,Microwave,246436,nan,-1
+1602,microwave,nan,coco,Microwave,571313,nan,-1
+1603,microwave,nan,coco,Microwave,215644,nan,-1
+1604,microwave,nan,coco,Microwave,466986,nan,-1
+1605,microwave,nan,coco,Microwave,313130,nan,-1
+1606,microwave,nan,coco,Microwave,160556,nan,-1
+1607,microwave,nan,coco,Microwave,159791,nan,-1
+1608,microwave,nan,coco,Microwave,577584,nan,-1
+1609,microwave,nan,coco,Microwave,216497,nan,-1
+1610,microwave,nan,coco,Microwave,207538,nan,-1
+1611,microwave,nan,coco,Microwave,322163,nan,-1
+1612,microwave,nan,coco,Microwave,446005,nan,-1
+1613,microwave,nan,coco,Microwave,453302,nan,-1
+1614,microwave,nan,coco,Microwave,246968,nan,-1
+1615,microwave,nan,coco,Microwave,482719,nan,-1
+1616,microwave,nan,coco,Microwave,407614,nan,-1
+1617,microwave,nan,coco,Microwave,488075,nan,-1
+1618,microwave,nan,coco,Microwave,397354,nan,-1
+1619,microwave,nan,coco,Microwave,283717,nan,-1
+1620,microwave,nan,coco,Microwave,365766,nan,-1
+1621,microwave,nan,coco,Microwave,543047,nan,-1
+1622,microwave,nan,coco,Microwave,520264,nan,-1
+1623,microwave,nan,coco,Microwave,68833,nan,-1
+1624,microwave,nan,coco,Microwave,127182,nan,-1
+1625,microwave,nan,coco,Microwave,319696,nan,-1
+1626,microwave,nan,coco,Microwave,139,nan,-1
+1627,microwave,nan,coco,Microwave,540502,nan,-1
+1628,microwave,nan,coco,Microwave,445658,nan,-1
+1629,microwave,nan,coco,Microwave,292060,nan,-1
+1630,microwave,nan,coco,Microwave,91615,nan,-1
+1631,microwave,nan,coco,Microwave,173008,nan,-1
+1632,microwave,nan,coco,Microwave,575970,nan,-1
+1633,microwave,nan,coco,Microwave,186980,nan,-1
+1634,microwave,nan,coco,Microwave,237928,nan,-1
+1635,microwave,nan,coco,Microwave,465129,nan,-1
+1636,microwave,nan,coco,Microwave,444275,nan,-1
+1637,microwave,nan,coco,Microwave,419653,nan,-1
+1638,microwave,nan,coco,Microwave,438774,nan,-1
+1639,microwave,nan,coco,Microwave,222455,nan,-1
+1640,microwave,nan,coco,Microwave,269866,nan,-1
+1641,microwave,nan,coco,Microwave,97022,nan,-1
+1642,cup,nan,coco,Mug,555009,nan,-1
+1643,cup,nan,coco,Mug,311303,nan,-1
+1644,cup,nan,coco,Mug,260105,nan,-1
+1645,cup,nan,coco,Mug,239627,nan,-1
+1646,cup,nan,coco,Mug,528399,nan,-1
+1647,cup,nan,coco,Mug,479248,nan,-1
+1648,cup,nan,coco,Mug,120853,nan,-1
+1649,cup,nan,coco,Mug,387098,nan,-1
+1650,cup,nan,coco,Mug,215072,nan,-1
+1651,cup,nan,coco,Mug,421923,nan,-1
+1652,cup,nan,coco,Mug,344100,nan,-1
+1653,cup,nan,coco,Mug,397354,nan,-1
+1654,cup,nan,coco,Mug,485424,nan,-1
+1655,cup,nan,coco,Mug,34873,nan,-1
+1656,cup,nan,coco,Mug,407614,nan,-1
+1657,cup,nan,coco,Mug,184384,nan,-1
+1658,cup,nan,coco,Mug,131138,nan,-1
+1659,cup,nan,coco,Mug,563267,nan,-1
+1660,cup,nan,coco,Mug,157767,nan,-1
+1661,cup,nan,coco,Mug,36936,nan,-1
+1662,cup,nan,coco,Mug,20553,nan,-1
+1663,cup,nan,coco,Mug,395343,nan,-1
+1664,cup,nan,coco,Mug,356432,nan,-1
+1665,cup,nan,coco,Mug,244750,nan,-1
+1666,cup,nan,coco,Mug,327769,nan,-1
+1667,cup,nan,coco,Mug,268378,nan,-1
+1668,cup,nan,coco,Mug,284764,nan,-1
+1669,cup,nan,coco,Mug,231527,nan,-1
+1670,cup,nan,coco,Mug,481386,nan,-1
+1671,cup,nan,coco,Mug,2157,nan,-1
+1672,cup,nan,coco,Mug,368752,nan,-1
+1673,cup,nan,coco,Mug,63602,nan,-1
+1674,cup,nan,coco,Mug,297084,nan,-1
+1675,cup,nan,coco,Mug,231549,nan,-1
+1676,cup,nan,coco,Mug,327701,nan,-1
+1677,cup,nan,coco,Mug,319617,nan,-1
+1678,cup,nan,coco,Mug,32901,nan,-1
+1679,cup,nan,coco,Mug,419974,nan,-1
+1680,cup,nan,coco,Mug,182417,nan,-1
+1681,cup,nan,coco,Mug,487583,nan,-1
+1682,cup,nan,coco,Mug,546976,nan,-1
+1683,cup,nan,coco,Mug,194724,nan,-1
+1684,cup,nan,coco,Mug,356531,nan,-1
+1685,cup,nan,coco,Mug,336053,nan,-1
+1686,cup,nan,coco,Mug,272566,nan,-1
+1687,cup,nan,coco,Mug,286908,nan,-1
+1688,cup,nan,coco,Mug,145597,nan,-1
+1689,cup,nan,coco,Mug,305343,nan,-1
+1690,cup,nan,coco,Mug,374982,nan,-1
+1691,cup,nan,coco,Mug,479448,nan,-1
+1692,cup,nan,coco,Mug,467176,nan,-1
+1693,cup,nan,coco,Mug,465129,nan,-1
+1694,cup,nan,coco,Mug,201426,nan,-1
+1695,cup,nan,coco,Mug,63740,nan,-1
+1696,cup,nan,coco,Mug,180487,nan,-1
+1697,cup,nan,coco,Mug,151820,nan,-1
+1698,cup,nan,coco,Mug,250137,nan,-1
+1699,cup,nan,coco,Mug,12576,nan,-1
+1700,cup,nan,coco,Mug,411938,nan,-1
+1701,cup,nan,coco,Mug,178469,nan,-1
+1702,cup,nan,coco,Mug,248111,nan,-1
+1703,cup,nan,coco,Mug,102707,nan,-1
+1704,cup,nan,coco,Mug,135561,nan,-1
+1705,cup,nan,coco,Mug,194875,nan,-1
+1706,cup,nan,coco,Mug,473406,nan,-1
+1707,cup,nan,coco,Mug,543047,nan,-1
+1708,cup,nan,coco,Mug,215778,nan,-1
+1709,cup,nan,coco,Mug,414034,nan,-1
+1710,cup,nan,coco,Mug,182611,nan,-1
+1711,cup,nan,coco,Mug,457078,nan,-1
+1712,cup,nan,coco,Mug,285047,nan,-1
+1713,cup,nan,coco,Mug,194940,nan,-1
+1714,cup,nan,coco,Mug,157418,nan,-1
+1715,cup,nan,coco,Mug,2431,nan,-1
+1716,cup,nan,coco,Mug,151938,nan,-1
+1717,cup,nan,coco,Mug,166277,nan,-1
+1718,cup,nan,coco,Mug,252294,nan,-1
+1719,cup,nan,coco,Mug,192904,nan,-1
+1720,cup,nan,coco,Mug,436617,nan,-1
+1721,cup,nan,coco,Mug,110999,nan,-1
+1722,cup,nan,coco,Mug,242060,nan,-1
+1723,cup,nan,coco,Mug,231822,nan,-1
+1724,cup,nan,coco,Mug,530836,nan,-1
+1725,cup,nan,coco,Mug,256407,nan,-1
+1726,cup,nan,coco,Mug,70048,nan,-1
+1727,cup,nan,coco,Mug,127394,nan,-1
+1728,cup,nan,coco,Mug,579655,nan,-1
+1729,cup,nan,coco,Mug,156076,nan,-1
+1730,cup,nan,coco,Mug,356424,nan,-1
+1731,cup,nan,coco,Mug,463283,nan,-1
+1732,cup,nan,coco,Mug,119233,nan,-1
+1733,cup,nan,coco,Mug,571857,nan,-1
+1734,cup,nan,coco,Mug,405970,nan,-1
+1735,cup,nan,coco,Mug,10707,nan,-1
+1736,cup,nan,coco,Mug,80340,nan,-1
+1737,cup,nan,coco,Mug,74209,nan,-1
+1738,cup,nan,coco,Mug,575970,nan,-1
+1739,cup,nan,coco,Mug,283113,nan,-1
+1740,cup,nan,coco,Mug,479732,nan,-1
+1741,cup,nan,coco,Mug,438774,nan,-1
+1742,cup,nan,coco,Mug,367095,nan,-1
+1743,cup,nan,coco,Mug,256518,nan,-1
+1744,cup,nan,coco,Mug,547336,nan,-1
+1745,cup,nan,coco,Mug,565776,nan,-1
+1746,cup,nan,coco,Mug,377368,nan,-1
+1747,cup,nan,coco,Mug,166426,nan,-1
+1748,cup,nan,coco,Mug,172571,nan,-1
+1749,cup,nan,coco,Mug,277020,nan,-1
+1750,cup,nan,coco,Mug,2592,nan,-1
+1751,cup,nan,coco,Mug,31296,nan,-1
+1752,cup,nan,coco,Mug,62025,nan,-1
+1753,cup,nan,coco,Mug,492110,nan,-1
+1754,cup,nan,coco,Mug,346703,nan,-1
+1755,cup,nan,coco,Mug,78426,nan,-1
+1756,cup,nan,coco,Mug,287347,nan,-1
+1757,cup,nan,coco,Mug,383606,nan,-1
+1758,cup,nan,coco,Mug,209530,nan,-1
+1759,cup,nan,coco,Mug,2685,nan,-1
+1760,cup,nan,coco,Mug,381587,nan,-1
+1761,cup,nan,coco,Mug,301718,nan,-1
+1762,cup,nan,coco,Mug,486040,nan,-1
+1763,cup,nan,coco,Mug,483999,nan,-1
+1764,cup,nan,coco,Mug,318114,nan,-1
+1765,cup,nan,coco,Mug,246436,nan,-1
+1766,cup,nan,coco,Mug,449190,nan,-1
+1767,cup,nan,coco,Mug,463527,nan,-1
+1768,cup,nan,coco,Mug,170670,nan,-1
+1769,cup,nan,coco,Mug,117425,nan,-1
+1770,cup,nan,coco,Mug,527029,nan,-1
+1771,cup,nan,coco,Mug,537270,nan,-1
+1772,cup,nan,coco,Mug,135872,nan,-1
+1773,cup,nan,coco,Mug,416451,nan,-1
+1774,cup,nan,coco,Mug,580294,nan,-1
+1775,cup,nan,coco,Mug,412362,nan,-1
+1776,cup,nan,coco,Mug,400082,nan,-1
+1777,cup,nan,coco,Mug,535253,nan,-1
+1778,cup,nan,coco,Mug,559842,nan,-1
+1779,cup,nan,coco,Mug,488166,nan,-1
+1780,cup,nan,coco,Mug,551660,nan,-1
+1781,cup,nan,coco,Mug,508370,nan,-1
+1782,cup,nan,coco,Mug,279278,nan,-1
+1783,cup,nan,coco,Mug,275198,nan,-1
+1784,cup,nan,coco,Mug,109313,nan,-1
+1785,cup,nan,coco,Mug,82696,nan,-1
+1786,cup,nan,coco,Mug,92939,nan,-1
+1787,cup,nan,coco,Mug,271116,nan,-1
+1788,cup,nan,coco,Mug,473869,nan,-1
+1789,cup,nan,coco,Mug,283412,nan,-1
+1790,cup,nan,coco,Mug,361238,nan,-1
+1791,cup,nan,coco,Mug,367386,nan,-1
+1792,cup,nan,coco,Mug,549674,nan,-1
+1793,cup,nan,coco,Mug,25394,nan,-1
+1794,cup,nan,coco,Mug,56127,nan,-1
+1795,cup,nan,coco,Mug,365385,nan,-1
+1796,cup,nan,coco,Mug,365387,nan,-1
+1797,cup,nan,coco,Mug,35682,nan,-1
+1798,cup,nan,coco,Mug,226147,nan,-1
+1799,cup,nan,coco,Mug,203629,nan,-1
+1800,cup,nan,coco,Mug,226171,nan,-1
+1801,cup,nan,coco,Mug,322429,nan,-1
+1802,cup,nan,coco,Mug,31620,nan,-1
+1803,cup,nan,coco,Mug,435081,nan,-1
+1804,cup,nan,coco,Mug,562059,nan,-1
+1805,cup,nan,coco,Mug,551822,nan,-1
+1806,cup,nan,coco,Mug,150417,nan,-1
+1807,cup,nan,coco,Mug,74646,nan,-1
+1808,cup,nan,coco,Mug,246968,nan,-1
+1809,cup,nan,coco,Mug,29596,nan,-1
+1810,cup,nan,coco,Mug,340894,nan,-1
+1811,cup,nan,coco,Mug,419312,nan,-1
+1812,cup,nan,coco,Mug,455597,nan,-1
+1813,cup,nan,coco,Mug,414638,nan,-1
+1814,cup,nan,coco,Mug,92660,nan,-1
+1815,cup,nan,coco,Mug,496571,nan,-1
+1816,cup,nan,coco,Mug,541634,nan,-1
+1817,cup,nan,coco,Mug,179141,nan,-1
+1818,cup,nan,coco,Mug,173004,nan,-1
+1819,cup,nan,coco,Mug,173008,nan,-1
+1820,cup,nan,coco,Mug,502737,nan,-1
+1821,cup,nan,coco,Mug,117719,nan,-1
+1822,cup,nan,coco,Mug,25560,nan,-1
+1823,cup,nan,coco,Mug,338905,nan,-1
+1824,cup,nan,coco,Mug,371677,nan,-1
+1825,cup,nan,coco,Mug,293858,nan,-1
+1826,cup,nan,coco,Mug,482275,nan,-1
+1827,cup,nan,coco,Mug,207844,nan,-1
+1828,cup,nan,coco,Mug,15335,nan,-1
+1829,cup,nan,coco,Mug,74733,nan,-1
+1830,cup,nan,coco,Mug,355325,nan,-1
+1831,cup,nan,coco,Mug,25603,nan,-1
+1832,cup,nan,coco,Mug,166918,nan,-1
+1833,cup,nan,coco,Mug,300039,nan,-1
+1834,cup,nan,coco,Mug,435208,nan,-1
+1835,cup,nan,coco,Mug,273420,nan,-1
+1836,cup,nan,coco,Mug,322574,nan,-1
+1837,cup,nan,coco,Mug,119828,nan,-1
+1838,cup,nan,coco,Mug,558114,nan,-1
+1839,cup,nan,coco,Mug,189475,nan,-1
+1840,cup,nan,coco,Mug,80932,nan,-1
+1841,cup,nan,coco,Mug,80949,nan,-1
+1842,cup,nan,coco,Mug,113720,nan,-1
+1843,cup,nan,coco,Mug,177213,nan,-1
+1844,cup,nan,coco,Mug,9400,nan,-1
+1845,cup,nan,coco,Mug,199771,nan,-1
+1846,cup,nan,coco,Mug,266768,nan,-1
+1847,cup,nan,coco,Mug,570471,nan,-1
+1848,cup,nan,coco,Mug,150638,nan,-1
+1849,cup,nan,coco,Mug,255165,nan,-1
+1850,cup,nan,coco,Mug,210032,nan,-1
+1851,cup,nan,coco,Mug,347254,nan,-1
+1852,cup,nan,coco,Mug,482436,nan,-1
+1853,cup,nan,coco,Mug,66706,nan,-1
+1854,cup,nan,coco,Mug,441491,nan,-1
+1855,cup,nan,coco,Mug,115870,nan,-1
+1856,cup,nan,coco,Mug,529568,nan,-1
+1857,cup,nan,coco,Mug,85157,nan,-1
+1858,cup,nan,coco,Mug,382125,nan,-1
+1859,cup,nan,coco,Mug,236721,nan,-1
+1860,cup,nan,coco,Mug,279730,nan,-1
+1861,cup,nan,coco,Mug,171190,nan,-1
+1862,cup,nan,coco,Mug,292024,nan,-1
+1863,cup,nan,coco,Mug,277689,nan,-1
+1864,cup,nan,coco,Mug,52413,nan,-1
+1865,cup,nan,coco,Mug,347335,nan,-1
+1866,cup,nan,coco,Mug,507081,nan,-1
+1867,cup,nan,coco,Mug,214224,nan,-1
+1868,cup,nan,coco,Mug,66771,nan,-1
+1869,cup,nan,coco,Mug,292060,nan,-1
+1870,cup,nan,coco,Mug,488673,nan,-1
+1871,cup,nan,coco,Mug,316666,nan,-1
+1872,cup,nan,coco,Mug,93437,nan,-1
+1873,cup,nan,coco,Mug,455937,nan,-1
+1874,cup,nan,coco,Mug,242946,nan,-1
+1875,cup,nan,coco,Mug,175364,nan,-1
+1876,cup,nan,coco,Mug,572678,nan,-1
+1877,cup,nan,coco,Mug,48396,nan,-1
+1878,cup,nan,coco,Mug,345361,nan,-1
+1879,cup,nan,coco,Mug,142620,nan,-1
+1880,cup,nan,coco,Mug,376093,nan,-1
+1881,cup,nan,coco,Mug,296222,nan,-1
+1882,cup,nan,coco,Mug,245026,nan,-1
+1883,cup,nan,coco,Mug,374052,nan,-1
+1884,cup,nan,coco,Mug,275749,nan,-1
+1885,cup,nan,coco,Mug,349480,nan,-1
+1886,cup,nan,coco,Mug,249129,nan,-1
+1887,cup,nan,coco,Mug,265518,nan,-1
+1888,cup,nan,coco,Mug,273711,nan,-1
+1889,cup,nan,coco,Mug,17714,nan,-1
+1890,cup,nan,coco,Mug,472375,nan,-1
+1891,cup,nan,coco,Mug,189752,nan,-1
+1892,cup,nan,coco,Mug,173371,nan,-1
+1893,cup,nan,coco,Mug,324927,nan,-1
+1894,cup,nan,coco,Mug,494913,nan,-1
+1895,cup,nan,coco,Mug,173383,nan,-1
+1896,cup,nan,coco,Mug,54605,nan,-1
+1897,cup,nan,coco,Mug,492878,nan,-1
+1898,cup,nan,coco,Mug,465806,nan,-1
+1899,cup,nan,coco,Mug,13659,nan,-1
+1900,cup,nan,coco,Mug,578922,nan,-1
+1901,cup,nan,coco,Mug,91500,nan,-1
+1902,cup,nan,coco,Mug,271728,nan,-1
+1903,cup,nan,coco,Mug,9590,nan,-1
+1904,cup,nan,coco,Mug,351609,nan,-1
+1905,cup,nan,coco,Mug,345466,nan,-1
+1906,cup,nan,coco,Mug,189820,nan,-1
+1907,cup,nan,coco,Mug,25986,nan,-1
+1908,cup,nan,coco,Mug,363666,nan,-1
+1909,cup,nan,coco,Mug,144798,nan,-1
+1910,cup,nan,coco,Mug,13729,nan,-1
+1911,cup,nan,coco,Mug,546219,nan,-1
+1912,cup,nan,coco,Mug,550322,nan,-1
+1913,cup,nan,coco,Mug,376264,nan,-1
+1914,cup,nan,coco,Mug,415194,nan,-1
+1915,cup,nan,coco,Mug,128476,nan,-1
+1916,cup,nan,coco,Mug,91615,nan,-1
+1917,cup,nan,coco,Mug,17899,nan,-1
+1918,cup,nan,coco,Mug,116206,nan,-1
+1919,cup,nan,coco,Mug,116208,nan,-1
+1920,cup,nan,coco,Mug,376307,nan,-1
+1921,cup,nan,coco,Mug,181753,nan,-1
+1922,cup,nan,coco,Mug,579070,nan,-1
+1923,cup,nan,coco,Mug,357888,nan,-1
+1924,cup,nan,coco,Mug,376322,nan,-1
+1925,cup,nan,coco,Mug,329219,nan,-1
+1926,cup,nan,coco,Mug,417285,nan,-1
+1927,cup,nan,coco,Mug,536073,nan,-1
+1928,cup,nan,coco,Mug,509451,nan,-1
+1929,cup,nan,coco,Mug,253452,nan,-1
+1930,cup,nan,coco,Mug,384527,nan,-1
+1931,cup,nan,coco,Mug,40471,nan,-1
+1932,cup,nan,coco,Mug,468505,nan,-1
+1933,cup,nan,coco,Mug,462371,nan,-1
+1934,cup,nan,coco,Mug,181796,nan,-1
+1935,cup,nan,coco,Mug,224807,nan,-1
+1936,cup,nan,coco,Mug,95786,nan,-1
+1937,cup,nan,coco,Mug,376365,nan,-1
+1938,cup,nan,coco,Mug,450100,nan,-1
+1939,cup,nan,coco,Mug,308799,nan,-1
+1940,cup,nan,coco,Mug,63047,nan,-1
+1941,cup,nan,coco,Mug,345356,nan,-1
+1942,cup,nan,coco,Mug,83531,nan,-1
+1943,cup,nan,coco,Mug,3661,nan,-1
+1944,cup,nan,coco,Mug,323151,nan,-1
+1945,cup,nan,coco,Mug,423506,nan,-1
+1946,cup,nan,coco,Mug,45472,nan,-1
+1947,cup,nan,coco,Mug,276055,nan,-1
+1948,cup,nan,coco,Mug,210520,nan,-1
+1949,cup,nan,coco,Mug,337498,nan,-1
+1950,cup,nan,coco,Mug,499313,nan,-1
+1951,cup,nan,coco,Mug,484978,nan,-1
+1952,cup,nan,coco,Mug,476787,nan,-1
+1953,cup,nan,coco,Mug,229311,nan,-1
+1954,cup,nan,coco,Mug,91779,nan,-1
+1955,cup,nan,coco,Mug,437898,nan,-1
+1956,cup,nan,coco,Mug,384651,nan,-1
+1957,cup,nan,coco,Mug,36494,nan,-1
+1958,cup,nan,coco,Mug,167572,nan,-1
+1959,cup,nan,coco,Mug,562843,nan,-1
+1960,cup,nan,coco,Mug,183965,nan,-1
+1961,cup,nan,coco,Mug,532129,nan,-1
+1962,cup,nan,coco,Mug,241319,nan,-1
+1963,cup,nan,coco,Mug,435880,nan,-1
+1964,cup,nan,coco,Mug,24243,nan,-1
+1965,cup,nan,coco,Mug,231097,nan,-1
+1966,cup,nan,coco,Mug,140987,nan,-1
+1967,cup,nan,coco,Mug,18380,nan,-1
+1968,cup,nan,coco,Mug,313034,nan,-1
+1969,cup,nan,coco,Mug,460494,nan,-1
+1970,cup,nan,coco,Mug,171740,nan,-1
+1971,cup,nan,coco,Mug,108253,nan,-1
+1972,cup,nan,coco,Mug,530146,nan,-1
+1973,cup,nan,coco,Mug,227044,nan,-1
+1974,cup,nan,coco,Mug,515025,nan,-1
+1975,cup,nan,coco,Mug,483050,nan,-1
+1976,cup,nan,coco,Mug,378605,nan,-1
+1977,cup,nan,coco,Mug,329455,nan,-1
+1978,cup,nan,coco,Mug,462576,nan,-1
+1979,cup,nan,coco,Mug,372466,nan,-1
+1980,cup,nan,coco,Mug,206579,nan,-1
+1981,cup,nan,coco,Mug,470773,nan,-1
+1982,cup,nan,coco,Mug,52996,nan,-1
+1983,cup,nan,coco,Mug,3845,nan,-1
+1984,cup,nan,coco,Mug,558854,nan,-1
+1985,cup,nan,coco,Mug,501523,nan,-1
+1986,cup,nan,coco,Mug,38678,nan,-1
+1987,cup,nan,coco,Mug,522007,nan,-1
+1988,cup,nan,coco,Mug,163611,nan,-1
+1989,cup,nan,coco,Mug,190236,nan,-1
+1990,cup,nan,coco,Mug,331569,nan,-1
+1991,cup,nan,coco,Mug,276285,nan,-1
+1992,cup,nan,coco,Mug,287714,nan,-1
+1993,cup,nan,coco,Mug,546626,nan,-1
+1994,cup,nan,coco,Mug,329542,nan,-1
+1995,cup,nan,coco,Mug,245576,nan,-1
+1996,cup,nan,coco,Mug,397133,nan,-1
+1997,cup,nan,coco,Mug,255824,nan,-1
+1998,cup,nan,coco,Mug,156643,nan,-1
+1999,cup,nan,coco,Mug,286553,nan,-1
+2000,cup,nan,coco,Mug,3934,nan,-1
+2001,cup,nan,coco,Mug,417632,nan,-1
+2002,cup,nan,coco,Mug,252219,nan,-1
+2003,cup,nan,coco,Mug,325483,nan,-1
+2004,cup,nan,coco,Mug,178028,nan,-1
+2005,cup,nan,coco,Mug,440184,nan,-1
+2006,cup,nan,coco,Mug,470924,nan,-1
+2007,cup,nan,coco,Mug,92053,nan,-1
+2008,cup,nan,coco,Mug,356248,nan,-1
+2009,cup,nan,coco,Mug,546717,nan,-1
+2010,cup,nan,coco,Mug,157601,nan,-1
+2011,cup,nan,coco,Mug,240250,nan,-1
+2012,cup,nan,coco,Mug,458663,nan,-1
+2013,cup,nan,coco,Mug,97994,nan,-1
+2014,cup,nan,coco,Mug,243626,nan,-1
+2015,cup,nan,coco,Mug,218439,nan,-1
+2016,cup,nan,coco,Mug,294831,nan,-1
+2017,cup,nan,coco,Mug,468925,nan,-1
+2018,cup,nan,coco,Mug,278463,nan,-1
+2019,cup,nan,coco,Mug,350148,nan,-1
+2020,cup,nan,coco,Mug,120777,nan,-1
+2021,cup,nan,coco,Mug,333772,nan,-1
+2022,cup,nan,coco,Mug,290768,nan,-1
+2023,cup,nan,coco,Mug,290771,nan,-1
+2024,cup,nan,coco,Mug,147415,nan,-1
+2025,cup,nan,coco,Mug,307172,nan,-1
+2026,cup,nan,coco,Mug,88040,nan,-1
+2027,cup,nan,coco,Mug,520871,nan,-1
+2028,cup,nan,coco,Mug,36844,nan,-1
+2029,cup,nan,coco,Mug,229358,nan,-1
+2030,cup,nan,coco,Mug,226984,nan,-1
+2031,cup,nan,coco,Mug,430073,nan,-1
+2032,sink,nan,coco,Sink,453634,nan,-1
+2033,sink,nan,coco,Sink,329219,nan,-1
+2034,sink,nan,coco,Sink,30213,nan,-1
+2035,sink,nan,coco,Sink,445846,nan,-1
+2036,sink,nan,coco,Sink,239627,nan,-1
+2037,sink,nan,coco,Sink,221708,nan,-1
+2038,sink,nan,coco,Sink,293390,nan,-1
+2039,sink,nan,coco,Sink,397327,nan,-1
+2040,sink,nan,coco,Sink,458768,nan,-1
+2041,sink,nan,coco,Sink,47121,nan,-1
+2042,sink,nan,coco,Sink,40471,nan,-1
+2043,sink,nan,coco,Sink,237316,nan,-1
+2044,sink,nan,coco,Sink,262682,nan,-1
+2045,sink,nan,coco,Sink,429598,nan,-1
+2046,sink,nan,coco,Sink,268831,nan,-1
+2047,sink,nan,coco,Sink,431140,nan,-1
+2048,sink,nan,coco,Sink,201775,nan,-1
+2049,sink,nan,coco,Sink,397354,nan,-1
+2050,sink,nan,coco,Sink,9772,nan,-1
+2051,sink,nan,coco,Sink,306733,nan,-1
+2052,sink,nan,coco,Sink,192047,nan,-1
+2053,sink,nan,coco,Sink,186632,nan,-1
+2054,sink,nan,coco,Sink,172083,nan,-1
+2055,sink,nan,coco,Sink,446005,nan,-1
+2056,sink,nan,coco,Sink,34873,nan,-1
+2057,sink,nan,coco,Sink,369503,nan,-1
+2058,sink,nan,coco,Sink,569917,nan,-1
+2059,sink,nan,coco,Sink,407614,nan,-1
+2060,sink,nan,coco,Sink,308799,nan,-1
+2061,sink,nan,coco,Sink,466085,nan,-1
+2062,sink,nan,coco,Sink,138819,nan,-1
+2063,sink,nan,coco,Sink,6213,nan,-1
+2064,sink,nan,coco,Sink,393569,nan,-1
+2065,sink,nan,coco,Sink,520264,nan,-1
+2066,sink,nan,coco,Sink,62025,nan,-1
+2067,sink,nan,coco,Sink,3156,nan,-1
+2068,sink,nan,coco,Sink,452793,nan,-1
+2069,sink,nan,coco,Sink,331352,nan,-1
+2070,sink,nan,coco,Sink,327769,nan,-1
+2071,sink,nan,coco,Sink,195165,nan,-1
+2072,sink,nan,coco,Sink,565776,nan,-1
+2073,sink,nan,coco,Sink,181859,nan,-1
+2074,sink,nan,coco,Sink,186980,nan,-1
+2075,sink,nan,coco,Sink,561256,nan,-1
+2076,sink,nan,coco,Sink,541291,nan,-1
+2077,sink,nan,coco,Sink,229358,nan,-1
+2078,sink,nan,coco,Sink,157807,nan,-1
+2079,sink,nan,coco,Sink,350833,nan,-1
+2080,sink,nan,coco,Sink,557172,nan,-1
+2081,sink,nan,coco,Sink,383606,nan,-1
+2082,sink,nan,coco,Sink,187513,nan,-1
+2083,sink,nan,coco,Sink,104572,nan,-1
+2084,sink,nan,coco,Sink,449661,nan,-1
+2085,sink,nan,coco,Sink,267903,nan,-1
+2086,sink,nan,coco,Sink,94336,nan,-1
+2087,sink,nan,coco,Sink,370818,nan,-1
+2088,sink,nan,coco,Sink,489091,nan,-1
+2089,sink,nan,coco,Sink,91500,nan,-1
+2090,sink,nan,coco,Sink,437898,nan,-1
+2091,sink,nan,coco,Sink,361621,nan,-1
+2092,sink,nan,coco,Sink,442009,nan,-1
+2093,sink,nan,coco,Sink,117914,nan,-1
+2094,sink,nan,coco,Sink,529568,nan,-1
+2095,sink,nan,coco,Sink,103585,nan,-1
+2096,sink,nan,coco,Sink,474786,nan,-1
+2097,sink,nan,coco,Sink,197796,nan,-1
+2098,sink,nan,coco,Sink,365766,nan,-1
+2099,sink,nan,coco,Sink,241319,nan,-1
+2100,sink,nan,coco,Sink,302760,nan,-1
+2101,sink,nan,coco,Sink,389804,nan,-1
+2102,sink,nan,coco,Sink,58029,nan,-1
+2103,sink,nan,coco,Sink,164637,nan,-1
+2104,sink,nan,coco,Sink,452784,nan,-1
+2105,sink,nan,coco,Sink,571804,nan,-1
+2106,sink,nan,coco,Sink,453302,nan,-1
+2107,sink,nan,coco,Sink,66231,nan,-1
+2108,sink,nan,coco,Sink,246968,nan,-1
+2109,sink,nan,coco,Sink,360564,nan,-1
+2110,sink,nan,coco,Sink,521405,nan,-1
+2111,sink,nan,coco,Sink,357567,nan,-1
+2112,sink,nan,coco,Sink,156278,nan,-1
+2113,sink,nan,coco,Sink,580294,nan,-1
+2114,sink,nan,coco,Sink,289992,nan,-1
+2115,sink,nan,coco,Sink,232649,nan,-1
+2116,sink,nan,coco,Sink,520910,nan,-1
+2117,sink,nan,coco,Sink,491216,nan,-1
+2118,sink,nan,coco,Sink,127182,nan,-1
+2119,sink,nan,coco,Sink,445658,nan,-1
+2120,sink,nan,coco,Sink,292060,nan,-1
+2121,sink,nan,coco,Sink,10977,nan,-1
+2122,sink,nan,coco,Sink,227044,nan,-1
+2123,sink,nan,coco,Sink,382696,nan,-1
+2124,sink,nan,coco,Sink,465129,nan,-1
+2125,sink,nan,coco,Sink,500464,nan,-1
+2126,sink,nan,coco,Sink,384808,nan,-1
+2127,sink,nan,coco,Sink,308466,nan,-1
+2128,sink,nan,coco,Sink,164602,nan,-1
+2129,sink,nan,coco,Sink,97022,nan,-1
+2130,sink,nan,coco,Sink,292005,nan,-1
+2131,sink,nan,coco,Sink,175364,nan,-1
+2132,sink,nan,coco,Sink,363784,nan,-1
+2133,sink,nan,coco,Sink,351362,nan,-1
+2134,sink,nan,coco,Sink,409358,nan,-1
+2135,sink,nan,coco,Sink,223789,nan,-1
+2136,sink,nan,coco,Sink,84241,nan,-1
+2137,sink,nan,coco,Sink,501523,nan,-1
+2138,sink,nan,coco,Sink,462614,nan,-1
+2139,sink,nan,coco,Sink,522007,nan,-1
+2140,sink,nan,coco,Sink,354072,nan,-1
+2141,sink,nan,coco,Sink,525083,nan,-1
+2142,sink,nan,coco,Sink,167898,nan,-1
+2143,sink,nan,coco,Sink,105249,nan,-1
+2144,sink,nan,coco,Sink,110884,nan,-1
+2145,sink,nan,coco,Sink,262440,nan,-1
+2146,sink,nan,coco,Sink,92124,nan,-1
+2147,sink,nan,coco,Sink,368940,nan,-1
+2148,sink,nan,coco,Sink,248111,nan,-1
+2149,sink,nan,coco,Sink,165257,nan,-1
+2150,sink,nan,coco,Sink,508730,nan,-1
+2151,sink,nan,coco,Sink,473406,nan,-1
+2152,sink,nan,coco,Sink,56127,nan,-1
+2153,sink,nan,coco,Sink,68833,nan,-1
+2154,sink,nan,coco,Sink,35770,nan,-1
+2155,sink,nan,coco,Sink,365385,nan,-1
+2156,sink,nan,coco,Sink,365387,nan,-1
+2157,sink,nan,coco,Sink,287714,nan,-1
+2158,sink,nan,coco,Sink,492878,nan,-1
+2159,sink,nan,coco,Sink,111951,nan,-1
+2160,sink,nan,coco,Sink,209747,nan,-1
+2161,sink,nan,coco,Sink,540502,nan,-1
+2162,sink,nan,coco,Sink,78266,nan,-1
+2163,sink,nan,coco,Sink,136033,nan,-1
+2164,sink,nan,coco,Sink,514914,nan,-1
+2165,sink,nan,coco,Sink,187243,nan,-1
+2166,sink,nan,coco,Sink,178028,nan,-1
+2167,sink,nan,coco,Sink,570736,nan,-1
+2168,sink,nan,coco,Sink,147518,nan,-1
+2169,sink,nan,coco,Sink,480122,nan,-1
+2170,sink,nan,coco,Sink,491071,nan,-1
+2171,sink,nan,coco,Sink,267670,nan,-1
+2172,sink,nan,coco,Sink,397133,nan,-1
+2173,sink,nan,coco,Sink,542089,nan,-1
+2174,sink,nan,coco,Sink,51598,nan,-1
+2175,sink,nan,coco,Sink,37777,nan,-1
+2176,sink,nan,coco,Sink,530836,nan,-1
+2177,sink,nan,coco,Sink,472046,nan,-1
+2178,sink,nan,coco,Sink,7574,nan,-1
+2179,sink,nan,coco,Sink,298396,nan,-1
+2180,sink,nan,coco,Sink,135561,nan,-1
+2181,sink,nan,coco,Sink,210855,nan,-1
+2182,sink,nan,coco,Sink,255401,nan,-1
+2183,sink,nan,coco,Sink,343466,nan,-1
+2184,sink,nan,coco,Sink,543047,nan,-1
+2185,sink,nan,coco,Sink,216497,nan,-1
+2186,sink,nan,coco,Sink,552883,nan,-1
+2187,sink,nan,coco,Sink,450488,nan,-1
+2188,sink,nan,coco,Sink,403385,nan,-1
+2189,sink,nan,coco,Sink,163258,nan,-1
+2190,sink,nan,coco,Sink,557501,nan,-1
+2191,sink,nan,coco,Sink,229311,nan,-1
+2192,sink,nan,coco,Sink,239041,nan,-1
+2193,sink,nan,coco,Sink,241602,nan,-1
+2194,sink,nan,coco,Sink,157124,nan,-1
+2195,sink,nan,coco,Sink,376310,nan,-1
+2196,sink,nan,coco,Sink,34760,nan,-1
+2197,sink,nan,coco,Sink,307145,nan,-1
+2198,sink,nan,coco,Sink,284623,nan,-1
+2199,sink,nan,coco,Sink,134096,nan,-1
+2200,sink,nan,coco,Sink,383443,nan,-1
+2201,sink,nan,coco,Sink,485844,nan,-1
+2202,sink,nan,coco,Sink,27982,nan,-1
+2203,sink,nan,coco,Sink,415194,nan,-1
+2204,sink,nan,coco,Sink,512476,nan,-1
+2205,sink,nan,coco,Sink,91615,nan,-1
+2206,sink,nan,coco,Sink,74209,nan,-1
+2207,sink,nan,coco,Sink,575970,nan,-1
+2208,sink,nan,coco,Sink,17379,nan,-1
+2209,sink,nan,coco,Sink,290768,nan,-1
+2210,sink,nan,coco,Sink,547816,nan,-1
+2211,sink,nan,coco,Sink,416745,nan,-1
+2212,sink,nan,coco,Sink,458663,nan,-1
+2213,sink,nan,coco,Sink,68078,nan,-1
+2214,sink,nan,coco,Sink,226984,nan,-1
+2215,sink,nan,coco,Sink,507893,nan,-1
+2216,sink,nan,coco,Sink,438774,nan,-1
+2217,sink,nan,coco,Sink,570456,nan,-1
+2218,sink,nan,coco,Sink,90108,nan,-1
+2219,spoon,nan,coco,Spoon,376322,nan,-1
+2220,spoon,nan,coco,Spoon,329219,nan,-1
+2221,spoon,nan,coco,Spoon,243204,nan,-1
+2222,spoon,nan,coco,Spoon,417285,nan,-1
+2223,spoon,nan,coco,Spoon,127494,nan,-1
+2224,spoon,nan,coco,Spoon,260105,nan,-1
+2225,spoon,nan,coco,Spoon,239627,nan,-1
+2226,spoon,nan,coco,Spoon,253452,nan,-1
+2227,spoon,nan,coco,Spoon,528399,nan,-1
+2228,spoon,nan,coco,Spoon,565776,nan,-1
+2229,spoon,nan,coco,Spoon,465430,nan,-1
+2230,spoon,nan,coco,Spoon,40471,nan,-1
+2231,spoon,nan,coco,Spoon,262682,nan,-1
+2232,spoon,nan,coco,Spoon,385029,nan,-1
+2233,spoon,nan,coco,Spoon,447522,nan,-1
+2234,spoon,nan,coco,Spoon,344100,nan,-1
+2235,spoon,nan,coco,Spoon,256518,nan,-1
+2236,spoon,nan,coco,Spoon,117425,nan,-1
+2237,spoon,nan,coco,Spoon,215644,nan,-1
+2238,spoon,nan,coco,Spoon,450100,nan,-1
+2239,spoon,nan,coco,Spoon,131138,nan,-1
+2240,spoon,nan,coco,Spoon,335427,nan,-1
+2241,spoon,nan,coco,Spoon,89670,nan,-1
+2242,spoon,nan,coco,Spoon,157767,nan,-1
+2243,spoon,nan,coco,Spoon,345356,nan,-1
+2244,spoon,nan,coco,Spoon,346703,nan,-1
+2245,spoon,nan,coco,Spoon,84664,nan,-1
+2246,spoon,nan,coco,Spoon,64084,nan,-1
+2247,spoon,nan,coco,Spoon,226903,nan,-1
+2248,spoon,nan,coco,Spoon,210520,nan,-1
+2249,spoon,nan,coco,Spoon,129113,nan,-1
+2250,spoon,nan,coco,Spoon,284764,nan,-1
+2251,spoon,nan,coco,Spoon,141328,nan,-1
+2252,spoon,nan,coco,Spoon,186980,nan,-1
+2253,spoon,nan,coco,Spoon,345361,nan,-1
+2254,spoon,nan,coco,Spoon,410735,nan,-1
+2255,spoon,nan,coco,Spoon,368752,nan,-1
+2256,spoon,nan,coco,Spoon,484978,nan,-1
+2257,spoon,nan,coco,Spoon,416885,nan,-1
+2258,spoon,nan,coco,Spoon,297084,nan,-1
+2259,spoon,nan,coco,Spoon,289415,nan,-1
+2260,spoon,nan,coco,Spoon,437898,nan,-1
+2261,spoon,nan,coco,Spoon,530061,nan,-1
+2262,spoon,nan,coco,Spoon,182417,nan,-1
+2263,spoon,nan,coco,Spoon,381587,nan,-1
+2264,spoon,nan,coco,Spoon,384661,nan,-1
+2265,spoon,nan,coco,Spoon,320664,nan,-1
+2266,spoon,nan,coco,Spoon,387098,nan,-1
+2267,spoon,nan,coco,Spoon,483999,nan,-1
+2268,spoon,nan,coco,Spoon,572678,nan,-1
+2269,spoon,nan,coco,Spoon,236721,nan,-1
+2270,spoon,nan,coco,Spoon,293044,nan,-1
+2271,spoon,nan,coco,Spoon,336053,nan,-1
+2272,spoon,nan,coco,Spoon,246968,nan,-1
+2273,spoon,nan,coco,Spoon,47801,nan,-1
+2274,spoon,nan,coco,Spoon,405691,nan,-1
+2275,spoon,nan,coco,Spoon,580294,nan,-1
+2276,spoon,nan,coco,Spoon,300233,nan,-1
+2277,spoon,nan,coco,Spoon,88269,nan,-1
+2278,spoon,nan,coco,Spoon,491216,nan,-1
+2279,spoon,nan,coco,Spoon,66771,nan,-1
+2280,spoon,nan,coco,Spoon,479448,nan,-1
+2281,spoon,nan,coco,Spoon,181796,nan,-1
+2282,spoon,nan,coco,Spoon,108253,nan,-1
+2283,spoon,nan,coco,Spoon,99039,nan,-1
+2284,spoon,nan,coco,Spoon,98018,nan,-1
+2285,spoon,nan,coco,Spoon,224807,nan,-1
+2286,spoon,nan,coco,Spoon,551660,nan,-1
+2287,spoon,nan,coco,Spoon,470773,nan,-1
+2288,spoon,nan,coco,Spoon,275198,nan,-1
+2289,spoon,nan,coco,Spoon,66817,nan,-1
+2290,spoon,nan,coco,Spoon,242946,nan,-1
+2291,spoon,nan,coco,Spoon,175364,nan,-1
+2292,spoon,nan,coco,Spoon,3845,nan,-1
+2293,spoon,nan,coco,Spoon,558854,nan,-1
+2294,spoon,nan,coco,Spoon,280918,nan,-1
+2295,spoon,nan,coco,Spoon,271116,nan,-1
+2296,spoon,nan,coco,Spoon,473869,nan,-1
+2297,spoon,nan,coco,Spoon,177935,nan,-1
+2298,spoon,nan,coco,Spoon,84241,nan,-1
+2299,spoon,nan,coco,Spoon,494869,nan,-1
+2300,spoon,nan,coco,Spoon,233238,nan,-1
+2301,spoon,nan,coco,Spoon,66841,nan,-1
+2302,spoon,nan,coco,Spoon,166918,nan,-1
+2303,spoon,nan,coco,Spoon,142620,nan,-1
+2304,spoon,nan,coco,Spoon,273711,nan,-1
+2305,spoon,nan,coco,Spoon,17714,nan,-1
+2306,spoon,nan,coco,Spoon,544565,nan,-1
+2307,spoon,nan,coco,Spoon,578871,nan,-1
+2308,spoon,nan,coco,Spoon,116362,nan,-1
+2309,spoon,nan,coco,Spoon,5600,nan,-1
+2310,spoon,nan,coco,Spoon,374083,nan,-1
+2311,spoon,nan,coco,Spoon,521540,nan,-1
+2312,spoon,nan,coco,Spoon,552775,nan,-1
+2313,spoon,nan,coco,Spoon,417608,nan,-1
+2314,spoon,nan,coco,Spoon,397133,nan,-1
+2315,spoon,nan,coco,Spoon,492878,nan,-1
+2316,spoon,nan,coco,Spoon,177489,nan,-1
+2317,spoon,nan,coco,Spoon,182611,nan,-1
+2318,spoon,nan,coco,Spoon,345941,nan,-1
+2319,spoon,nan,coco,Spoon,540502,nan,-1
+2320,spoon,nan,coco,Spoon,450399,nan,-1
+2321,spoon,nan,coco,Spoon,226147,nan,-1
+2322,spoon,nan,coco,Spoon,551780,nan,-1
+2323,spoon,nan,coco,Spoon,33638,nan,-1
+2324,spoon,nan,coco,Spoon,9590,nan,-1
+2325,spoon,nan,coco,Spoon,351609,nan,-1
+2326,spoon,nan,coco,Spoon,480122,nan,-1
+2327,spoon,nan,coco,Spoon,236412,nan,-1
+2328,spoon,nan,coco,Spoon,2431,nan,-1
+2329,spoon,nan,coco,Spoon,25986,nan,-1
+2330,spoon,nan,coco,Spoon,192904,nan,-1
+2331,spoon,nan,coco,Spoon,435081,nan,-1
+2332,spoon,nan,coco,Spoon,562059,nan,-1
+2333,spoon,nan,coco,Spoon,242060,nan,-1
+2334,spoon,nan,coco,Spoon,231822,nan,-1
+2335,spoon,nan,coco,Spoon,15254,nan,-1
+2336,spoon,nan,coco,Spoon,110999,nan,-1
+2337,spoon,nan,coco,Spoon,356248,nan,-1
+2338,spoon,nan,coco,Spoon,512929,nan,-1
+2339,spoon,nan,coco,Spoon,127394,nan,-1
+2340,spoon,nan,coco,Spoon,523175,nan,-1
+2341,spoon,nan,coco,Spoon,327592,nan,-1
+2342,spoon,nan,coco,Spoon,196009,nan,-1
+2343,spoon,nan,coco,Spoon,546219,nan,-1
+2344,spoon,nan,coco,Spoon,156076,nan,-1
+2345,spoon,nan,coco,Spoon,455597,nan,-1
+2346,spoon,nan,coco,Spoon,550322,nan,-1
+2347,spoon,nan,coco,Spoon,227765,nan,-1
+2348,spoon,nan,coco,Spoon,310200,nan,-1
+2349,spoon,nan,coco,Spoon,496571,nan,-1
+2350,spoon,nan,coco,Spoon,468925,nan,-1
+2351,spoon,nan,coco,Spoon,119233,nan,-1
+2352,spoon,nan,coco,Spoon,541634,nan,-1
+2353,spoon,nan,coco,Spoon,281032,nan,-1
+2354,spoon,nan,coco,Spoon,29640,nan,-1
+2355,spoon,nan,coco,Spoon,305609,nan,-1
+2356,spoon,nan,coco,Spoon,18380,nan,-1
+2357,spoon,nan,coco,Spoon,237517,nan,-1
+2358,spoon,nan,coco,Spoon,415194,nan,-1
+2359,spoon,nan,coco,Spoon,512476,nan,-1
+2360,spoon,nan,coco,Spoon,63965,nan,-1
+2361,spoon,nan,coco,Spoon,349152,nan,-1
+2362,spoon,nan,coco,Spoon,286182,nan,-1
+2363,spoon,nan,coco,Spoon,88040,nan,-1
+2364,spoon,nan,coco,Spoon,91654,nan,-1
+2365,spoon,nan,coco,Spoon,17899,nan,-1
+2366,spoon,nan,coco,Spoon,151820,nan,-1
+2367,spoon,nan,coco,Spoon,248314,nan,-1
+2368,spoon,nan,coco,Spoon,356347,nan,-1
+2369,spoon,nan,coco,Spoon,139260,nan,-1
+2370,spoon,nan,coco,Spoon,355325,nan,-1
+2371,spoon,nan,coco,Spoon,484351,nan,-1
+2372,dining table,nan,coco,Table Top,385029,nan,-1
+2373,dining table,nan,coco,Table Top,311303,nan,-1
+2374,dining table,nan,coco,Table Top,47112,nan,-1
+2375,dining table,nan,coco,Table Top,528399,nan,-1
+2376,dining table,nan,coco,Table Top,120853,nan,-1
+2377,dining table,nan,coco,Table Top,137246,nan,-1
+2378,dining table,nan,coco,Table Top,67616,nan,-1
+2379,dining table,nan,coco,Table Top,344100,nan,-1
+2380,dining table,nan,coco,Table Top,129062,nan,-1
+2381,dining table,nan,coco,Table Top,331817,nan,-1
+2382,dining table,nan,coco,Table Top,555050,nan,-1
+2383,dining table,nan,coco,Table Top,174123,nan,-1
+2384,dining table,nan,coco,Table Top,340015,nan,-1
+2385,dining table,nan,coco,Table Top,462904,nan,-1
+2386,dining table,nan,coco,Table Top,34873,nan,-1
+2387,dining table,nan,coco,Table Top,446522,nan,-1
+2388,dining table,nan,coco,Table Top,184384,nan,-1
+2389,dining table,nan,coco,Table Top,30785,nan,-1
+2390,dining table,nan,coco,Table Top,563267,nan,-1
+2391,dining table,nan,coco,Table Top,157767,nan,-1
+2392,dining table,nan,coco,Table Top,356424,nan,-1
+2393,dining table,nan,coco,Table Top,20553,nan,-1
+2394,dining table,nan,coco,Table Top,395343,nan,-1
+2395,dining table,nan,coco,Table Top,122962,nan,-1
+2396,dining table,nan,coco,Table Top,372819,nan,-1
+2397,dining table,nan,coco,Table Top,244750,nan,-1
+2398,dining table,nan,coco,Table Top,129113,nan,-1
+2399,dining table,nan,coco,Table Top,268378,nan,-1
+2400,dining table,nan,coco,Table Top,284764,nan,-1
+2401,dining table,nan,coco,Table Top,179898,nan,-1
+2402,dining table,nan,coco,Table Top,231527,nan,-1
+2403,dining table,nan,coco,Table Top,2157,nan,-1
+2404,dining table,nan,coco,Table Top,368752,nan,-1
+2405,dining table,nan,coco,Table Top,297084,nan,-1
+2406,dining table,nan,coco,Table Top,319617,nan,-1
+2407,dining table,nan,coco,Table Top,32901,nan,-1
+2408,dining table,nan,coco,Table Top,419974,nan,-1
+2409,dining table,nan,coco,Table Top,91500,nan,-1
+2410,dining table,nan,coco,Table Top,139,nan,-1
+2411,dining table,nan,coco,Table Top,18575,nan,-1
+2412,dining table,nan,coco,Table Top,61584,nan,-1
+2413,dining table,nan,coco,Table Top,182417,nan,-1
+2414,dining table,nan,coco,Table Top,546964,nan,-1
+2415,dining table,nan,coco,Table Top,440475,nan,-1
+2416,dining table,nan,coco,Table Top,231580,nan,-1
+2417,dining table,nan,coco,Table Top,194724,nan,-1
+2418,dining table,nan,coco,Table Top,342186,nan,-1
+2419,dining table,nan,coco,Table Top,356531,nan,-1
+2420,dining table,nan,coco,Table Top,293044,nan,-1
+2421,dining table,nan,coco,Table Top,336053,nan,-1
+2422,dining table,nan,coco,Table Top,114871,nan,-1
+2423,dining table,nan,coco,Table Top,405691,nan,-1
+2424,dining table,nan,coco,Table Top,286908,nan,-1
+2425,dining table,nan,coco,Table Top,153632,nan,-1
+2426,dining table,nan,coco,Table Top,374982,nan,-1
+2427,dining table,nan,coco,Table Top,125129,nan,-1
+2428,dining table,nan,coco,Table Top,340175,nan,-1
+2429,dining table,nan,coco,Table Top,173091,nan,-1
+2430,dining table,nan,coco,Table Top,157390,nan,-1
+2431,dining table,nan,coco,Table Top,104669,nan,-1
+2432,dining table,nan,coco,Table Top,4134,nan,-1
+2433,dining table,nan,coco,Table Top,100582,nan,-1
+2434,dining table,nan,coco,Table Top,493799,nan,-1
+2435,dining table,nan,coco,Table Top,213224,nan,-1
+2436,dining table,nan,coco,Table Top,400082,nan,-1
+2437,dining table,nan,coco,Table Top,239857,nan,-1
+2438,dining table,nan,coco,Table Top,397354,nan,-1
+2439,dining table,nan,coco,Table Top,389381,nan,-1
+2440,dining table,nan,coco,Table Top,180487,nan,-1
+2441,dining table,nan,coco,Table Top,160012,nan,-1
+2442,dining table,nan,coco,Table Top,84241,nan,-1
+2443,dining table,nan,coco,Table Top,166166,nan,-1
+2444,dining table,nan,coco,Table Top,229659,nan,-1
+2445,dining table,nan,coco,Table Top,12576,nan,-1
+2446,dining table,nan,coco,Table Top,549167,nan,-1
+2447,dining table,nan,coco,Table Top,561465,nan,-1
+2448,dining table,nan,coco,Table Top,194875,nan,-1
+2449,dining table,nan,coco,Table Top,571718,nan,-1
+2450,dining table,nan,coco,Table Top,543047,nan,-1
+2451,dining table,nan,coco,Table Top,74058,nan,-1
+2452,dining table,nan,coco,Table Top,182611,nan,-1
+2453,dining table,nan,coco,Table Top,10583,nan,-1
+2454,dining table,nan,coco,Table Top,565597,nan,-1
+2455,dining table,nan,coco,Table Top,233825,nan,-1
+2456,dining table,nan,coco,Table Top,192871,nan,-1
+2457,dining table,nan,coco,Table Top,416104,nan,-1
+2458,dining table,nan,coco,Table Top,383337,nan,-1
+2459,dining table,nan,coco,Table Top,22892,nan,-1
+2460,dining table,nan,coco,Table Top,2431,nan,-1
+2461,dining table,nan,coco,Table Top,151938,nan,-1
+2462,dining table,nan,coco,Table Top,436617,nan,-1
+2463,dining table,nan,coco,Table Top,242060,nan,-1
+2464,dining table,nan,coco,Table Top,231822,nan,-1
+2465,dining table,nan,coco,Table Top,530836,nan,-1
+2466,dining table,nan,coco,Table Top,345356,nan,-1
+2467,dining table,nan,coco,Table Top,559513,nan,-1
+2468,dining table,nan,coco,Table Top,70048,nan,-1
+2469,dining table,nan,coco,Table Top,127394,nan,-1
+2470,dining table,nan,coco,Table Top,139684,nan,-1
+2471,dining table,nan,coco,Table Top,506279,nan,-1
+2472,dining table,nan,coco,Table Top,156076,nan,-1
+2473,dining table,nan,coco,Table Top,309678,nan,-1
+2474,dining table,nan,coco,Table Top,453040,nan,-1
+2475,dining table,nan,coco,Table Top,463283,nan,-1
+2476,dining table,nan,coco,Table Top,297396,nan,-1
+2477,dining table,nan,coco,Table Top,551350,nan,-1
+2478,dining table,nan,coco,Table Top,319935,nan,-1
+2479,dining table,nan,coco,Table Top,326082,nan,-1
+2480,dining table,nan,coco,Table Top,7818,nan,-1
+2481,dining table,nan,coco,Table Top,231879,nan,-1
+2482,dining table,nan,coco,Table Top,305609,nan,-1
+2483,dining table,nan,coco,Table Top,10707,nan,-1
+2484,dining table,nan,coco,Table Top,80340,nan,-1
+2485,dining table,nan,coco,Table Top,244181,nan,-1
+2486,dining table,nan,coco,Table Top,350679,nan,-1
+2487,dining table,nan,coco,Table Top,74209,nan,-1
+2488,dining table,nan,coco,Table Top,575970,nan,-1
+2489,dining table,nan,coco,Table Top,336356,nan,-1
+2490,dining table,nan,coco,Table Top,455157,nan,-1
+2491,dining table,nan,coco,Table Top,438774,nan,-1
+2492,dining table,nan,coco,Table Top,367095,nan,-1
+2493,dining table,nan,coco,Table Top,256518,nan,-1
+2494,dining table,nan,coco,Table Top,25096,nan,-1
+2495,dining table,nan,coco,Table Top,221708,nan,-1
+2496,dining table,nan,coco,Table Top,180751,nan,-1
+2497,dining table,nan,coco,Table Top,266768,nan,-1
+2498,dining table,nan,coco,Table Top,377368,nan,-1
+2499,dining table,nan,coco,Table Top,166426,nan,-1
+2500,dining table,nan,coco,Table Top,277020,nan,-1
+2501,dining table,nan,coco,Table Top,530975,nan,-1
+2502,dining table,nan,coco,Table Top,2592,nan,-1
+2503,dining table,nan,coco,Table Top,348708,nan,-1
+2504,dining table,nan,coco,Table Top,391722,nan,-1
+2505,dining table,nan,coco,Table Top,457262,nan,-1
+2506,dining table,nan,coco,Table Top,105014,nan,-1
+2507,dining table,nan,coco,Table Top,277051,nan,-1
+2508,dining table,nan,coco,Table Top,39484,nan,-1
+2509,dining table,nan,coco,Table Top,43581,nan,-1
+2510,dining table,nan,coco,Table Top,31296,nan,-1
+2511,dining table,nan,coco,Table Top,492110,nan,-1
+2512,dining table,nan,coco,Table Top,485972,nan,-1
+2513,dining table,nan,coco,Table Top,78426,nan,-1
+2514,dining table,nan,coco,Table Top,170595,nan,-1
+2515,dining table,nan,coco,Table Top,186980,nan,-1
+2516,dining table,nan,coco,Table Top,6763,nan,-1
+2517,dining table,nan,coco,Table Top,322163,nan,-1
+2518,dining table,nan,coco,Table Top,240250,nan,-1
+2519,dining table,nan,coco,Table Top,143998,nan,-1
+2520,dining table,nan,coco,Table Top,144003,nan,-1
+2521,dining table,nan,coco,Table Top,375430,nan,-1
+2522,dining table,nan,coco,Table Top,465549,nan,-1
+2523,dining table,nan,coco,Table Top,227985,nan,-1
+2524,dining table,nan,coco,Table Top,381587,nan,-1
+2525,dining table,nan,coco,Table Top,97337,nan,-1
+2526,dining table,nan,coco,Table Top,301718,nan,-1
+2527,dining table,nan,coco,Table Top,47769,nan,-1
+2528,dining table,nan,coco,Table Top,369310,nan,-1
+2529,dining table,nan,coco,Table Top,483999,nan,-1
+2530,dining table,nan,coco,Table Top,210032,nan,-1
+2531,dining table,nan,coco,Table Top,121506,nan,-1
+2532,dining table,nan,coco,Table Top,322211,nan,-1
+2533,dining table,nan,coco,Table Top,520871,nan,-1
+2534,dining table,nan,coco,Table Top,170670,nan,-1
+2535,dining table,nan,coco,Table Top,117425,nan,-1
+2536,dining table,nan,coco,Table Top,84664,nan,-1
+2537,dining table,nan,coco,Table Top,363207,nan,-1
+2538,dining table,nan,coco,Table Top,205514,nan,-1
+2539,dining table,nan,coco,Table Top,13004,nan,-1
+2540,dining table,nan,coco,Table Top,277197,nan,-1
+2541,dining table,nan,coco,Table Top,201426,nan,-1
+2542,dining table,nan,coco,Table Top,369370,nan,-1
+2543,dining table,nan,coco,Table Top,140439,nan,-1
+2544,dining table,nan,coco,Table Top,488166,nan,-1
+2545,dining table,nan,coco,Table Top,99053,nan,-1
+2546,dining table,nan,coco,Table Top,123633,nan,-1
+2547,dining table,nan,coco,Table Top,154358,nan,-1
+2548,dining table,nan,coco,Table Top,485844,nan,-1
+2549,dining table,nan,coco,Table Top,275198,nan,-1
+2550,dining table,nan,coco,Table Top,76547,nan,-1
+2551,dining table,nan,coco,Table Top,516871,nan,-1
+2552,dining table,nan,coco,Table Top,82696,nan,-1
+2553,dining table,nan,coco,Table Top,271116,nan,-1
+2554,dining table,nan,coco,Table Top,361238,nan,-1
+2555,dining table,nan,coco,Table Top,367386,nan,-1
+2556,dining table,nan,coco,Table Top,525083,nan,-1
+2557,dining table,nan,coco,Table Top,228144,nan,-1
+2558,dining table,nan,coco,Table Top,140076,nan,-1
+2559,dining table,nan,coco,Table Top,322352,nan,-1
+2560,dining table,nan,coco,Table Top,203580,nan,-1
+2561,dining table,nan,coco,Table Top,428867,nan,-1
+2562,dining table,nan,coco,Table Top,238410,nan,-1
+2563,dining table,nan,coco,Table Top,226130,nan,-1
+2564,dining table,nan,coco,Table Top,471893,nan,-1
+2565,dining table,nan,coco,Table Top,35682,nan,-1
+2566,dining table,nan,coco,Table Top,226147,nan,-1
+2567,dining table,nan,coco,Table Top,82807,nan,-1
+2568,dining table,nan,coco,Table Top,480122,nan,-1
+2569,dining table,nan,coco,Table Top,312192,nan,-1
+2570,dining table,nan,coco,Table Top,568195,nan,-1
+2571,dining table,nan,coco,Table Top,435081,nan,-1
+2572,dining table,nan,coco,Table Top,562059,nan,-1
+2573,dining table,nan,coco,Table Top,551822,nan,-1
+2574,dining table,nan,coco,Table Top,150417,nan,-1
+2575,dining table,nan,coco,Table Top,256916,nan,-1
+2576,dining table,nan,coco,Table Top,29596,nan,-1
+2577,dining table,nan,coco,Table Top,441247,nan,-1
+2578,dining table,nan,coco,Table Top,116208,nan,-1
+2579,dining table,nan,coco,Table Top,523175,nan,-1
+2580,dining table,nan,coco,Table Top,414638,nan,-1
+2581,dining table,nan,coco,Table Top,287667,nan,-1
+2582,dining table,nan,coco,Table Top,422836,nan,-1
+2583,dining table,nan,coco,Table Top,146358,nan,-1
+2584,dining table,nan,coco,Table Top,478136,nan,-1
+2585,dining table,nan,coco,Table Top,496571,nan,-1
+2586,dining table,nan,coco,Table Top,517056,nan,-1
+2587,dining table,nan,coco,Table Top,541634,nan,-1
+2588,dining table,nan,coco,Table Top,578500,nan,-1
+2589,dining table,nan,coco,Table Top,179141,nan,-1
+2590,dining table,nan,coco,Table Top,173004,nan,-1
+2591,dining table,nan,coco,Table Top,515025,nan,-1
+2592,dining table,nan,coco,Table Top,480212,nan,-1
+2593,dining table,nan,coco,Table Top,89045,nan,-1
+2594,dining table,nan,coco,Table Top,338905,nan,-1
+2595,dining table,nan,coco,Table Top,306139,nan,-1
+2596,dining table,nan,coco,Table Top,349152,nan,-1
+2597,dining table,nan,coco,Table Top,409424,nan,-1
+2598,dining table,nan,coco,Table Top,293858,nan,-1
+2599,dining table,nan,coco,Table Top,156643,nan,-1
+2600,dining table,nan,coco,Table Top,420840,nan,-1
+2601,dining table,nan,coco,Table Top,29675,nan,-1
+2602,dining table,nan,coco,Table Top,74733,nan,-1
+2603,dining table,nan,coco,Table Top,472046,nan,-1
+2604,dining table,nan,coco,Table Top,371699,nan,-1
+2605,dining table,nan,coco,Table Top,151820,nan,-1
+2606,dining table,nan,coco,Table Top,318455,nan,-1
+2607,dining table,nan,coco,Table Top,261116,nan,-1
+2608,dining table,nan,coco,Table Top,355325,nan,-1
+2609,dining table,nan,coco,Table Top,484351,nan,-1
+2610,dining table,nan,coco,Table Top,138241,nan,-1
+2611,dining table,nan,coco,Table Top,25603,nan,-1
+2612,dining table,nan,coco,Table Top,515077,nan,-1
+2613,dining table,nan,coco,Table Top,166918,nan,-1
+2614,dining table,nan,coco,Table Top,300039,nan,-1
+2615,dining table,nan,coco,Table Top,435208,nan,-1
+2616,dining table,nan,coco,Table Top,547854,nan,-1
+2617,dining table,nan,coco,Table Top,513041,nan,-1
+2618,dining table,nan,coco,Table Top,132116,nan,-1
+2619,dining table,nan,coco,Table Top,146457,nan,-1
+2620,dining table,nan,coco,Table Top,60449,nan,-1
+2621,dining table,nan,coco,Table Top,447522,nan,-1
+2622,dining table,nan,coco,Table Top,189475,nan,-1
+2623,dining table,nan,coco,Table Top,80932,nan,-1
+2624,dining table,nan,coco,Table Top,379476,nan,-1
+2625,dining table,nan,coco,Table Top,474167,nan,-1
+2626,dining table,nan,coco,Table Top,113720,nan,-1
+2627,dining table,nan,coco,Table Top,146489,nan,-1
+2628,dining table,nan,coco,Table Top,177213,nan,-1
+2629,dining table,nan,coco,Table Top,341058,nan,-1
+2630,dining table,nan,coco,Table Top,527427,nan,-1
+2631,dining table,nan,coco,Table Top,306700,nan,-1
+2632,dining table,nan,coco,Table Top,541773,nan,-1
+2633,dining table,nan,coco,Table Top,382030,nan,-1
+2634,dining table,nan,coco,Table Top,570456,nan,-1
+2635,dining table,nan,coco,Table Top,62554,nan,-1
+2636,dining table,nan,coco,Table Top,384527,nan,-1
+2637,dining table,nan,coco,Table Top,191580,nan,-1
+2638,dining table,nan,coco,Table Top,276434,nan,-1
+2639,dining table,nan,coco,Table Top,351331,nan,-1
+2640,dining table,nan,coco,Table Top,312421,nan,-1
+2641,dining table,nan,coco,Table Top,570471,nan,-1
+2642,dining table,nan,coco,Table Top,470121,nan,-1
+2643,dining table,nan,coco,Table Top,369771,nan,-1
+2644,dining table,nan,coco,Table Top,210030,nan,-1
+2645,dining table,nan,coco,Table Top,564336,nan,-1
+2646,dining table,nan,coco,Table Top,416885,nan,-1
+2647,dining table,nan,coco,Table Top,434479,nan,-1
+2648,dining table,nan,coco,Table Top,482436,nan,-1
+2649,dining table,nan,coco,Table Top,218249,nan,-1
+2650,dining table,nan,coco,Table Top,363666,nan,-1
+2651,dining table,nan,coco,Table Top,128148,nan,-1
+2652,dining table,nan,coco,Table Top,534041,nan,-1
+2653,dining table,nan,coco,Table Top,320664,nan,-1
+2654,dining table,nan,coco,Table Top,529568,nan,-1
+2655,dining table,nan,coco,Table Top,136355,nan,-1
+2656,dining table,nan,coco,Table Top,85157,nan,-1
+2657,dining table,nan,coco,Table Top,195754,nan,-1
+2658,dining table,nan,coco,Table Top,382125,nan,-1
+2659,dining table,nan,coco,Table Top,171190,nan,-1
+2660,dining table,nan,coco,Table Top,277689,nan,-1
+2661,dining table,nan,coco,Table Top,85195,nan,-1
+2662,dining table,nan,coco,Table Top,404678,nan,-1
+2663,dining table,nan,coco,Table Top,347335,nan,-1
+2664,dining table,nan,coco,Table Top,507081,nan,-1
+2665,dining table,nan,coco,Table Top,206027,nan,-1
+2666,dining table,nan,coco,Table Top,466125,nan,-1
+2667,dining table,nan,coco,Table Top,308430,nan,-1
+2668,dining table,nan,coco,Table Top,66771,nan,-1
+2669,dining table,nan,coco,Table Top,279769,nan,-1
+2670,dining table,nan,coco,Table Top,416991,nan,-1
+2671,dining table,nan,coco,Table Top,439525,nan,-1
+2672,dining table,nan,coco,Table Top,109798,nan,-1
+2673,dining table,nan,coco,Table Top,396526,nan,-1
+2674,dining table,nan,coco,Table Top,300276,nan,-1
+2675,dining table,nan,coco,Table Top,173302,nan,-1
+2676,dining table,nan,coco,Table Top,316666,nan,-1
+2677,dining table,nan,coco,Table Top,93437,nan,-1
+2678,dining table,nan,coco,Table Top,66817,nan,-1
+2679,dining table,nan,coco,Table Top,242946,nan,-1
+2680,dining table,nan,coco,Table Top,513283,nan,-1
+2681,dining table,nan,coco,Table Top,175364,nan,-1
+2682,dining table,nan,coco,Table Top,572678,nan,-1
+2683,dining table,nan,coco,Table Top,48396,nan,-1
+2684,dining table,nan,coco,Table Top,91406,nan,-1
+2685,dining table,nan,coco,Table Top,345361,nan,-1
+2686,dining table,nan,coco,Table Top,150638,nan,-1
+2687,dining table,nan,coco,Table Top,132375,nan,-1
+2688,dining table,nan,coco,Table Top,142620,nan,-1
+2689,dining table,nan,coco,Table Top,376093,nan,-1
+2690,dining table,nan,coco,Table Top,290081,nan,-1
+2691,dining table,nan,coco,Table Top,275749,nan,-1
+2692,dining table,nan,coco,Table Top,32038,nan,-1
+2693,dining table,nan,coco,Table Top,249129,nan,-1
+2694,dining table,nan,coco,Table Top,273711,nan,-1
+2695,dining table,nan,coco,Table Top,17714,nan,-1
+2696,dining table,nan,coco,Table Top,554291,nan,-1
+2697,dining table,nan,coco,Table Top,138550,nan,-1
+2698,dining table,nan,coco,Table Top,578871,nan,-1
+2699,dining table,nan,coco,Table Top,189752,nan,-1
+2700,dining table,nan,coco,Table Top,539962,nan,-1
+2701,dining table,nan,coco,Table Top,173371,nan,-1
+2702,dining table,nan,coco,Table Top,398652,nan,-1
+2703,dining table,nan,coco,Table Top,494913,nan,-1
+2704,dining table,nan,coco,Table Top,374083,nan,-1
+2705,dining table,nan,coco,Table Top,521540,nan,-1
+2706,dining table,nan,coco,Table Top,173383,nan,-1
+2707,dining table,nan,coco,Table Top,517687,nan,-1
+2708,dining table,nan,coco,Table Top,54605,nan,-1
+2709,dining table,nan,coco,Table Top,527695,nan,-1
+2710,dining table,nan,coco,Table Top,466256,nan,-1
+2711,dining table,nan,coco,Table Top,177489,nan,-1
+2712,dining table,nan,coco,Table Top,250766,nan,-1
+2713,dining table,nan,coco,Table Top,62808,nan,-1
+2714,dining table,nan,coco,Table Top,13659,nan,-1
+2715,dining table,nan,coco,Table Top,140640,nan,-1
+2716,dining table,nan,coco,Table Top,529762,nan,-1
+2717,dining table,nan,coco,Table Top,507235,nan,-1
+2718,dining table,nan,coco,Table Top,54628,nan,-1
+2719,dining table,nan,coco,Table Top,37777,nan,-1
+2720,dining table,nan,coco,Table Top,468332,nan,-1
+2721,dining table,nan,coco,Table Top,236914,nan,-1
+2722,dining table,nan,coco,Table Top,290163,nan,-1
+2723,dining table,nan,coco,Table Top,9590,nan,-1
+2724,dining table,nan,coco,Table Top,568710,nan,-1
+2725,dining table,nan,coco,Table Top,322959,nan,-1
+2726,dining table,nan,coco,Table Top,298396,nan,-1
+2727,dining table,nan,coco,Table Top,13729,nan,-1
+2728,dining table,nan,coco,Table Top,527784,nan,-1
+2729,dining table,nan,coco,Table Top,546219,nan,-1
+2730,dining table,nan,coco,Table Top,378284,nan,-1
+2731,dining table,nan,coco,Table Top,175535,nan,-1
+2732,dining table,nan,coco,Table Top,64084,nan,-1
+2733,dining table,nan,coco,Table Top,216497,nan,-1
+2734,dining table,nan,coco,Table Top,550322,nan,-1
+2735,dining table,nan,coco,Table Top,153011,nan,-1
+2736,dining table,nan,coco,Table Top,242934,nan,-1
+2737,dining table,nan,coco,Table Top,284106,nan,-1
+2738,dining table,nan,coco,Table Top,431568,nan,-1
+2739,dining table,nan,coco,Table Top,318114,nan,-1
+2740,dining table,nan,coco,Table Top,415194,nan,-1
+2741,dining table,nan,coco,Table Top,95707,nan,-1
+2742,dining table,nan,coco,Table Top,99810,nan,-1
+2743,dining table,nan,coco,Table Top,286182,nan,-1
+2744,dining table,nan,coco,Table Top,165351,nan,-1
+2745,dining table,nan,coco,Table Top,17899,nan,-1
+2746,dining table,nan,coco,Table Top,568814,nan,-1
+2747,dining table,nan,coco,Table Top,419312,nan,-1
+2748,dining table,nan,coco,Table Top,339442,nan,-1
+2749,dining table,nan,coco,Table Top,376307,nan,-1
+2750,dining table,nan,coco,Table Top,452084,nan,-1
+2751,dining table,nan,coco,Table Top,181753,nan,-1
+2752,dining table,nan,coco,Table Top,579070,nan,-1
+2753,dining table,nan,coco,Table Top,491008,nan,-1
+2754,dining table,nan,coco,Table Top,376322,nan,-1
+2755,dining table,nan,coco,Table Top,60932,nan,-1
+2756,dining table,nan,coco,Table Top,30213,nan,-1
+2757,dining table,nan,coco,Table Top,91654,nan,-1
+2758,dining table,nan,coco,Table Top,276055,nan,-1
+2759,dining table,nan,coco,Table Top,253452,nan,-1
+2760,dining table,nan,coco,Table Top,222735,nan,-1
+2761,dining table,nan,coco,Table Top,546325,nan,-1
+2762,dining table,nan,coco,Table Top,468505,nan,-1
+2763,dining table,nan,coco,Table Top,185890,nan,-1
+2764,dining table,nan,coco,Table Top,181796,nan,-1
+2765,dining table,nan,coco,Table Top,224807,nan,-1
+2766,dining table,nan,coco,Table Top,155179,nan,-1
+2767,dining table,nan,coco,Table Top,265777,nan,-1
+2768,dining table,nan,coco,Table Top,450100,nan,-1
+2769,dining table,nan,coco,Table Top,130613,nan,-1
+2770,dining table,nan,coco,Table Top,429623,nan,-1
+2771,dining table,nan,coco,Table Top,351810,nan,-1
+2772,dining table,nan,coco,Table Top,233033,nan,-1
+2773,dining table,nan,coco,Table Top,310862,nan,-1
+2774,dining table,nan,coco,Table Top,323151,nan,-1
+2775,dining table,nan,coco,Table Top,77396,nan,-1
+2776,dining table,nan,coco,Table Top,226903,nan,-1
+2777,dining table,nan,coco,Table Top,210520,nan,-1
+2778,dining table,nan,coco,Table Top,13923,nan,-1
+2779,dining table,nan,coco,Table Top,482917,nan,-1
+2780,dining table,nan,coco,Table Top,329319,nan,-1
+2781,dining table,nan,coco,Table Top,69224,nan,-1
+2782,dining table,nan,coco,Table Top,499313,nan,-1
+2783,dining table,nan,coco,Table Top,484978,nan,-1
+2784,dining table,nan,coco,Table Top,284282,nan,-1
+2785,dining table,nan,coco,Table Top,50811,nan,-1
+2786,dining table,nan,coco,Table Top,91779,nan,-1
+2787,dining table,nan,coco,Table Top,116362,nan,-1
+2788,dining table,nan,coco,Table Top,530061,nan,-1
+2789,dining table,nan,coco,Table Top,36494,nan,-1
+2790,dining table,nan,coco,Table Top,251537,nan,-1
+2791,dining table,nan,coco,Table Top,167572,nan,-1
+2792,dining table,nan,coco,Table Top,513688,nan,-1
+2793,dining table,nan,coco,Table Top,555972,nan,-1
+2794,dining table,nan,coco,Table Top,450202,nan,-1
+2795,dining table,nan,coco,Table Top,183965,nan,-1
+2796,dining table,nan,coco,Table Top,532129,nan,-1
+2797,dining table,nan,coco,Table Top,434459,nan,-1
+2798,dining table,nan,coco,Table Top,458410,nan,-1
+2799,dining table,nan,coco,Table Top,13597,nan,-1
+2800,dining table,nan,coco,Table Top,231097,nan,-1
+2801,dining table,nan,coco,Table Top,9914,nan,-1
+2802,dining table,nan,coco,Table Top,140987,nan,-1
+2803,dining table,nan,coco,Table Top,394940,nan,-1
+2804,dining table,nan,coco,Table Top,214720,nan,-1
+2805,dining table,nan,coco,Table Top,177861,nan,-1
+2806,dining table,nan,coco,Table Top,138954,nan,-1
+2807,dining table,nan,coco,Table Top,460494,nan,-1
+2808,dining table,nan,coco,Table Top,50896,nan,-1
+2809,dining table,nan,coco,Table Top,14038,nan,-1
+2810,dining table,nan,coco,Table Top,108253,nan,-1
+2811,dining table,nan,coco,Table Top,530146,nan,-1
+2812,dining table,nan,coco,Table Top,474854,nan,-1
+2813,dining table,nan,coco,Table Top,157418,nan,-1
+2814,dining table,nan,coco,Table Top,378605,nan,-1
+2815,dining table,nan,coco,Table Top,329455,nan,-1
+2816,dining table,nan,coco,Table Top,462576,nan,-1
+2817,dining table,nan,coco,Table Top,206579,nan,-1
+2818,dining table,nan,coco,Table Top,112378,nan,-1
+2819,dining table,nan,coco,Table Top,106235,nan,-1
+2820,dining table,nan,coco,Table Top,450303,nan,-1
+2821,dining table,nan,coco,Table Top,405249,nan,-1
+2822,dining table,nan,coco,Table Top,255747,nan,-1
+2823,dining table,nan,coco,Table Top,52996,nan,-1
+2824,dining table,nan,coco,Table Top,3845,nan,-1
+2825,dining table,nan,coco,Table Top,558854,nan,-1
+2826,dining table,nan,coco,Table Top,485130,nan,-1
+2827,dining table,nan,coco,Table Top,233238,nan,-1
+2828,dining table,nan,coco,Table Top,163611,nan,-1
+2829,dining table,nan,coco,Table Top,165681,nan,-1
+2830,dining table,nan,coco,Table Top,544565,nan,-1
+2831,dining table,nan,coco,Table Top,276285,nan,-1
+2832,dining table,nan,coco,Table Top,546626,nan,-1
+2833,dining table,nan,coco,Table Top,419653,nan,-1
+2834,dining table,nan,coco,Table Top,288584,nan,-1
+2835,dining table,nan,coco,Table Top,81738,nan,-1
+2836,dining table,nan,coco,Table Top,397133,nan,-1
+2837,dining table,nan,coco,Table Top,255824,nan,-1
+2838,dining table,nan,coco,Table Top,540502,nan,-1
+2839,dining table,nan,coco,Table Top,286553,nan,-1
+2840,dining table,nan,coco,Table Top,10092,nan,-1
+2841,dining table,nan,coco,Table Top,147205,nan,-1
+2842,dining table,nan,coco,Table Top,526197,nan,-1
+2843,dining table,nan,coco,Table Top,180101,nan,-1
+2844,dining table,nan,coco,Table Top,460683,nan,-1
+2845,dining table,nan,coco,Table Top,470924,nan,-1
+2846,dining table,nan,coco,Table Top,14226,nan,-1
+2847,dining table,nan,coco,Table Top,92053,nan,-1
+2848,dining table,nan,coco,Table Top,57238,nan,-1
+2849,dining table,nan,coco,Table Top,356248,nan,-1
+2850,dining table,nan,coco,Table Top,157601,nan,-1
+2851,dining table,nan,coco,Table Top,458663,nan,-1
+2852,dining table,nan,coco,Table Top,255912,nan,-1
+2853,dining table,nan,coco,Table Top,294831,nan,-1
+2854,dining table,nan,coco,Table Top,571313,nan,-1
+2855,dining table,nan,coco,Table Top,405432,nan,-1
+2856,dining table,nan,coco,Table Top,182202,nan,-1
+2857,dining table,nan,coco,Table Top,350148,nan,-1
+2858,dining table,nan,coco,Table Top,165831,nan,-1
+2859,dining table,nan,coco,Table Top,1993,nan,-1
+2860,dining table,nan,coco,Table Top,18380,nan,-1
+2861,dining table,nan,coco,Table Top,237517,nan,-1
+2862,dining table,nan,coco,Table Top,438226,nan,-1
+2863,dining table,nan,coco,Table Top,290771,nan,-1
+2864,dining table,nan,coco,Table Top,430073,nan,-1
+2865,dining table,nan,coco,Table Top,307172,nan,-1
+2866,dining table,nan,coco,Table Top,88040,nan,-1
+2867,dining table,nan,coco,Table Top,189436,nan,-1
+2868,dining table,nan,coco,Table Top,389109,nan,-1
+2869,dining table,nan,coco,Table Top,397303,nan,-1
+2870,dining table,nan,coco,Table Top,378873,nan,-1
+2871,dining table,nan,coco,Table Top,288762,nan,-1
+2872,dining table,nan,coco,Table Top,139260,nan,-1
+2873,toaster,nan,coco,Toaster,175364,nan,-1
+2874,toaster,nan,coco,Toaster,453302,nan,-1
+2875,toaster,nan,coco,Toaster,135561,nan,-1
+2876,toaster,nan,coco,Toaster,173008,nan,-1
+2877,toaster,nan,coco,Toaster,540502,nan,-1
+2878,toaster,nan,coco,Toaster,66841,nan,-1
+2879,toaster,nan,coco,Toaster,232348,nan,-1
+2880,toaster,nan,coco,Toaster,97022,nan,-1
