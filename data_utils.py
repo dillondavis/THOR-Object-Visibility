@@ -156,8 +156,8 @@ def get_open_images(id_data, class_limit):
                 torch.save({'frame':np.array(image).astype(np.uint8), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
             else:
                 invalid += 1
-        except:
-            print("invalid: {}".format(image.shape))
+        except Exception as e:
+            print("{}: {}".format(e, image.shape))
             invalid += 1
     print("TOTAL INVALID: {}".format(invalid))
 
