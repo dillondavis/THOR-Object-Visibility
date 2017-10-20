@@ -27,7 +27,9 @@ OFFICIAL_CLASS_LIST = [
 ]
 CLASS_ID_MAP = {name:i for i, name in enumerate(OFFICIAL_CLASS_LIST)}
 IMAGES_PER_CLASS = 10000000000
-
+COCO_ANN_FILE = DATA_DIR + '/coco/annotations/instances_train2017.json'
+ID_DATA = 'id_data.csv'
+ID_TEST_DATA = 'id_test_data.csv'
 
 def get_similar_open_image_classes(REAL_CLASSES):
     '''
@@ -121,7 +123,7 @@ def get_coco_ids():
     :return: pandas DataFrame containing all images for necessary COCO classes
     '''
 
-    ann_file = DATA_DIR + '/coco/annotations/instances_train2017.json'
+    ann_file = COCO_ANN_FILE
     coco = COCO(ann_file)
     columns = ['AltClass', 'ClassID', 'Source_x', 'RealClass', 'ImageID', 'Source_y', 'Confidence']
     data = []
@@ -194,44 +196,6 @@ def pad_img_num(num, total_digits):
 
     return num_str + str(num)
 
-
-def build_image_dataset():
-    id_data = pd.read_csv('id_data.csv')
-    open_id_data = id_data[id_data['Source_x'] == 'open']
-    coco_id_data = id_data[id_data['Source_x'] != 'open']
-    #get_coco_images(coco_id_data, IMAGES_PER_CLASS)
-    get_open_images(open_id_data, IMAGES_PER_CLASS)
-
-
-def build_class_map_dataset():
-    open_image_classes = get_cleaned_open_image_classes()
-    open_image_class_dict = get_open_image_class_dict()
-    create_class_map_data(open_image_classes, open_image_class_dict)
-
-
-def build_id_dataset(output_class_counts=False):
-    classes = pd.read_csv('class_map.csv')
-    open_class_data = classes[classes['Source'] == 'open']
-    coco_class_data = classes[classes['Source'] != 'open']
-    open_data = get_open_ids(open_class_data)
-    coco_data = get_coco_ids()
-    image_data = pd.concat([open_data, coco_data])
-    image_data.to_csv('id_data.csv')
-
-    if output_class_counts:
-        groups = open_data['ImageID'].groupby(open_data['RealClass'])
-        print('OpenImage Counts')
-        print(groups.size())
-        print('')
-        groups = coco_data['ImageID'].groupby(coco_data['RealClass'])
-        print('COCO Counts')
-        print(groups.size())
-        print('')
-        groups = image_data['ImageID'].groupby(image_data['RealClass'])
-        print('Combined Counts')
-        print(groups.size())
-        print('')
-
 def pad_image(image, width, height):
     new_image = np.zeros((width, height, 3), dtype=np.uint8)
     for i, row in enumerate(image):
@@ -254,8 +218,61 @@ def reformat_images(width, height, image_dir):
         pt['frame'] = reformat_image(pt['frame'], width, height)
         torch.save(pt, image_file)
 
+def build_class_map_dataset():
+    open_image_classes = get_cleaned_open_image_classes()
+    open_image_class_dict = get_open_image_class_dict()
+    create_class_map_data(open_image_classes, open_image_class_dict)
+
+
+def build_id_dataset(output_class_counts=False):
+    classes = pd.read_csv('class_map.csv')
+    open_class_data = classes[classes['Source'] == 'open']
+    coco_class_data = classes[classes['Source'] != 'open']
+    open_data = get_open_ids(open_class_data)
+    coco_data = get_coco_ids()
+    image_data = pd.concat([open_data, coco_data])
+    image_data.to_csv(ID_DATA)
+
+    if output_class_counts:
+        #groups = open_data['ImageID'].groupby(open_data['RealClass'])
+        #print('OpenImage Counts')
+        #print(groups.size())
+        #print('')
+        groups = coco_data['ImageID'].groupby(coco_data['RealClass'])
+        print('COCO Counts')
+        print(groups.size())
+        print('')
+        groups = image_data['ImageID'].groupby(image_data['RealClass'])
+        print('Combined Counts')
+        print(groups.size())
+        print('')
+
+def build_test_id_dataset(output_class_counts=False):
+    classes = pd.read_csv('class_map.csv')
+    coco_class_data = classes[classes['Source'] == 'coco']
+    coco_data = get_coco_ids()
+    coco_data.to_csv(ID_TEST_DATA)
+
+    if output_class_counts:
+        groups = coco_data['ImageID'].groupby(coco_data['RealClass'])
+        print('COCO Counts')
+        print(groups.size())
+        print('')
+
+def build_image_dataset():
+    id_data = pd.read_csv(ID_DATA)
+    open_id_data = id_data[id_data['Source_x'] == 'open']
+    coco_id_data = id_data[id_data['Source_x'] != 'open']
+    #get_coco_images(coco_id_data, IMAGES_PER_CLASS)
+    get_open_images(open_id_data, IMAGES_PER_CLASS)
+
+def build_test_image_dataset():
+    id_data = pd.read_csv(ID_TEST_DATA)
+    coco_id_data = id_data[id_data['Source_x'] == 'coco']
+    get_coco_images(coco_id_data, IMAGES_PER_CLASS)
+
 if __name__ == '__main__':
     #build_class_map_dataset()
     #build_id_dataset(True)
-    build_image_dataset()
-    #reformat_images(300, 300, IMAGE_DIR + '/real_small_pad')
+    #build_image_dataset()
+    build_test_id_dataset(True)
