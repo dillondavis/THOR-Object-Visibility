@@ -15,7 +15,7 @@ COCO_ID_LENGTH = 12
 REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
 COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
 DATA_DIR = ('/data/ddavis14' if CLUSTER_ENV else '/Users/Dillon/UIUC/Research') + '/AllenAI-Object-Visibility'
-IMAGE_DIR = DATA_DIR + '/images/training_data/obj_vis/train/real_all'
+IMAGE_DIR = DATA_DIR + '/images/training_data/obj_vis/train/real_all_test'
 PROJECT_DIR = ('/home/nfs/ddavis14' if CLUSTER_ENV else '/Users/Dillon/UIUC/Research') + '/AllenAI-Object-Visibility'
 DATA_UTIL_DIR = PROJECT_DIR + '/THOR-Object-Visibility'
 OFFICIAL_CLASS_LIST = [
@@ -157,7 +157,7 @@ def get_open_images(id_data, class_limit):
             else:
                 invalid += 1
         except:
-            print("invalid")
+            print("invalid: {}".format(image.shape))
             invalid += 1
     print("TOTAL INVALID: {}".format(invalid))
 
@@ -197,7 +197,7 @@ def build_image_dataset():
     id_data = pd.read_csv('id_data.csv')
     open_id_data = id_data[id_data['Source_x'] == 'open']
     coco_id_data = id_data[id_data['Source_x'] != 'open']
-    get_coco_images(coco_id_data, IMAGES_PER_CLASS)
+    #get_coco_images(coco_id_data, IMAGES_PER_CLASS)
     get_open_images(open_id_data, IMAGES_PER_CLASS)
 
 
