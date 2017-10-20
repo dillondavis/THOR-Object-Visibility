@@ -141,6 +141,8 @@ def get_open_images(id_data, class_limit):
     image_data = image_data[['ImageID', 'OriginalURL', 'OriginalLandingURL']]
     image_data = pd.merge(id_data, image_data, left_on='ImageID', right_on='ImageID').groupby(image_data['ImageID'])
     output_image_dir = IMAGE_DIR
+    if not os.path.exists(output_image_dir):
+        os.makedirs(output_image_dir)
     output_image_file = output_image_dir + '/{}_open.pt'
     invalid = 0
 
