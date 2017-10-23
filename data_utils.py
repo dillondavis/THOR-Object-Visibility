@@ -144,15 +144,15 @@ def get_open_images(id_data, class_limit):
     image_data = pd.read_csv(DATA_DIR + '/OpenImage/data/train/images.csv')
     image_data = image_data[['ImageID', 'OriginalURL', 'OriginalLandingURL']]
     image_data = pd.merge(id_data, image_data, left_on='ImageID', right_on='ImageID').groupby(image_data['ImageID'])[36013:]
-    output_image_dir = TRAIN_IMAGE_DIR 
+    output_image_dir = TRAIN_IMAGE_DIR
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
     output_image_file = output_image_dir + '/{}_open.pt'
     invalid = 0
 
     for image_id, group in image_data:
-	if os.path.exists(output_image_file.format(str(image_id))):
-	    continue
+        if os.path.exists(output_image_file.format(str(image_id))):
+            continue
         classes = group['RealClass'].as_matrix()
         obj_vis = np.array([1 if name in classes else 0 for name in OFFICIAL_CLASS_LIST], dtype=np.uint8)
         image_url = list(group['OriginalURL'])[0]
