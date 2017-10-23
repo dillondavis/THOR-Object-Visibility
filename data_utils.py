@@ -148,6 +148,7 @@ def get_open_images(id_data, class_limit):
     output_image_dir2 = TRAIN_IMAGE_DIR + '2'
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
+    if not os.path.exists(output_image_dir2):
         os.makedirs(output_image_dir2)
     output_image_file = output_image_dir + '/{}_open.pt'
     output_image_file2 = output_image_dir2 + '/{}_open.pt'
