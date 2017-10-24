@@ -148,10 +148,7 @@ def get_open_images(id_data, class_limit):
     output_image_dir2 = TRAIN_IMAGE_DIR + '2'
     if not os.path.exists(output_image_dir):
         os.makedirs(output_image_dir)
-    if not os.path.exists(output_image_dir2):
-        os.makedirs(output_image_dir2)
     output_image_file = output_image_dir + '/{}_open.pt'
-    output_image_file2 = output_image_dir2 + '/{}_open.pt'
     invalid = 0
 
     for image_id, group in image_data:
@@ -163,9 +160,9 @@ def get_open_images(id_data, class_limit):
         image_file = output_image_dir + '/{}.jpg'.format(image_id)
         image_bytes = BytesIO(requests.get(image_url).content)
         try:
-            image = np.array(Image.open(image_bytes)).astype(np.uint8)
+            image = np.array(Image.open(image_bytes).resize((224,224))).astype(np.uint8)
             if len(image.shape) == 3:
-                torch.save({'frame':np.array(image).astype(np.uint8), 'obj_vis':obj_vis}, output_image_file2.format(str(image_id)))
+                torch.save({'frame':np.array(image).astype(np.uint8), 'obj_vis':obj_vis}, output_image_file.format(str(image_id)))
             else:
                 invalid += 1
         except Exception as e:
