@@ -267,8 +267,8 @@ def build_image_dataset():
     id_data = pd.read_csv(ID_DATA)
     open_id_data = id_data[id_data['Source_x'] == 'open']
     coco_id_data = id_data[id_data['Source_x'] != 'open']
-    #get_coco_images(coco_id_data, IMAGES_PER_CLASS)
-    get_open_images(open_id_data, IMAGES_PER_CLASS)
+    get_coco_images(coco_id_data, IMAGES_PER_CLASS)
+    #get_open_images(open_id_data, IMAGES_PER_CLASS)
 
 def build_test_image_dataset():
     id_data = pd.read_csv(ID_TEST_DATA)
