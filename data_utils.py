@@ -1,5 +1,5 @@
 import os
-import torch
+#import torch
 import pandas as pd
 import numpy as np
 import requests
@@ -258,10 +258,11 @@ def build_image_dataset(test=False):
     id_data = pd.read_csv(ID_DATA if not test else ID_TEST_DATA)
     open_id_data = id_data[id_data['Source_x'] == 'open']
     coco_id_data = id_data[id_data['Source_x'] != 'open']
-    #get_coco_images(coco_id_data, IMAGES_PER_CLASS, test)
+    get_coco_images(coco_id_data, IMAGES_PER_CLASS, test)
     get_open_images(open_id_data, IMAGES_PER_CLASS, test)
 
 if __name__ == '__main__':
     #build_class_map_dataset()
-    #build_id_dataset(test=True, output_class_counts=True)
-    build_image_dataset(test=True)
+    build_id_dataset(test=False, output_class_counts=True)
+    build_id_dataset(test=True, output_class_counts=True)
+    #build_image_dataset(test=True)
