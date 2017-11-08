@@ -38,10 +38,10 @@ whole wheat bread,/m/0cmbf0p,open,Bread
 beer bread,/m/0d_qg3,open,Bread
 caramel shortbread,/m/0fwd9h,open,Bread
 bush bread,/m/0g97tv,open,Bread
-knife,nan,coco,Butter Knife
-table knife,/m/04n6jtr,open,Butter Knife
-knife,/m/04ctx,open,Butter Knife
-kitchen knife,/m/058qzx,open,Butter Knife
+knife,nan,coco,ButterKnife
+table knife,/m/04n6jtr,open,ButterKnife
+knife,/m/04ctx,open,ButterKnife
+kitchen knife,/m/058qzx,open,ButterKnife
 cabinetry,/m/01s105,open,Cabinet
 china cabinet,/m/03cm5cw,open,Cabinet
 filing cabinet,/m/047j0r,open,Cabinet
@@ -63,9 +63,9 @@ electric massaging chair,/m/0h8lt6k,open,Chair
 sleeper chair,/m/0h8nszq,open,Chair
 chiavari chair,/m/0jkw095,open,Chair
 wheelchair,/m/0qmmr,open,Chair
-coffeemaker,/m/07xyvk,open,Coffee Machine
-vacuum coffee maker,/m/0d82sj,open,Coffee Machine
-drip coffee maker,/m/0h8jst_,open,Coffee Machine
+coffeemaker,/m/07xyvk,open,CoffeeMachine
+vacuum coffee maker,/m/0d82sj,open,CoffeeMachine
+drip coffee maker,/m/0h8jst_,open,CoffeeMachine
 container,/m/011q46kg,open,Container
 food storage containers,/m/05p0tsj,open,Container
 egg,/m/033cnk,open,Egg
@@ -84,7 +84,7 @@ fork,nan,coco,Fork
 fork,/m/0dt3t,open,Fork
 refrigerator,nan,coco,Fridge
 refrigerator,/m/040b_t,open,Fridge
-waste container,/m/0bjyj5,open,Garbage Can
+waste container,/m/0bjyj5,open,GarbageCan
 knife,nan,coco,Knife
 utility knife,/m/01bq_,open,Knife
 bowie knife,/m/01wzjh,open,Knife
@@ -133,28 +133,28 @@ bathroom sink,/m/0h8lr5r,open,Sink
 spoon,nan,coco,Spoon
 wooden spoon,/m/051lk3,open,Spoon
 spoon,/m/0cmx8,open,Spoon
-stove,/m/02ppnm,open,Stove Burner
-portable stove,/m/01jfp7,open,Stove Burner
-kitchen stove,/m/02wv746,open,Stove Burner
-gas stove,/m/02wv84t,open,Stove Burner
-wood-burning stove,/m/04169hn,open,Stove Burner
-bunsen burner,/m/01k7_,open,Stove Burner
-stove,/m/02ppnm,open,Stove Knob
-portable stove,/m/01jfp7,open,Stove Knob
-kitchen stove,/m/02wv746,open,Stove Knob
-gas stove,/m/02wv84t,open,Stove Knob
-wood-burning stove,/m/04169hn,open,Stove Knob
-bunsen burner,/m/01k7_,open,Stove Knob
-dining table,nan,coco,Table Top
-table,/m/04bcr3,open,Table Top
-poker table,/m/02qsn9g,open,Table Top
-billiard table,/m/04p0qw,open,Table Top
-picnic table,/m/07cwnp,open,Table Top
-folding table,/m/09v3l_s,open,Table Top
-end table,/m/0h8k1pn,open,Table Top
-outdoor table,/m/0h8ll0s,open,Table Top
-conference room table,/m/0h8n5gz,open,Table Top
-kitchen & dining room table,/m/0h8n5zk,open,Table Top
+stove,/m/02ppnm,open,StoveBurner
+portable stove,/m/01jfp7,open,StoveBurner
+kitchen stove,/m/02wv746,open,StoveBurner
+gas stove,/m/02wv84t,open,StoveBurner
+wood-burning stove,/m/04169hn,open,StoveBurner
+bunsen burner,/m/01k7_,open,StoveBurner
+stove,/m/02ppnm,open,StoveKnob
+portable stove,/m/01jfp7,open,StoveKnob
+kitchen stove,/m/02wv746,open,StoveKnob
+gas stove,/m/02wv84t,open,StoveKnob
+wood-burning stove,/m/04169hn,open,StoveKnob
+bunsen burner,/m/01k7_,open,StoveKnob
+dining table,nan,coco,TableTop
+table,/m/04bcr3,open,TableTop
+poker table,/m/02qsn9g,open,TableTop
+billiard table,/m/04p0qw,open,TableTop
+picnic table,/m/07cwnp,open,TableTop
+folding table,/m/09v3l_s,open,TableTop
+end table,/m/0h8k1pn,open,TableTop
+outdoor table,/m/0h8ll0s,open,TableTop
+conference room table,/m/0h8n5gz,open,TableTop
+kitchen & dining room table,/m/0h8n5zk,open,TableTop
 toaster,nan,coco,Toaster
 toaster,/m/01k6s3,open,Toaster
 tomato,/m/07j87,open,Tomato

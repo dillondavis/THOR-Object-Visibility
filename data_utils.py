@@ -6,11 +6,11 @@ import requests
 import glob
 from scipy import misc
 from PIL import Image
-#from pycocotools.coco import COCO
+from pycocotools.coco import COCO
 from shutil import copyfile
 from io import BytesIO
 
-CLUSTER_ENV = True
+CLUSTER_ENV = False
 COCO_ID_LENGTH = 12
 REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'ButterKnife', 'Cabinet', 'Chair', 'CoffeeMachine', 'Container', 'Egg', 'Fork', 'Fridge', 'GarbageCan', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'StoveBurner', 'StoveKnob', 'TableTop', 'Toaster', 'Tomato']
 COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
