@@ -6,13 +6,13 @@ import requests
 import glob
 from scipy import misc
 from PIL import Image
-from pycocotools.coco import COCO
+#from pycocotools.coco import COCO
 from shutil import copyfile
 from io import BytesIO
 
-CLUSTER_ENV = False
+CLUSTER_ENV = True
 COCO_ID_LENGTH = 12
-REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'Butter Knife', 'Cabinet', 'Chair', 'Coffee Machine', 'Container', 'Egg', 'Fork', 'Fridge', 'Garbage Can', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'Stove Burner', 'Stove Knob', 'Table Top', 'Toaster', 'Tomato']
+REAL_CLASSES = ['Apple', 'Bowl', 'Bread', 'ButterKnife', 'Cabinet', 'Chair', 'CoffeeMachine', 'Container', 'Egg', 'Fork', 'Fridge', 'GarbageCan', 'Knife', 'Lettuce', 'Microwave', 'Mug', 'Pan', 'Plate', 'Pot', 'Potato', 'Sink', 'Spoon', 'StoveBurner', 'StoveKnob', 'TableTop', 'Toaster', 'Tomato']
 COCO_CLASSES = ['apple', 'bowl', None, 'knife', None, 'chair', None, None, None, 'fork', 'refrigerator', None, 'knife', None, 'microwave', 'cup', None, None, None, None, 'sink', 'spoon', None, None, 'dining table', 'toaster', None]
 DATA_DIR = ('/data/ddavis14' if CLUSTER_ENV else '/Users/Dillon/UIUC/Research') + '/AllenAI-Object-Visibility'
 IMAGE_DIR = DATA_DIR + '/images/training_data/obj_vis'
@@ -37,7 +37,6 @@ OPEN_IMAGE_DIR = DATA_DIR + '/OpenImage/data/train/images.csv'
 OPEN_TEST_IMAGE_DIR = DATA_DIR + '/OpenImage/data/test/images.csv'
 OPEN_ANNOTATION_DIR = DATA_DIR + '/OpenImage/data/train/annotations-human.csv'
 OPEN_TEST_ANNOTATION_DIR = DATA_DIR + '/OpenImage/data/test/annotations-human.csv'
-
 
 def get_similar_open_image_classes(REAL_CLASSES):
     '''
@@ -259,10 +258,10 @@ def build_image_dataset(test=False):
     id_data = pd.read_csv(ID_DATA if not test else ID_TEST_DATA)
     open_id_data = id_data[id_data['Source_x'] == 'open']
     coco_id_data = id_data[id_data['Source_x'] != 'open']
-    get_coco_images(coco_id_data, IMAGES_PER_CLASS, test)
+    #get_coco_images(coco_id_data, IMAGES_PER_CLASS, test)
     get_open_images(open_id_data, IMAGES_PER_CLASS, test)
 
 if __name__ == '__main__':
     #build_class_map_dataset()
-    build_id_dataset(test=True, output_class_counts=True)
-    #build_image_dataset(test=True)
+    #build_id_dataset(test=True, output_class_counts=True)
+    build_image_dataset(test=True)
